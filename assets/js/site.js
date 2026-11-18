@@ -1,10 +1,10 @@
 /* Effets propres à Yoga Gym du Visage (« Le geste qui remonte »). Le socle gère l'ouverture, le voile en iris,
    l'en-tête, le menu, les mesures, les boucles et la bibliothèque d'effets (posés par attributs dans les pages).
    Effets du plan (data-effet) : arche-lift, manifeste, carte-visage, quatre-volets, trois-mois. */
-import { demarrer, versObjet, suivre, lacher, quand } from './socle/index.js?v=1';
-import { init as initPile } from './modules/temoignages-en-pile/module.js?v=1';
-import { init as initCarteCadeau } from './modules/carte-cadeau-qui-se-compose/module.js?v=1';
-import { init as initFormulaire } from './modules/formulaire-par-etapes/module.js?v=1';
+import { demarrer, versObjet, suivre, lacher, quand, aller } from './socle/index.js?v=2';
+import { init as initPile } from './modules/temoignages-en-pile/module.js?v=2';
+import { init as initCarteCadeau } from './modules/carte-cadeau-qui-se-compose/module.js?v=2';
+import { init as initFormulaire } from './modules/formulaire-par-etapes/module.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -42,9 +42,17 @@ function carteVisage() {
   const zones = Object.fromEntries($$('.zone', svg).map((z) => [z.dataset.zone, z]));
   $$('.zone-geste', svg).forEach((p) => p.setAttribute('pathLength', '1'));
   const activer = (id, garder = false) => {
-    etapes.forEach((e) => e.classList.toggle('actif', e.dataset.zone === id || (garder && e.classList.contains('actif'))));
+    etapes.forEach((e) => {
+      const on = e.dataset.zone === id || (garder && e.classList.contains('actif'));
+      e.classList.toggle('actif', on);
+      const b = e.querySelector('.visage-choix');
+      if (b) b.setAttribute('aria-pressed', String(e.dataset.zone === id));
+    });
     Object.entries(zones).forEach(([k, z]) => z.classList.toggle('actif', k === id || (garder && z.classList.contains('actif'))));
   };
+  /* Jeu : toucher une zone du dessin ou son nom l'allume (souris, doigt ou clavier). */
+  etapes.forEach((e) => e.querySelector('.visage-choix')?.addEventListener('click', () => activer(e.dataset.zone)));
+  Object.entries(zones).forEach(([k, z]) => z.addEventListener('click', () => activer(k)));
   const mm = gsap.matchMedia();
   mm.add('(min-width: 861px)', () => {
     activer(etapes[0].dataset.zone);
@@ -82,6 +90,11 @@ function archeLift() {
     document.addEventListener('visibilitychange', maj);
     quand('pret', () => { etatPret = true; maj(); });
   }
+  /* Les deux étiquettes flottent doucement, chacune à son rythme. */
+  $$('.hero-etiquette').forEach((e, i) => {
+    const f = gsap.to(e, { y: i ? -7 : 6, duration: 2.6 + i * 0.7, ease: 'sine.inOut', yoyo: true, repeat: -1, paused: true });
+    quand('pret', () => { etatPret = true; f.play(); });
+  });
   const med = $('.hero-medaillon');
   if (med && ST) gsap.fromTo(med, { y: 0, rotate: 0 }, { y: -60, rotate: -14, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
 }
@@ -169,6 +182,62 @@ function addition() {
   } });
 }
 
+/* ---------- Calculez votre parcours : la combinaison la moins chère (packs et unités), calculée sur les vrais prix. ---------- */
+const PRIX = { ligne: 70, cabine: 90 };
+const OFFRES = [
+  { cle: 'pack4', l: 4, c: 0, p: 238 }, { cle: 'pack3', l: 3, c: 0, p: 189 }, { cle: 'mixte', l: 3, c: 1, p: 268 },
+  { cle: 'ligne', l: 1, c: 0, p: PRIX.ligne }, { cle: 'cabine', l: 0, c: 1, p: PRIX.cabine },
+];
+function meilleur(L, C) {
+  const memo = new Map();
+  const f = (l, c) => {
+    if (!l && !c) return { p: 0, n: {} };
+    const k = l + ',' + c;
+    if (memo.has(k)) return memo.get(k);
+    let best = null;
+    for (const o of OFFRES) {
+      if (o.l > l || o.c > c) continue;
+      const r = f(l - o.l, c - o.c);
+      if (!best || r.p + o.p < best.p) best = { p: r.p + o.p, n: { ...r.n, [o.cle]: (r.n[o.cle] || 0) + 1 } };
+    }
+    memo.set(k, best);
+    return best;
+  };
+  return f(L, C);
+}
+function calcul() {
+  const root = $('[data-calcul-racine]');
+  if (!root) return;
+  const T = JSON.parse(root.dataset.textes || '{}');
+  const v = { ligne: 3, cabine: 1 }, max = { ligne: 8, cabine: 4 };
+  const fmt = (n) => `${n}\u00a0€`;
+  const maj = () => {
+    $$('[data-calcul-valeur]', root).forEach((o) => { o.textContent = v[o.dataset.calculValeur]; });
+    $$('[data-calcul]', root).forEach((b) => { const k = b.dataset.calcul, s = +b.dataset.pas; b.disabled = (s < 0 && v[k] <= 0) || (s > 0 && v[k] >= max[k]); });
+    const past = $('[data-calcul-pastilles]', root);
+    past.innerHTML = '<span class="cabine"></span>'.repeat(v.cabine) + '<span></span>'.repeat(v.ligne);
+    const unite = v.ligne * PRIX.ligne + v.cabine * PRIX.cabine, r = meilleur(v.ligne, v.cabine);
+    $('[data-calcul-unite]', root).textContent = fmt(unite);
+    $('[data-calcul-total]', root).textContent = fmt(r.p);
+    const parts = ['mixte', 'pack4', 'pack3'].filter((k) => r.n[k]).map((k) => (r.n[k] > 1 ? r.n[k] + ' × ' : '') + T[k]);
+    ['cabine', 'ligne'].forEach((k) => { if (r.n[k]) parts.push(`${r.n[k]} ${r.n[k] > 1 ? T[k].replace('séance', 'séances') : T[k]}`); });
+    $('[data-calcul-detail]', root).textContent = unite ? parts.join(` ${T.et} `) : T.rien;
+    const gain = unite - r.p;
+    $('[data-calcul-gain]', root).textContent = gain > 0 ? `${gain} ${T.moins}` : (unite ? T.pasDeGain : '');
+    root.classList.toggle('calcul--gain', gain > 0);
+    const tot = $('[data-calcul-total]', root);
+    if (gsap) gsap.fromTo(tot, { y: 8, opacity: 0.4 }, { y: 0, opacity: 1, duration: 0.35, ease: 'power2.out', overwrite: true });
+  };
+  root.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-calcul]');
+    if (!b) return;
+    const k = b.dataset.calcul;
+    v[k] = Math.max(0, Math.min(max[k], v[k] + +b.dataset.pas));
+    maj();
+  });
+  maj();
+}
+
 /* ---------- Visionneuse du certificat (dialog natif). ---------- */
 function visionneuse() {
   $$('[data-ouvrir-image]').forEach((b) => {
@@ -246,6 +315,7 @@ demarrer({
     try { troisMois(); } catch (e) { console.error(e); }
     try { addition(); } catch (e) { console.error(e); }
     visionneuse();
+    try { calcul(); } catch (e) { console.error(e); }
     $$('[data-module="temoignages-en-pile"]').forEach((el) => initPile(el, {}));
     carteCadeau();
     formulaire();
@@ -276,4 +346,19 @@ demarrer({
     voletsTeteJouer(tl, 0.2);
   },
 });
-quand('pret', () => { if (ST) ST.refresh(); });
+quand('pret', ({ mode } = {}) => {
+  if (ST) ST.refresh();
+  /* Filet de sécurité des liens profonds : si la section visée n'est pas arrivée sous l'en-tête
+     (page encore en train de se mettre en place), on y retourne une fois, sans animation. */
+  if (!location.hash || mode === 'retour') return;
+  let cible = null;
+  try { cible = document.querySelector(decodeURIComponent(location.hash)); } catch {}
+  if (!cible) return;
+  const y0 = scrollY;
+  setTimeout(() => {
+    if (Math.abs(scrollY - y0) > 4) return;
+    const eb = document.querySelector('[data-entete]')?.getBoundingClientRect().bottom || 0;
+    const top = cible.getBoundingClientRect().top;
+    if (top > eb + 60 || top < eb - 4) aller(cible, { instant: true });
+  }, 120);
+});

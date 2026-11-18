@@ -84,7 +84,7 @@ export default (c) => {
     </div>
     <div class="parcours-frise" data-effet="trois-mois" data-visuel>
       <div class="parcours-semaines" aria-label="${c.s('methode.parcours.semaines')}" role="img">
-        ${Array.from({ length: 12 }, (_, i) => html`<span class="semaine" aria-hidden="true"><span>${i + 1}</span></span>`)}
+        ${[0, 1, 2].map((m) => html`<div class="mois"><p class="mois-nom" aria-hidden="true">${c.t('methode.parcours.mois')} ${m + 1}</p><div class="mois-semaines">${[0, 1, 2, 3].map((k) => html`<span class="semaine" aria-hidden="true"><span>${m * 4 + k + 1}</span></span>`)}</div></div>`)}
       </div>
       <div class="parcours-barre" aria-hidden="true"><span></span></div>
       <ol class="parcours-etapes">
@@ -94,11 +94,12 @@ export default (c) => {
   </div>
 </section>
 
-<section class="resultats resultats--methode" id="resultats">
-  <div class="conteneur">
+<section class="resultats resultats--methode resultats--accueil" id="resultats">
+  <div class="conteneur resultats-grille">
     <div class="tete-section">
       <p class="surtitre" data-anime>${c.t('accueil.resultats.surtitre')}</p>
       <h2 data-anime="lignes">${c.t('accueil.resultats.titre')}</h2>
+      <p class="note" data-anime>${c.t('accueil.resultats.note')}</p>
     </div>
     <div class="duos">
       <div class="duo duo--2">
@@ -117,7 +118,6 @@ export default (c) => {
         </div>
       </div>
     </div>
-    <p class="note" data-anime>${c.t('accueil.resultats.note')}</p>
   </div>
 </section>
 

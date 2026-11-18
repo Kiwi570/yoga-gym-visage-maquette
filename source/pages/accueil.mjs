@@ -35,6 +35,12 @@ export default (c) => {
       <p class="surtitre" data-anime>${c.t('accueil.manifeste.surtitre')}</p>
       <p class="manifeste-texte" data-effet="manifeste">${c.t('accueil.manifeste.texte')}</p>
       <p class="manifeste-suite" data-anime>${c.t('accueil.manifeste.suite')}</p>
+      <ul class="chiffres" data-anime="cascade">
+        <li><strong><span data-compteur="25">25</span> min</strong><span>${c.t('accueil.chiffres.diag')}</span></li>
+        <li><strong>1 h 30</strong><span>${c.t('accueil.chiffres.seance')}</span></li>
+        <li><strong><span data-compteur="3">3</span> mois</strong><span>${c.t('accueil.chiffres.mois')}</span></li>
+        <li><strong><span data-compteur="3">3</span> zones</strong><span>${c.t('accueil.chiffres.zones')}</span></li>
+      </ul>
       <p data-anime>${c.lien('methode', { classe: 'lien-fleche', texte: c.t('accueil.manifeste.lien') })}</p>
     </div>
     ${profil('manifeste-profil')}
@@ -43,13 +49,13 @@ export default (c) => {
 
 <section class="visage" id="zones">
   <div class="conteneur visage-grille">
-    <div class="visage-scene">${visageFace(c.s('accueil.visage.aria'))}</div>
+    <div class="visage-scene" id="visage-dessin">${visageFace(c.s('accueil.visage.aria'))}<p class="visage-astuce" aria-hidden="true">${c.t('accueil.visage.astuce')}</p></div>
     <div class="visage-texte">
       <p class="surtitre" data-anime>${c.t('accueil.visage.surtitre')}</p>
       <h2 data-anime="lignes">${c.t('accueil.visage.titre')}</h2>
       <p data-anime>${c.t('accueil.visage.texte')}</p>
       <ol class="visage-etapes" data-effet="carte-visage">
-        ${o.zones.map((z, i) => html`<li class="visage-etape" data-zone="${z.id}"><span class="visage-num" aria-hidden="true">${i + 1}</span><h3>${z.nom}</h3><p>${z.texte}</p></li>`)}
+        ${o.zones.map((z, i) => html`<li class="visage-etape" data-zone="${z.id}"><span class="visage-num" aria-hidden="true">${i + 1}</span><h3><button type="button" class="visage-choix" aria-pressed="false" aria-controls="visage-dessin">${z.nom}</button></h3><p>${z.texte}</p></li>`)}
       </ol>
       <p class="visage-ages" data-anime><span>${c.t('accueil.visage.age1')}</span> <span>${c.t('accueil.visage.age2')}</span></p>
     </div>
@@ -63,18 +69,21 @@ export default (c) => {
       <h2 data-anime="lignes">${c.t('accueil.formules.titre')}</h2>
       <p data-anime>${c.t('accueil.formules.texte')}</p>
     </div>
+    <p class="glisser" aria-hidden="true">${c.t('accueil.formules.glisser')}</p>
+    <div class="formules-piste" role="region" tabindex="0" aria-label="${c.s('accueil.formules.piste')}">
     <ul class="formules-liste" data-anime="cascade">
       ${formules.map((f) => html`<li class="formule" data-survol="incline" data-survol-force="4">
         ${c.media({ nom: f.image, alt: '', classe: 'formule-media', sizes: '(max-width: 760px) 90vw, (max-width: 1100px) 45vw, 23vw', ratio: '4 / 5' })}
         <div class="formule-corps">
-          <h3>${f.nom}</h3>
-          <p class="formule-meta">${[f.duree, f.format].filter(Boolean).join(' · ')}</p>
+          <div class="formule-tete"><h3>${f.nom}</h3>
+          <p class="formule-meta">${[f.duree, f.format].filter(Boolean).join(' · ')}</p></div>
           <p class="formule-prix" data-prix>${euros(f.prix)}</p>
           <p class="formule-texte">${f.texte}</p>
           ${c.lien('seances-tarifs', { ancre: 'seance-' + f.id, classe: 'lien-fleche', texte: 'Détails et réservation', attrs: `aria-label="${f.nom} : détails et réservation"` })}
         </div>
       </li>`)}
     </ul>
+    </div>
     <div class="formules-pied" data-anime>
       ${c.lien('seances-tarifs', { ancre: 'packs', classe: 'bouton bouton--contour', texte: c.t('accueil.formules.voir') })}
       <p class="formules-cadeau"><span class="formules-cadeau-logo" aria-hidden="true"><img src="/assets/images/logo-dore.webp" alt="" width="40" height="40" loading="lazy"></span><span>${c.t('accueil.cadeau.texte')}</span> ${c.lien('seances-tarifs', { ancre: 'cartes-cadeaux', classe: 'lien-fleche', texte: c.t('accueil.cadeau.lien') })}</p>
@@ -82,11 +91,13 @@ export default (c) => {
   </div>
 </section>
 
-<section class="resultats" id="resultats">
-  <div class="conteneur">
+<section class="resultats resultats--accueil" id="resultats">
+  <div class="conteneur resultats-grille">
     <div class="tete-section">
       <p class="surtitre" data-anime>${c.t('accueil.resultats.surtitre')}</p>
       <h2 data-anime="lignes">${c.t('accueil.resultats.titre')}</h2>
+      <p class="note" data-anime>${c.t('accueil.resultats.note')}</p>
+      <p data-anime>${c.lien('methode', { ancre: 'trois-mois', classe: 'lien-fleche', texte: c.t('accueil.resultats.lien') })}</p>
     </div>
     <div class="duos">
       <div class="duo duo--2">
@@ -105,7 +116,6 @@ export default (c) => {
         </div>
       </div>
     </div>
-    <p class="note" data-anime>${c.t('accueil.resultats.note')}</p>
   </div>
 </section>
 

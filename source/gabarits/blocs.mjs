@@ -13,17 +13,30 @@ export const profil = (classe = '') => brut(`<svg class="profil ${classe}" viewB
 
 /* Visage de face au trait, avec ses trois zones (regard et front, bas du visage, cou et décolleté). */
 export const visageFace = (aria) => brut(`<svg class="visage-face" viewBox="0 0 320 400" role="img" aria-label="${aria}" data-visuel>
+  <defs>
+    <radialGradient id="lueur" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#A63A57" stop-opacity=".34"/><stop offset=".6" stop-color="#A63A57" stop-opacity=".12"/><stop offset="1" stop-color="#A63A57" stop-opacity="0"/></radialGradient>
+    <marker id="pointe" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 L8 5 L1 9" fill="none" stroke="#A63A57" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
   <g class="zone" data-zone="regard">
-    <path class="zone-fond" d="M88 70 C100 30 220 30 232 70 L236 150 C210 160 110 160 84 150 Z"/>
-    <path class="zone-geste" d="M130 96 C134 80 140 66 148 52 M190 96 C186 80 180 66 172 52 M112 134 C104 128 98 118 96 106 M208 134 C216 128 222 118 224 106"/>
+    <ellipse class="zone-fond" cx="160" cy="104" rx="96" ry="66" fill="url(#lueur)"/>
+    <path class="zone-geste" marker-end="url(#pointe)" d="M140 98 C140 84 142 70 146 56"/>
+    <path class="zone-geste" marker-end="url(#pointe)" d="M180 98 C180 84 178 70 174 56"/>
+    <path class="zone-geste" marker-end="url(#pointe)" d="M112 142 C104 136 100 128 98 116"/>
+    <path class="zone-geste" marker-end="url(#pointe)" d="M208 142 C216 136 220 128 222 116"/>
   </g>
   <g class="zone" data-zone="bas">
-    <path class="zone-fond" d="M86 170 C110 182 210 182 234 170 C232 214 206 252 160 258 C114 252 88 214 86 170 Z"/>
-    <path class="zone-geste" d="M128 232 C112 222 102 208 98 190 M192 232 C208 222 218 208 222 190 M150 214 C140 210 132 204 128 196 M170 214 C180 210 188 204 192 196"/>
+    <ellipse class="zone-fond" cx="160" cy="214" rx="86" ry="58" fill="url(#lueur)"/>
+    <path class="zone-geste" marker-end="url(#pointe)" d="M132 238 C116 230 106 216 102 196"/>
+    <path class="zone-geste" marker-end="url(#pointe)" d="M188 238 C204 230 214 216 218 196"/>
+    <path class="zone-geste" marker-end="url(#pointe)" d="M146 222 C136 216 130 206 128 194"/>
+    <path class="zone-geste" marker-end="url(#pointe)" d="M174 222 C184 216 190 206 192 194"/>
   </g>
   <g class="zone" data-zone="cou">
-    <path class="zone-fond" d="M122 262 C140 270 180 270 198 262 L204 320 C236 330 270 342 300 372 L20 372 C50 342 84 330 116 320 Z"/>
-    <path class="zone-geste" d="M140 330 C140 310 142 292 146 274 M180 330 C180 310 178 292 174 274 M90 360 C110 346 130 340 150 338 M230 360 C210 346 190 340 170 338"/>
+    <ellipse class="zone-fond" cx="160" cy="322" rx="120" ry="58" fill="url(#lueur)"/>
+    <path class="zone-geste" marker-end="url(#pointe)" d="M146 330 C146 312 148 296 150 280"/>
+    <path class="zone-geste" marker-end="url(#pointe)" d="M174 330 C174 312 172 296 170 280"/>
+    <path class="zone-geste" marker-end="url(#pointe)" d="M96 360 C112 348 128 342 144 340"/>
+    <path class="zone-geste" marker-end="url(#pointe)" d="M224 360 C208 348 192 342 176 340"/>
   </g>
   <g class="trait-visage">
     <path d="M160 24 C112 24 86 60 86 112 C86 168 104 222 132 247 C144 257 152 261 160 261 C168 261 176 257 188 247 C216 222 234 168 234 112 C234 60 208 24 160 24 Z"/>

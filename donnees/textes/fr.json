@@ -104,13 +104,16 @@
    "texte": "Chaque zone a ses exercices. On les apprend ensemble, puis vous les refaites chez vous.",
    "age1": "Dès 30 ans, pour prévenir.",
    "age2": "Dès 45 ans, pour corriger.",
-   "aria": "Dessin d'un visage au trait : les trois zones s'allument tour à tour"
+   "aria": "Dessin d'un visage au trait : les trois zones s'allument tour à tour",
+   "astuce": "Touchez une zone ou son nom"
   },
   "formules": {
    "surtitre": "Trois façons de pratiquer",
    "titre": "En cabine, en ligne ou en groupe",
    "texte": "Chaque séance dure 1 h 30. La première commence par un bilan de vos objectifs.",
-   "voir": "Voir les tarifs et les packs"
+   "voir": "Voir les tarifs et les packs",
+   "glisser": "Faites glisser pour voir les quatre formules",
+   "piste": "Les quatre formules"
   },
   "resultats": {
    "surtitre": "Avant, après",
@@ -120,7 +123,8 @@
    "avant": "Avant",
    "apres": "Après",
    "pendant": "En cours",
-   "note": "Photos publiées sur le site de Marianne. Les résultats ne sont pas garantis : ils dépendent de chacun et de la régularité de la pratique, trois mois au minimum."
+   "note": "Photos publiées sur le site de Marianne. Les résultats ne sont pas garantis : ils dépendent de chacun et de la régularité de la pratique, trois mois au minimum.",
+   "lien": "Le chemin en trois mois"
   },
   "protocole": {
    "surtitre": "Après 45 ans",
@@ -145,7 +149,7 @@
   },
   "lieux": {
    "surtitre": "Où me trouver",
-   "titre": "À Plaisance‑du‑Touch, ou chez vous",
+   "titre": "Près de Toulouse, ou chez vous",
    "mercredi": "Mercredi",
    "mercrediLieu": "Wellbee Space, 3 ter rue du Docteur Charcot",
    "samedi": "Samedi",
@@ -160,6 +164,12 @@
    "texte": "Offrir une séance : cartes cadeaux pour un massage liftant, une séance en ligne ou un soin en cabine, dès 50 €.",
    "au_lieu": "au lieu de",
    "lien": "Composer une carte cadeau"
+  },
+  "chiffres": {
+   "diag": "de diagnostic offert, en visio ou par téléphone",
+   "seance": "par séance, en cabine ou en ligne",
+   "mois": "de pratique régulière pour que ça dure",
+   "zones": "du visage travaillées, du front au décolleté"
   }
  },
  "methode": {
@@ -174,7 +184,7 @@
   },
   "cabine": {
    "surtitre": "En cabine",
-   "titre": "À Plaisance‑du‑Touch",
+   "titre": "Une séance, une feuille de route",
    "texte": "La première séance fait le bilan de vos objectifs, pose le diagnostic et trace votre feuille de route. Vous découvrez les bases de la méthode, puis les techniques propres à chaque zone du visage, à reproduire chez vous.",
    "liste1": "1 h 30 par séance",
    "liste2": "Mercredi au Wellbee Space, samedi au Wellbee Space ou au cabinet",
@@ -210,7 +220,8 @@
    "etape4": "Au bout de trois mois",
    "etape4t": "Le temps minimum pour des résultats qui durent. Ils ne sont pas garantis et varient d'une personne à l'autre.",
    "semaines": "12 semaines",
-   "semaine": "Semaine"
+   "semaine": "Semaine",
+   "mois": "Mois"
   },
   "precautions": {
    "surtitre": "Avant de commencer",
@@ -297,6 +308,26 @@
   "conditions": {
    "surtitre": "Bon à savoir",
    "titre": "Conditions"
+  },
+  "calcul": {
+   "titre": "Calculez votre parcours",
+   "enLigne": "Séances en ligne",
+   "enCabine": "Séances en cabine",
+   "moinsLigne": "Une séance en ligne de moins",
+   "plusLigne": "Une séance en ligne de plus",
+   "moinsCabine": "Une séance en cabine de moins",
+   "plusCabine": "Une séance en cabine de plus",
+   "unite": "À l'unité :",
+   "avec": "Avec les packs",
+   "exemple": "Pack 1 séance en cabine et 3 en ligne",
+   "gainExemple": "32 € de moins",
+   "rien": "Choisissez au moins une séance",
+   "uniteSeule": "Séances à l'unité",
+   "moins": "€ de moins",
+   "pasDeGain": "Pas de pack pour ce choix : prix à l'unité",
+   "ligneUnite": "séance en ligne à l'unité",
+   "cabineUnite": "séance en cabine à l'unité",
+   "et": "+"
   }
  },
  "contact": {

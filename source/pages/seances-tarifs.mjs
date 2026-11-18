@@ -57,6 +57,34 @@ export default (c) => {
       <h2 data-anime="lignes">${c.t('tarifs.packs.titre')}</h2>
       <p data-anime>${c.t('tarifs.packs.texte')}</p>
     </div>
+    <div class="calcul" data-calcul-racine data-anime data-textes="${brut(JSON.stringify({ pack3: 'Pack ' + o.packs[0].nom, pack4: 'Pack ' + o.packs[1].nom, mixte: 'Pack ' + o.packs[2].nom, ligne: c.s('tarifs.calcul.ligneUnite'), cabine: c.s('tarifs.calcul.cabineUnite'), rien: c.s('tarifs.calcul.rien'), moins: c.s('tarifs.calcul.moins'), pasDeGain: c.s('tarifs.calcul.pasDeGain'), et: c.s('tarifs.calcul.et') }).replace(/&/g, '&amp;').replace(/"/g, '&quot;'))}">
+      <div class="calcul-choix">
+        <p class="calcul-titre">${c.t('tarifs.calcul.titre')}</p>
+        <div class="calcul-ligne">
+          <span id="calcul-ligne-nom">${c.t('tarifs.calcul.enLigne')}</span>
+          <div class="pas" role="group" aria-labelledby="calcul-ligne-nom">
+            <button type="button" data-calcul="ligne" data-pas="-1" aria-label="${c.s('tarifs.calcul.moinsLigne')}">−</button>
+            <output data-calcul-valeur="ligne" aria-live="polite">3</output>
+            <button type="button" data-calcul="ligne" data-pas="1" aria-label="${c.s('tarifs.calcul.plusLigne')}">+</button>
+          </div>
+        </div>
+        <div class="calcul-ligne">
+          <span id="calcul-cabine-nom">${c.t('tarifs.calcul.enCabine')}</span>
+          <div class="pas" role="group" aria-labelledby="calcul-cabine-nom">
+            <button type="button" data-calcul="cabine" data-pas="-1" aria-label="${c.s('tarifs.calcul.moinsCabine')}">−</button>
+            <output data-calcul-valeur="cabine" aria-live="polite">1</output>
+            <button type="button" data-calcul="cabine" data-pas="1" aria-label="${c.s('tarifs.calcul.plusCabine')}">+</button>
+          </div>
+        </div>
+        <div class="calcul-seances" aria-hidden="true" data-calcul-pastilles><span class="cabine"></span><span></span><span></span><span></span></div>
+      </div>
+      <div class="calcul-resultat" aria-live="polite">
+        <p class="calcul-unite">${c.t('tarifs.calcul.unite')} <s data-calcul-unite>300 €</s></p>
+        <p class="calcul-total"><span>${c.t('tarifs.calcul.avec')}</span><strong data-calcul-total data-prix>268 €</strong></p>
+        <p class="calcul-detail" data-calcul-detail>${c.t('tarifs.calcul.exemple')}</p>
+        <p class="calcul-gain" data-calcul-gain>${c.t('tarifs.calcul.gainExemple')}</p>
+      </div>
+    </div>
     <ul class="packs-liste" data-anime="cascade">
       ${o.packs.map((p) => html`<li class="pack${p.id === 'protocole-45' ? ' pack--protocole' : ''}" data-survol="incline" data-survol-force="4">
         <p class="pack-seances" aria-hidden="true" data-visuel>${brut(p.id === 'pack-3' ? '<span></span>'.repeat(3) : p.id === 'pack-4' ? '<span></span>'.repeat(4) : p.id === 'pack-mixte' ? '<span class="cabine"></span>' + '<span></span>'.repeat(3) : '<svg viewBox="0 0 26 26"><path d="M13 13V1a12 12 0 0 1 12 12Z" fill="#DAAA47"/><path d="M13 13h12a12 12 0 0 1-12 12Z" fill="#EAD6CC"/><path d="M13 13v12A12 12 0 0 1 1 13Z" fill="#C9737F"/><path d="M13 13H1A12 12 0 0 1 13 1Z" fill="#A63A57"/></svg>')}</p>

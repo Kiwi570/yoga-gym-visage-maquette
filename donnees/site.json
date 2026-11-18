@@ -3,15 +3,35 @@
   "nomLong": "Yoga Gym du Visage Toulouse",
   "adresse": "https://yoga-gym-visage-maquette.vercel.app",
   "siteActuel": "yoga-gym-visage-jeunesse.com",
-  "version": 1,
-  "langues": ["fr"],
-  "navigation": ["accueil", "methode", "protocole-45", "seances-tarifs", "contact"],
-  "actionEntete": { "page": "contact", "ancre": "diagnostic" },
-  "couleurs": { "fond": "#F6F0EA", "texte": "#2E1C26", "voile": "#2E1C26", "theme": "#F6F0EA", "ouverture": "#2E1C26", "menu": "#2E1C26" },
+  "version": 2,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "methode",
+    "protocole-45",
+    "seances-tarifs",
+    "contact"
+  ],
+  "actionEntete": {
+    "page": "contact",
+    "ancre": "diagnostic"
+  },
+  "couleurs": {
+    "fond": "#F6F0EA",
+    "texte": "#2E1C26",
+    "voile": "#2E1C26",
+    "theme": "#F6F0EA",
+    "ouverture": "#2E1C26",
+    "menu": "#2E1C26"
+  },
   "formeVoile": "iris",
   "contact": {
-    "telephone": "07 66 19 74 64", "telephoneLien": "+33766197464",
-    "whatsapp": "06 43 70 01 10", "whatsappLien": "https://api.whatsapp.com/send?phone=33643700110",
+    "telephone": "07 66 19 74 64",
+    "telephoneLien": "+33766197464",
+    "whatsapp": "06 43 70 01 10",
+    "whatsappLien": "https://api.whatsapp.com/send?phone=33643700110",
     "email": "yoga.visage.toulouse@free.fr",
     "adresse": "Plaisance-du-Touch (31830), sur rendez-vous",
     "agendaDiagnostic": "https://calendar.app.google/SX6C55S7yos8rUJ8A",
@@ -19,7 +39,10 @@
     "instagram": "https://instagram.com/yoga.gymvisagetoulouse/",
     "facebook": "https://facebook.com/profile.php?id=61575806460836"
   },
-  "polices": ["/assets/fonts/fraunces.woff2", "/assets/fonts/dm-sans-latin-400-normal.woff2"],
+  "polices": [
+    "/assets/fonts/fraunces.woff2",
+    "/assets/fonts/dm-sans-latin-400-normal.woff2"
+  ],
   "imagePartage": "grok/accueil-ouverture-1280.webp",
   "curseur": false
 }

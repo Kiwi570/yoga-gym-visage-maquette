@@ -101,8 +101,8 @@ function pied(c) {
     <div>
       <p class="pied-titre">${c.t('commun.contact')}</p>
       <ul>
-        <li><a href="tel:${k.telephoneLien}">${k.telephone}</a></li>
-        <li><a href="${k.whatsappLien}" target="_blank" rel="noopener">${c.t('commun.whatsapp')} ${k.whatsapp}<span class="visuellement-cache"> ${c.t('commun.nouvelOnglet')}</span></a></li>
+        <li><a href="tel:${k.telephoneLien}"><span class="sans-coupure">${k.telephone}</span></a></li>
+        <li><a href="${k.whatsappLien}" target="_blank" rel="noopener">${c.t('commun.whatsapp')} <span class="sans-coupure">${k.whatsapp}</span><span class="visuellement-cache"> ${c.t('commun.nouvelOnglet')}</span></a></li>
         <li><a href="mailto:${k.email}">${k.email}</a></li>
         <li><a href="${k.instagram}" target="_blank" rel="noopener">${c.t('commun.instagram')}<span class="visuellement-cache"> ${c.t('commun.nouvelOnglet')}</span></a> · <a href="${k.facebook}" target="_blank" rel="noopener">${c.t('commun.facebook')}<span class="visuellement-cache"> ${c.t('commun.nouvelOnglet')}</span></a></li>
       </ul>

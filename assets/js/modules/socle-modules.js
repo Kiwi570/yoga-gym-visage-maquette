@@ -1,7 +1,7 @@
 /* Adaptateur : les modules de la bibliothèque appellent pret([...]) et reçoivent leur « socle ».
    Ici, tout vient du socle du projet (GSAP déjà chargé par la page, défilement, mesures, boucles) :
    rien n'est chargé deux fois et aucun défilement adouci n'est créé en double. */
-import { rafraichir as rafraichirProjet } from '../socle/mesures.js?v=1';
+import { rafraichir as rafraichirProjet } from '../socle/mesures.js?v=2';
 
 const html = document.documentElement;
 function boucle(el, fn) {

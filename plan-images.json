@@ -152,14 +152,14 @@
   "beaute": 4
  },
  {
-  "source": "recu/design-sans-titre-3.webp",
+  "source": "recu/traites/cabine.jpg",
   "nom": "cabine",
   "role": "carte-service",
   "alt": "La cabine de soin : table de massage, paravent en bambou, lumière du jour",
   "beaute": 4
  },
  {
-  "source": "recu/wellbee-rdc-standard.webp",
+  "source": "recu/traites/wellbee-salle.jpg",
   "nom": "wellbee-salle",
   "role": "section-fond",
   "ratio": "16:9",
@@ -168,7 +168,7 @@
   "beaute": 4
  },
  {
-  "source": "recu/salon-wellbee-1-standard.webp",
+  "source": "recu/traites/wellbee-salon.jpg",
   "nom": "wellbee-salon",
   "role": "ouverture",
   "ratio": "4:5",
@@ -186,7 +186,7 @@
   "beaute": 4
  },
  {
-  "source": "recu/wellbee-space-2-high.webp",
+  "source": "recu/traites/praticienne-seance.jpg",
   "nom": "praticienne-seance",
   "role": "portrait",
   "ratio": "4:5",
@@ -198,7 +198,7 @@
   "beaute": 3
  },
  {
-  "source": "recu/portrait-utiliser-high.webp",
+  "source": "recu/traites/praticienne-portrait.jpg",
   "nom": "praticienne-portrait",
   "role": "vignette",
   "ratio": "1:1",

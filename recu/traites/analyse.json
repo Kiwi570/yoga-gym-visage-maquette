@@ -1,0 +1,330 @@
+{
+  "dossier": "/home/claude/yoga-gym-visage-maquette/recu/traites",
+  "date": "2026-11-18T14:18:41.076Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "cabine.jpg",
+      "nom": "cabine",
+      "drapeau": null,
+      "largeur": 1919,
+      "hauteur": 1154,
+      "ratio": "1.66",
+      "ratio_valeur": 1.663,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 377156,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        46
+      ],
+      "cadrage_css": "52% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        }
+      ],
+      "qualite": {
+        "nettete": 16.2,
+        "bruit": 0.4,
+        "compression": 0.9,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "89c9c9096858cc9e",
+      "drapeaux": []
+    },
+    {
+      "fichier": "praticienne-portrait.jpg",
+      "nom": "praticienne-portrait",
+      "drapeau": null,
+      "largeur": 708,
+      "hauteur": 847,
+      "ratio": "0.84",
+      "ratio_valeur": 0.836,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 75696,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.4,
+        "l": 100,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        59
+      ],
+      "cadrage_css": "51% 59%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 7.2,
+        "bruit": 0.32,
+        "compression": 1.28,
+        "faible": true,
+        "raisons": [
+          "708 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "8c16636369683323",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "praticienne-seance.jpg",
+      "nom": "praticienne-seance",
+      "drapeau": null,
+      "largeur": 1133,
+      "hauteur": 719,
+      "ratio": "16:10",
+      "ratio_valeur": 1.576,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 203618,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 0,
+        "l": 93.8,
+        "h": 95.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        49
+      ],
+      "cadrage_css": "53% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 25.6,
+        "bruit": 0.97,
+        "compression": 0.98,
+        "faible": true,
+        "raisons": [
+          "1133 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "184848586169d856",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "wellbee-salle.jpg",
+      "nom": "wellbee-salle",
+      "drapeau": null,
+      "largeur": 1919,
+      "hauteur": 1199,
+      "ratio": "16:10",
+      "ratio_valeur": 1.601,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 518686,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        45
+      ],
+      "cadrage_css": "49% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "haut",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "clair",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.95
+        }
+      ],
+      "qualite": {
+        "nettete": 32.6,
+        "bruit": 1.07,
+        "compression": 0.95,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e0704c3c3cd89c9a",
+      "drapeaux": []
+    },
+    {
+      "fichier": "wellbee-salon.jpg",
+      "nom": "wellbee-salon",
+      "drapeau": null,
+      "largeur": 1474,
+      "hauteur": 1663,
+      "ratio": "0.89",
+      "ratio_valeur": 0.886,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 646265,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 15.6,
+        "l": 96.6,
+        "h": 84.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        57
+      ],
+      "cadrage_css": "49% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 46.9,
+        "bruit": 1.18,
+        "compression": 0.95,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "4042d7d7c7b171f8",
+      "drapeaux": []
+    }
+  ]
+}

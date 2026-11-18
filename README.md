@@ -1,4 +1,4 @@
-# Yoga Gym du Visage Toulouse : maquette v1
+# Yoga Gym du Visage Toulouse : maquette v2
 
 Maquette de présentation du futur site de **Yoga Gym du Visage Toulouse** (Marianne, méthode Roxane Rajeunissement), direction « Le geste qui remonte ».
 Adresse prévue : https://yoga-gym-visage-maquette.vercel.app (noindex : la maquette ne concurrence pas le site actuel dans Google).
@@ -10,7 +10,7 @@ Adresse prévue : https://yoga-gym-visage-maquette.vercel.app (noindex : la maqu
 | Accueil | `/` | Grand titre « Rajeunir naturellement », arche photo, médaillon du logo |
 | La méthode | `/methode` | Grand titre puis bandeau, badge « 1 h 30 » |
 | Protocole 45+ | `/protocole-45` | « 45+ » en très grand et disque des quatre volets |
-| Séances & tarifs | `/seances-tarifs` | Photo du Wellbee Space et médaillon « dès 70 € » ; carte cadeau qui se compose |
+| Séances & tarifs | `/seances-tarifs` | Photo du Wellbee Space et médaillon « dès 70 € » ; « Calculez votre parcours » ; carte cadeau qui se compose |
 | Contact | `/contact` | Photo plein cadre du salon, demande en trois étapes |
 | Page introuvable | `/404` | Miroir qui ne reflète que la lumière |
 
@@ -55,6 +55,7 @@ Pages du site actuel non reprises (possibles en v2) : Ateliers collectifs (page 
 
 - Site statique (HTML, CSS, JavaScript), sans étape de construction sur Vercel (`vercel.json` : cleanUrls).
 - Textes et données : `donnees/` ; pages générées par `node outils/generer.mjs` (ne jamais modifier les pages HTML à la main).
-- Effets propres : `assets/js/site.js` (arche-lift, gestes, manifeste, carte-visage, quatre-volets, trois-mois, addition).
+- Effets propres : `assets/js/site.js` (arche-lift, gestes, manifeste, carte-visage, quatre-volets, trois-mois, addition) ; outil « Calculez votre parcours » (meilleure combinaison de packs, prix de `donnees/offre.json` et de `site.js` à tenir identiques).
+- Photos de la cliente : versions réchauffées dans `recu/traites/` (même lumière que les illustrations), originaux gardés dans `recu/`.
 - Modules de la bibliothèque : témoignages en pile, carte cadeau qui se compose, formulaire par étapes.
 - Audit : `node _audit/audit.mjs` (rapport dans `_audit/rapport/rapport.md`).

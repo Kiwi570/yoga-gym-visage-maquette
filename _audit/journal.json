@@ -103,6 +103,51 @@
    "effetsRetires": [],
    "grilleDispenses": {},
    "notes": "Images Grok reçues pendant la construction de l'accueil. Un lien profond (/#cadeau vers /seances-tarifs#cartes-cadeaux) a échoué une fois dans l'audit standard final puis passé à la relance et à 4 essais manuels (instable sous charge)."
+  },
+  {
+   "version": 2,
+   "skill": "v11.1",
+   "demande": "Dernier audit complet, analyse approfondie de chaque page et section, améliorations pour une version optimale",
+   "perimetre": [
+    "accueil",
+    "methode",
+    "protocole-45",
+    "seances-tarifs",
+    "contact",
+    "404"
+   ],
+   "etapes": [
+    {
+     "etape": "relecture approfondie (captures écran par écran, ordinateur et téléphone)",
+     "debut": "2026-11-18T15:12:30+01:00",
+     "fin": "2026-11-18T15:16:00+01:00"
+    },
+    {
+     "etape": "améliorations v2",
+     "debut": "2026-11-18T15:16:00+01:00",
+     "fin": "2026-11-18T15:24:00+01:00"
+    },
+    {
+     "etape": "audit complet et corrections",
+     "debut": "2026-11-18T15:24:00+01:00",
+     "fin": "2026-11-18T16:12:00+01:00"
+    },
+    {
+     "etape": "livraison",
+     "debut": "2026-11-18T16:12:00+01:00",
+     "fin": "2026-11-18T16:16:00+01:00"
+    }
+   ],
+   "attentes": [],
+   "audit": {
+    "niveau": "complet",
+    "echecsPremierPassage": 2,
+    "relances": 1,
+    "corrections": [
+     "contraste du numéro d'étape actif (transition de couleur retirée)",
+     "lien profond depuis la piste des formules sur téléphone : filet de sécurité à l'arrivée"
+    ]
+   }
   }
  ]
 }

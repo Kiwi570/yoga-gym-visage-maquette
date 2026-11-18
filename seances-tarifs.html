@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,15 +35,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F6F0EA">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -218,6 +218,34 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <h2 data-anime="lignes">Le chemin vers la jeunesse naturelle</h2>
       <p data-anime>Un parcours suivi, à prix doux : chaque pack revient moins cher que les mêmes séances à l&#39;unité.</p>
     </div>
+    <div class="calcul" data-calcul-racine data-anime data-textes="{&quot;pack3&quot;:&quot;Pack 3 séances en ligne&quot;,&quot;pack4&quot;:&quot;Pack 4 séances en ligne&quot;,&quot;mixte&quot;:&quot;Pack 1 séance en cabine et 3 en ligne&quot;,&quot;ligne&quot;:&quot;séance en ligne à l'unité&quot;,&quot;cabine&quot;:&quot;séance en cabine à l'unité&quot;,&quot;rien&quot;:&quot;Choisissez au moins une séance&quot;,&quot;moins&quot;:&quot;€ de moins&quot;,&quot;pasDeGain&quot;:&quot;Pas de pack pour ce choix : prix à l'unité&quot;,&quot;et&quot;:&quot;+&quot;}">
+      <div class="calcul-choix">
+        <p class="calcul-titre">Calculez votre parcours</p>
+        <div class="calcul-ligne">
+          <span id="calcul-ligne-nom">Séances en ligne</span>
+          <div class="pas" role="group" aria-labelledby="calcul-ligne-nom">
+            <button type="button" data-calcul="ligne" data-pas="-1" aria-label="Une séance en ligne de moins">−</button>
+            <output data-calcul-valeur="ligne" aria-live="polite">3</output>
+            <button type="button" data-calcul="ligne" data-pas="1" aria-label="Une séance en ligne de plus">+</button>
+          </div>
+        </div>
+        <div class="calcul-ligne">
+          <span id="calcul-cabine-nom">Séances en cabine</span>
+          <div class="pas" role="group" aria-labelledby="calcul-cabine-nom">
+            <button type="button" data-calcul="cabine" data-pas="-1" aria-label="Une séance en cabine de moins">−</button>
+            <output data-calcul-valeur="cabine" aria-live="polite">1</output>
+            <button type="button" data-calcul="cabine" data-pas="1" aria-label="Une séance en cabine de plus">+</button>
+          </div>
+        </div>
+        <div class="calcul-seances" aria-hidden="true" data-calcul-pastilles><span class="cabine"></span><span></span><span></span><span></span></div>
+      </div>
+      <div class="calcul-resultat" aria-live="polite">
+        <p class="calcul-unite">À l&#39;unité : <s data-calcul-unite>300 €</s></p>
+        <p class="calcul-total"><span>Avec les packs</span><strong data-calcul-total data-prix>268 €</strong></p>
+        <p class="calcul-detail" data-calcul-detail>Pack 1 séance en cabine et 3 en ligne</p>
+        <p class="calcul-gain" data-calcul-gain>32 € de moins</p>
+      </div>
+    </div>
     <ul class="packs-liste" data-anime="cascade">
       <li class="pack" data-survol="incline" data-survol-force="4">
         <p class="pack-seances" aria-hidden="true" data-visuel><span></span><span></span><span></span></p>
@@ -344,8 +372,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div>
       <p class="pied-titre">Contact</p>
       <ul>
-        <li><a href="tel:+33766197464">07 66 19 74 64</a></li>
-        <li><a href="https://api.whatsapp.com/send?phone=33643700110" target="_blank" rel="noopener">WhatsApp 06 43 70 01 10<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="tel:+33766197464"><span class="sans-coupure">07 66 19 74 64</span></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=33643700110" target="_blank" rel="noopener">WhatsApp <span class="sans-coupure">06 43 70 01 10</span><span class="visuellement-cache"> (nouvel onglet)</span></a></li>
         <li><a href="mailto:yoga.visage.toulouse@free.fr">yoga.visage.toulouse@free.fr</a></li>
         <li><a href="https://instagram.com/yoga.gymvisagetoulouse/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a> · <a href="https://facebook.com/profile.php?id=61575806460836" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
       </ul>

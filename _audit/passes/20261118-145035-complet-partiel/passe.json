@@ -1,0 +1,17 @@
+{
+ "id": "20261118-145035-complet-partiel",
+ "date": "2026-11-18T15:00:33.260Z",
+ "niveau": "complet",
+ "pages": "toutes",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "parcours"
+ ],
+ "version": "2",
+ "echecs": 0,
+ "aRegarder": 43,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}
