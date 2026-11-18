@@ -1,0 +1,256 @@
+[
+ {
+  "source": "recu/logo-fond-blanc.webp",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "Yoga Gym du Visage Toulouse"
+ },
+ {
+  "source": "recu/grok/accueil-ouverture.jpg",
+  "nom": "grok/accueil-ouverture",
+  "role": "ouverture",
+  "ratio": "2:3",
+  "mobile": "4:5",
+  "page": "Accueil",
+  "emplacement": "Ouverture, grande arche à droite",
+  "priorite": "Indispensable",
+  "gabarit": "ouverture",
+  "consigne_scene": "Vertical still life, close and intimate: a smooth pink rose quartz gua sha stone resting on softly folded cream linen on a pale lime-plaster ledge, a small sprig of olive leaves beside it, soft warm morning sunlight from a side window casting long gentle diagonal shadows, a few tiny droplets of water on the stone catching the light, empty plaster wall in the upper half, soft blurred background, nobody in the image",
+  "alt": "Pierre de gua sha en quartz rose posée sur du lin, dans la lumière du matin",
+  "zone_texte": "haut",
+  "beaute": 4,
+  "cadrage": [
+   55,
+   70
+  ]
+ },
+ {
+  "source": "recu/grok/carte-en-ligne.jpg",
+  "nom": "grok/carte-en-ligne",
+  "role": "carte-service",
+  "page": "Accueil et Séances",
+  "emplacement": "Carte « Séance en ligne »",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "consigne_scene": "At home, a small round mirror on a stand placed on a light oak table near a window, in front of it a rose quartz gua sha stone and a cup of herbal tea on a linen napkin, a soft cushion on the chair, warm morning light, cosy and tidy, nobody in the image, the mirror only reflects the bright window",
+  "alt": "Petit miroir, pierre de gua sha et tasse de tisane sur une table près d'une fenêtre",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/carte-ateliers.jpg",
+  "nom": "grok/carte-ateliers",
+  "role": "carte-service",
+  "page": "Accueil et Méthode",
+  "emplacement": "Carte « Ateliers collectifs »",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "consigne_scene": "A bright calm room with pale plaster walls and light oak floor, five cream floor cushions arranged in a gentle half circle, on each cushion a small round mirror and a neatly folded white towel, soft daylight through sheer linen curtains, nobody in the room",
+  "alt": "Coussins disposés en demi-cercle, un petit miroir sur chacun",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/carte-massage.jpg",
+  "nom": "grok/carte-massage",
+  "role": "carte-service",
+  "page": "Accueil et Séances",
+  "emplacement": "Carte « Massage liftant oxygénant »",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "consigne_scene": "On a light oak tray, three rolled warm white towels, a small ceramic bowl of golden massage oil, a few dried rose petals, soft warm light from a window, cream and powdery pink tones, close still life, nobody in the image",
+  "alt": "Serviettes roulées et coupelle d'huile de massage sur un plateau en bois",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/carte-sophro.jpg",
+  "nom": "grok/carte-sophro",
+  "role": "carte-service",
+  "page": "Séances et Protocole 45+",
+  "emplacement": "Carte « Sophrologie »",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "consigne_scene": "A deep comfortable armchair in cream boucle fabric by a tall window, a folded wool blanket in powdery pink on the armrest, a cup of tea on a small side table, soft late-afternoon light, peaceful and empty, nobody in the image",
+  "alt": "Fauteuil et plaid près d'une fenêtre, lumière douce de fin d'après-midi",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/protocole-ouverture.jpg",
+  "source_mobile": "recu/grok/protocole-ouverture-mobile.jpg",
+  "nom": "grok/protocole-ouverture",
+  "role": "ouverture",
+  "mobile": "9:16",
+  "page": "Protocole 45+",
+  "emplacement": "Ouverture",
+  "priorite": "Indispensable",
+  "gabarit": "ouverture",
+  "consigne_scene": "A wide calm morning still life on a long light oak table covered with a cream linen runner: a carafe and a glass of water, a ceramic bowl of fresh seasonal fruit and herbs, a small dish of dried plant leaves and flowers, a cup of herbal tea, a rose quartz gua sha stone, soft warm sunlight from a side window, the objects grouped on the right two thirds, large calm empty wall on the left, nobody in the image",
+  "alt": "Table du matin : eau, fruits, plantes séchées, tisane et pierre de gua sha",
+  "zone_texte": "gauche",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/methode-ouverture.jpg",
+  "source_mobile": "recu/grok/methode-ouverture-mobile.jpg",
+  "nom": "grok/methode-ouverture",
+  "role": "ouverture",
+  "mobile": "9:16",
+  "page": "La méthode",
+  "emplacement": "Ouverture, bandeau sous le grand titre",
+  "priorite": "Indispensable",
+  "gabarit": "ouverture",
+  "consigne_scene": "Seen from above, a round light oak tray on cream linen with a pink rose quartz gua sha stone, a white jade facial roller, a neatly folded white towel and a small ceramic bowl of water with a few rose petals floating, soft raking morning light, generous empty linen around the tray, nobody in the image",
+  "alt": "Pierre de gua sha, rouleau de quartz rose et serviette roulée dans la lumière du matin",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/protocole-nutrition.jpg",
+  "nom": "grok/protocole-nutrition",
+  "role": "carte-service",
+  "page": "Protocole 45+",
+  "emplacement": "Volet nutrition",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "consigne_scene": "A simple healthy lunch bowl seen from slightly above on a cream linen tablecloth: grains, roasted seasonal vegetables, fresh herbs and seeds, a glass of water beside it, soft daylight, natural and appetising, nobody in the image",
+  "alt": "Bol de céréales, légumes de saison et herbes fraîches",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/protocole-naturo.jpg",
+  "nom": "grok/protocole-naturo",
+  "role": "carte-service",
+  "page": "Protocole 45+",
+  "emplacement": "Volet naturopathie",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "consigne_scene": "Dried medicinal plants and flowers (chamomile, lime blossom, lemon balm leaves) spread on cream linen beside a teapot and a glass cup of golden herbal infusion, soft morning light, plain glass jars without any label, nobody in the image",
+  "alt": "Plantes séchées et infusion dorée sur du lin",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/appel-fond.jpg",
+  "nom": "grok/appel-fond",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "page": "Toutes les pages",
+  "emplacement": "Appel final « diagnostic offert »",
+  "priorite": "Indispensable",
+  "gabarit": "section-fond",
+  "consigne_scene": "A pale lime-plaster wall lit by the first warm light of the morning, the soft shadow of a window frame and of a few olive leaves falling diagonally across it, gradient from warm apricot to powdery pink, almost empty, large calm area in the center, nobody in the image",
+  "alt": "Mur à la chaux dans la lumière du matin, ombre de feuillage",
+  "zone_texte": "gauche",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/page-404.jpg",
+  "nom": "grok/page-404",
+  "role": "404",
+  "page": "404",
+  "emplacement": "Ouverture de la page introuvable",
+  "priorite": "Conseillée",
+  "gabarit": "404",
+  "consigne_scene": "A round mirror with a thin brass frame hanging on a pale plaster wall, reflecting only soft bright window light and nothing else, a small sprig of olive leaves in a ceramic vase below it on a shelf, warm morning light, nobody in the image",
+  "alt": "Miroir rond qui ne reflète que la lumière",
+  "beaute": 4
+ },
+ {
+  "source": "recu/design-sans-titre-3.webp",
+  "nom": "cabine",
+  "role": "carte-service",
+  "alt": "La cabine de soin : table de massage, paravent en bambou, lumière du jour",
+  "beaute": 4
+ },
+ {
+  "source": "recu/wellbee-rdc-standard.webp",
+  "nom": "wellbee-salle",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "mobile": "4:5",
+  "alt": "Salle de soin du Wellbee Space à Plaisance-du-Touch",
+  "beaute": 4
+ },
+ {
+  "source": "recu/salon-wellbee-1-standard.webp",
+  "nom": "wellbee-salon",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "mobile": "4:5",
+  "alt": "Salon d'accueil du Wellbee Space",
+  "beaute": 4
+ },
+ {
+  "source": "recu/seances-forfaits.webp",
+  "nom": "wellbee-attente",
+  "role": "ouverture",
+  "ratio": "4:3",
+  "mobile": "4:5",
+  "alt": "Banquette devant le mur terracotta de l'espace d'attente",
+  "beaute": 4
+ },
+ {
+  "source": "recu/wellbee-space-2-high.webp",
+  "nom": "praticienne-seance",
+  "role": "portrait",
+  "ratio": "4:5",
+  "cadrage": [
+   47,
+   50
+  ],
+  "alt": "La praticienne pendant une séance de massage du visage en cabine",
+  "beaute": 3
+ },
+ {
+  "source": "recu/portrait-utiliser-high.webp",
+  "nom": "praticienne-portrait",
+  "role": "vignette",
+  "ratio": "1:1",
+  "alt": "Portrait de la praticienne",
+  "beaute": 3
+ },
+ {
+  "source": "recu/diplome-roxane-high.webp",
+  "nom": "diplome",
+  "role": "vignette",
+  "ratio": "940:788",
+  "alt": "Certificat professionnel de la méthode Roxane Rajeunissement",
+  "beaute": 3
+ },
+ {
+  "source": "recu/routine-soin-resultats-visibles-5.webp",
+  "nom": "front-avant",
+  "role": "vignette",
+  "ratio": "16:9",
+  "alt": "Front avant la séance en cabine, rides marquées",
+  "beaute": 2
+ },
+ {
+  "source": "recu/routine-soin-resultats-visibles.webp",
+  "nom": "front-apres",
+  "role": "vignette",
+  "ratio": "16:9",
+  "alt": "Le même front à l'issue d'une séance en cabine",
+  "beaute": 3
+ },
+ {
+  "source": "recu/routine-soin-resultats-visibles-3.webp",
+  "nom": "ovale-avant",
+  "role": "vignette",
+  "ratio": "4:3",
+  "alt": "Bas du visage d'une cliente au début de la pratique",
+  "beaute": 2
+ },
+ {
+  "source": "recu/routine-soin-resultats-visibles-2.webp",
+  "nom": "ovale-pendant",
+  "role": "vignette",
+  "ratio": "4:3",
+  "alt": "Bas du visage de la même cliente en cours de pratique",
+  "beaute": 2
+ },
+ {
+  "source": "recu/routine-soin-resultats-visibles-4.webp",
+  "nom": "ovale-apres",
+  "role": "vignette",
+  "ratio": "4:3",
+  "alt": "Bas du visage de la même cliente après trois mois de pratique quotidienne",
+  "beaute": 2
+ }
+]

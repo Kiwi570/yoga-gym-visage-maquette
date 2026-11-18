@@ -1,0 +1,192 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/accueil-ouverture-1280.webp",
+      "poids": 63322,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 573,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "wellbee-salon-1280.webp",
+      "poids": 72732,
+      "sujet": {
+        "x": 751,
+        "y": 185,
+        "l": 274,
+        "h": 232
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "methode",
+      "langue": "fr",
+      "fichier": "assets/partage/methode-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/methode-ouverture-1280.webp",
+      "poids": 53252,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 595
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 234,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "protocole-45",
+      "langue": "fr",
+      "fichier": "assets/partage/protocole-45-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/protocole-ouverture-1280.webp",
+      "poids": 71398,
+      "sujet": {
+        "x": 600,
+        "y": 35,
+        "l": 600,
+        "h": 490
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "seances-tarifs",
+      "langue": "fr",
+      "fichier": "assets/partage/seances-tarifs-fr.jpg",
+      "gabarit": "droite",
+      "image": "wellbee-attente-1280.webp",
+      "poids": 61664,
+      "sujet": {
+        "x": 658,
+        "y": 206,
+        "l": 485,
+        "h": 292
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 50,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+ "id": "20261118-113117-standard-cible-partiel",
+ "date": "2026-11-18T11:35:37.052Z",
+ "niveau": "standard",
+ "pages": "/,/protocole-45,/seances-tarifs",
+ "etapes": [
+  "mesures",
+  "parcours"
+ ],
+ "version": "1",
+ "echecs": 2,
+ "aRegarder": 24,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

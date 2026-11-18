@@ -1,0 +1,645 @@
+{
+  "echecs": [],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : effet signature qui ne se manipule pas (point 1)",
+      "detail": "aucun élément data-grille=\"manipuler\" sur l’accueil : objet à attraper, faire tourner ou glisser (module objet-a-faire-tourner, lumiere-au-pointeur…)",
+      "etape": "grille",
+      "page": "/",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : rien ne relie les sections (point 4)",
+      "detail": "sur aucune page : élément du métier qui relie les sections et les pages (fil dans la marge, objet unique qui change, lumière qui passe, carte, folio, frise), marqué data-grille=\"fil\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : aucun titre ne fait l’événement (point 5)",
+      "detail": "sur aucune page : titre fabriqué par le métier, axe de police animé ou titre joué avec l’image (modules axes-au-defilement, titre-cousu, texte-grave-en-direct), marqué data-grille=\"typo\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : action principale sans retour physique (point 7)",
+      "detail": "ajout au panier, réservation, envoi ou filtre : quelque chose de l’objet part, se pose ou se transforme (module envol-vers-le-panier, tampon « reçu »), marqué data-grille=\"retour\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : objet d’ouverture hors du premier écran",
+      "detail": "88 × 49 px visibles : l’intro et le voile s’ouvrent depuis le centre de l’écran à cette taille",
+      "etape": "grille",
+      "page": "/",
+      "taille": "390×844",
+      "lieux": [
+        "390×844"
+      ]
+    }
+  ],
+  "nonLances": [
+    {
+      "controle": "grille",
+      "raison": "page.evaluate: Target page, context or browser has been closed",
+      "etape": "grille"
+    },
+    {
+      "controle": "mesures / 320×568 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures / 390×844 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures / 844×390 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures / 768×1024 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures / 1366×768 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures / 1920×1080 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures / 390×844 sansWebgl",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures / 390×844 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures / 1366×768 sansWebgl",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures / 1366×768 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures / 320×568 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /404 320×568 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /404 390×844 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /404 844×390 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /404 768×1024 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /404 1366×768 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /404 1920×1080 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /404 390×844 sansWebgl",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /404 390×844 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /404 1366×768 sansWebgl",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /404 1366×768 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /404 320×568 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /contact 320×568 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /contact 390×844 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /contact 844×390 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /contact 768×1024 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /contact 1366×768 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /contact 1920×1080 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /contact 390×844 sansWebgl",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /contact 390×844 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /contact 1366×768 sansWebgl",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /contact 1366×768 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /contact 320×568 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /methode 320×568 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /methode 390×844 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /methode 844×390 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /methode 768×1024 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /methode 1366×768 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /methode 1920×1080 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /methode 390×844 sansWebgl",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /methode 390×844 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /methode 1366×768 sansWebgl",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /methode 1366×768 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /methode 320×568 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /protocole-45 320×568 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /protocole-45 390×844 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /protocole-45 844×390 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /protocole-45 768×1024 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /protocole-45 1366×768 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /protocole-45 1920×1080 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /protocole-45 390×844 sansWebgl",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /protocole-45 390×844 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /protocole-45 1366×768 sansWebgl",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /protocole-45 1366×768 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /protocole-45 320×568 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /seances-tarifs 320×568 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /seances-tarifs 390×844 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /seances-tarifs 844×390 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /seances-tarifs 768×1024 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /seances-tarifs 1366×768 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /seances-tarifs 1920×1080 normal",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /seances-tarifs 390×844 sansWebgl",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /seances-tarifs 390×844 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /seances-tarifs 1366×768 sansWebgl",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /seances-tarifs 1366×768 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures /seances-tarifs 320×568 sansJs",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "mesures:balayage",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mesures"
+    },
+    {
+      "controle": "film de l'ouverture / 1366×768",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de l'ouverture /contact 1366×768",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de l'ouverture /methode 1366×768",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de l'ouverture /protocole-45 1366×768",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de l'ouverture /seances-tarifs 1366×768",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de la transition depuis / 1366×768",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de la transition depuis /contact 1366×768",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de la transition depuis /methode 1366×768",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de la transition depuis /protocole-45 1366×768",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de la transition depuis /seances-tarifs 1366×768",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de l'ouverture / 390×844",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de l'ouverture /contact 390×844",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de l'ouverture /methode 390×844",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de l'ouverture /protocole-45 390×844",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de l'ouverture /seances-tarifs 390×844",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de la transition depuis / 390×844",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de la transition depuis /contact 390×844",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de la transition depuis /methode 390×844",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de la transition depuis /protocole-45 390×844",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "film de la transition depuis /seances-tarifs 390×844",
+      "raison": "browser.newContext: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "films"
+    },
+    {
+      "controle": "bords de l’écran / 1366×768",
+      "raison": "cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page (3 tentatives)",
+      "etape": "bords"
+    },
+    {
+      "controle": "bords de l’écran /contact 1366×768",
+      "raison": "page.evaluate: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "bords"
+    },
+    {
+      "controle": "bords de l’écran /methode 1366×768",
+      "raison": "page.evaluate: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "bords"
+    },
+    {
+      "controle": "bords de l’écran /protocole-45 1366×768",
+      "raison": "page.evaluate: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "bords"
+    },
+    {
+      "controle": "bords de l’écran /seances-tarifs 1366×768",
+      "raison": "page.evaluate: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "bords"
+    },
+    {
+      "controle": "bords de l’écran / 1920×1080",
+      "raison": "page.evaluate: Target page, context or browser has been closed (3 tentatives)",
+      "etape": "bords"
+    },
+    {
+      "controle": "parcours:intro",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "parcours"
+    },
+    {
+      "controle": "parcours:menu",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "parcours"
+    },
+    {
+      "controle": "parcours:liens",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "parcours"
+    },
+    {
+      "controle": "parcours:hauteur",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "parcours"
+    },
+    {
+      "controle": "ecran",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "ecran"
+    },
+    {
+      "controle": "fluidite",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "fluidite"
+    },
+    {
+      "controle": "mouvement",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mouvement"
+    },
+    {
+      "controle": "vitesse",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "vitesse"
+    },
+    {
+      "controle": "captures",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "captures"
+    },
+    {
+      "controle": "Safari (WebKit)",
+      "raison": "WebKit ne peut pas s’installer ici : vérification à faire dans Safari sur le Mac (liste dans le rapport)",
+      "etape": "safari"
+    }
+  ],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "grille wouahou": 3
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 5 étape(s) notée(s), 39 min de travail pour 115 min de budget, 23 min d’attente de l’utilisateur.",
+    "Audit standard : étapes lourdes sur /, /contact, /methode, /protocole-45, /seances-tarifs.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Bords de l’écran : 0 images d’intro, 0 de voile et 0 de menu jugées (panneau immobile couvrant tout l’écran), barre de défilement classique de 15 px.",
+    "Aucun parcours propre au projet (_audit/parcours.mjs) : filtres, calculateurs, panier, réservation, fenêtres testés seulement par les contrôles généraux."
+  ],
+  "grille": [
+    {
+      "cle": "manipuler",
+      "nom": "1. L’effet signature se manipule",
+      "statut": "absent",
+      "detail": "aucun data-grille=\"manipuler\" sur l’accueil"
+    },
+    {
+      "cle": "intro",
+      "nom": "2. L’intro devient la page",
+      "statut": "présent",
+      "detail": "objet d’ouverture sur 5 page(s), versObjet dans l’intro"
+    },
+    {
+      "cle": "voile",
+      "nom": "3. La transition reprend le motif",
+      "statut": "présent",
+      "detail": "voile en iris"
+    },
+    {
+      "cle": "fil",
+      "nom": "4. Quelque chose relie les sections et les pages",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "typo",
+      "nom": "5. Un titre fait l’événement sur chaque page",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "scene",
+      "nom": "6. La scène est un geste du métier",
+      "statut": "sans objet",
+      "detail": "aucune scène épinglée marquée ni galerie générique"
+    },
+    {
+      "cle": "retour",
+      "nom": "7. L’action principale a un retour physique",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    }
+  ]
+}

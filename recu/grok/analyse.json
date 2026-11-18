@@ -1,0 +1,834 @@
+{
+  "dossier": "/home/claude/yoga-gym-visage-maquette/recu/grok",
+  "date": "2026-11-18T10:38:00.585Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "accueil-ouverture.png",
+      "nom": "accueil-ouverture",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 1950,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 3320634,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 95.5,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        31,
+        66
+      ],
+      "cadrage_css": "31% 66%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 36.5,
+        "bruit": 0.68,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "4040c0e87831f0f3",
+      "drapeaux": []
+    },
+    {
+      "fichier": "appel-fond.png",
+      "nom": "appel-fond",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 900,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2261842,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 31.3,
+        "h": 94.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        15,
+        52
+      ],
+      "cadrage_css": "15% 52%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "bas",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "gauche",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        }
+      ],
+      "qualite": {
+        "nettete": 16.4,
+        "bruit": 3.66,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "80c0a090d0c0c0d0",
+      "drapeaux": [
+        "calme droite/haut/bas"
+      ]
+    },
+    {
+      "fichier": "carte-ateliers.png",
+      "nom": "carte-ateliers",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 1950,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 3443241,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        40
+      ],
+      "cadrage_css": "41% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "haut",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 32,
+        "bruit": 1.01,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "4e4e0e0626343860",
+      "drapeaux": []
+    },
+    {
+      "fichier": "carte-en-ligne.png",
+      "nom": "carte-en-ligne",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 1950,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 3423742,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        43
+      ],
+      "cadrage_css": "53% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        }
+      ],
+      "qualite": {
+        "nettete": 45.2,
+        "bruit": 0.87,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "eccc9c3cf8b664c6",
+      "drapeaux": []
+    },
+    {
+      "fichier": "carte-massage.png",
+      "nom": "carte-massage",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 1950,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 3346171,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        45
+      ],
+      "cadrage_css": "48% 45%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 26.9,
+        "bruit": 0.99,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f3f3a2b0bad6afc0",
+      "drapeaux": []
+    },
+    {
+      "fichier": "carte-sophro.png",
+      "nom": "carte-sophro",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 1950,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 4124261,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        42
+      ],
+      "cadrage_css": "53% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 48.2,
+        "bruit": 1.53,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "3e7efe73f3d9dfdf",
+      "drapeaux": []
+    },
+    {
+      "fichier": "methode-ouverture-mobile.png",
+      "nom": "methode-ouverture-mobile",
+      "drapeau": null,
+      "largeur": 1080,
+      "hauteur": 1920,
+      "ratio": "9:16",
+      "ratio_valeur": 0.563,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 2322889,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 28.1,
+        "l": 88.9,
+        "h": 62.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        29,
+        65
+      ],
+      "cadrage_css": "29% 65%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "gauche",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.65
+        }
+      ],
+      "qualite": {
+        "nettete": 25.5,
+        "bruit": 0.76,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "8000a090d86903f3",
+      "drapeaux": [
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "methode-ouverture.png",
+      "nom": "methode-ouverture",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 900,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1065429,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 94.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        60
+      ],
+      "cadrage_css": "58% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 10.2,
+        "bruit": 0.29,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e9eae4f8e8ca8b8f",
+      "drapeaux": []
+    },
+    {
+      "fichier": "page-404.png",
+      "nom": "page-404",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 900,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1710962,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 94.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        52
+      ],
+      "cadrage_css": "47% 52%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 21.5,
+        "bruit": 0.45,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d9c8ccc6c3c4c0e2",
+      "drapeaux": []
+    },
+    {
+      "fichier": "protocole-naturo.png",
+      "nom": "protocole-naturo",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 1950,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 1517118,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 34.4,
+        "l": 95.5,
+        "h": 56.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        60
+      ],
+      "cadrage_css": "50% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.9,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "bas",
+          "score": 0.38,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        }
+      ],
+      "qualite": {
+        "nettete": 13.7,
+        "bruit": 0.32,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f36747cd9926efcf",
+      "drapeaux": [
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "protocole-nutrition.png",
+      "nom": "protocole-nutrition",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 1950,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 1633663,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 95.5,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        52
+      ],
+      "cadrage_css": "52% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 15,
+        "bruit": 0.35,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "7f7f7fd99c7dbf7f",
+      "drapeaux": []
+    },
+    {
+      "fichier": "protocole-ouverture-mobile.png",
+      "nom": "protocole-ouverture-mobile",
+      "drapeau": null,
+      "largeur": 1080,
+      "hauteur": 1920,
+      "ratio": "9:16",
+      "ratio_valeur": 0.563,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 1843565,
+      "transparence": false,
+      "sujet": {
+        "x": 5.6,
+        "y": 56.3,
+        "l": 88.9,
+        "h": 31.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        31,
+        71
+      ],
+      "cadrage_css": "31% 71%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "gauche",
+          "score": 0.45,
+          "ton": "moyen",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.57
+        }
+      ],
+      "qualite": {
+        "nettete": 25.9,
+        "bruit": 0.42,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "f1edf38f2876643d",
+      "drapeaux": [
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "protocole-ouverture.png",
+      "nom": "protocole-ouverture",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 900,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1825494,
+      "transparence": false,
+      "sujet": {
+        "x": 40.6,
+        "y": 5.6,
+        "l": 56.3,
+        "h": 77.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        53
+      ],
+      "cadrage_css": "63% 53%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "bas",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.72
+        }
+      ],
+      "qualite": {
+        "nettete": 27.3,
+        "bruit": 0.99,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f3f3e2e6c487e71e",
+      "drapeaux": [
+        "calme gauche"
+      ]
+    }
+  ]
+}

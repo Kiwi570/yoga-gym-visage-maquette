@@ -1,0 +1,22 @@
+{
+ "siteActuel": "yoga-gym-visage-jeunesse.com",
+ "pagesTypes": [
+  "/",
+  "/methode",
+  "/protocole-45",
+  "/seances-tarifs",
+  "/contact"
+ ],
+ "effets": [
+  "arche-lift",
+  "gestes",
+  "manifeste",
+  "carte-visage",
+  "quatre-volets",
+  "trois-mois",
+  "addition"
+ ],
+ "grille": {
+  "dispenses": {}
+ }
+}

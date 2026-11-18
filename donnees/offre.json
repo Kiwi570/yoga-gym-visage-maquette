@@ -1,0 +1,221 @@
+{
+ "seances": [
+  {
+   "id": "cabine",
+   "nom": "Séance en cabine",
+   "duree": "1 h 30",
+   "format": "À Plaisance-du-Touch",
+   "prix": 90,
+   "image": "cabine",
+   "texte": "Bilan, diagnostic et feuille de route à la première séance, puis les techniques zone par zone."
+  },
+  {
+   "id": "en-ligne",
+   "nom": "Séance individuelle en ligne",
+   "duree": "1 h 30",
+   "format": "En visio",
+   "prix": 70,
+   "image": "grok/carte-en-ligne",
+   "texte": "La même méthode, guidée pas à pas depuis chez vous."
+  },
+  {
+   "id": "massage",
+   "nom": "Massage liftant oxygénant",
+   "duree": "",
+   "format": "En cabine",
+   "prix": 55,
+   "image": "grok/carte-massage",
+   "texte": "Huile de massage, drainage lymphatique, soin lissant et modelant, puis deux sérums repulpants."
+  },
+  {
+   "id": "ateliers",
+   "nom": "Atelier collectif en ligne",
+   "duree": "1 h 30",
+   "format": "En visio, en petit groupe",
+   "prix": 45,
+   "image": "grok/carte-ateliers",
+   "texte": "Une zone du visage par atelier. Dates annoncées prochainement."
+  },
+  {
+   "id": "sophro-eclat",
+   "nom": "Sophro Éclat & Sérénité",
+   "duree": "",
+   "format": "Au cabinet ou en ligne",
+   "prix": 40,
+   "image": "grok/carte-sophro",
+   "texte": "Une séance de sophrologie avec Marianne, sophrologue."
+  },
+  {
+   "id": "sophrologie",
+   "nom": "Sophrologie",
+   "duree": "",
+   "format": "Au cabinet ou en ligne",
+   "prix": 50,
+   "image": "grok/carte-sophro",
+   "texte": "Une séance individuelle, en face à face ou en visio."
+  }
+ ],
+ "packs": [
+  {
+   "id": "pack-3",
+   "nom": "3 séances en ligne",
+   "prix": 189,
+   "unite": 210,
+   "detail": "3 × 70 €"
+  },
+  {
+   "id": "pack-4",
+   "nom": "4 séances en ligne",
+   "prix": 238,
+   "unite": 280,
+   "detail": "4 × 70 €"
+  },
+  {
+   "id": "pack-mixte",
+   "nom": "1 séance en cabine et 3 en ligne",
+   "prix": 268,
+   "unite": 300,
+   "detail": "90 € + 3 × 70 €"
+  },
+  {
+   "id": "protocole-45",
+   "nom": "Protocole 45+",
+   "prix": 455,
+   "unite": 0,
+   "detail": "Visage, nutrition, naturopathie, sophrologie"
+  }
+ ],
+ "cartes": [
+  {
+   "id": "carte-massage",
+   "nom": "Massage liftant",
+   "prix": 50,
+   "avant": 55
+  },
+  {
+   "id": "carte-en-ligne",
+   "nom": "Séance en ligne",
+   "prix": 65,
+   "avant": 70
+  },
+  {
+   "id": "carte-cabine",
+   "nom": "Soin en cabine",
+   "prix": 85,
+   "avant": 90
+  }
+ ],
+ "zones": [
+  {
+   "id": "regard",
+   "nom": "Regard & front",
+   "texte": "Des exercices pour lisser le front et la ride du lion, ouvrir le regard et travailler les cernes."
+  },
+  {
+   "id": "bas",
+   "nom": "Bas du visage",
+   "texte": "Des techniques pour redessiner l'ovale, travailler les bajoues et les sillons nasogéniens, repulper les lèvres."
+  },
+  {
+   "id": "cou",
+   "nom": "Cou & décolleté",
+   "texte": "Des exercices pour raffermir et lisser la peau du cou et du décolleté."
+  }
+ ],
+ "avis": [
+  {
+   "texte": "Je recommande vivement les séances de yoga visage de Marianne, qui sont pour moi une véritable cure de rajeunissement.",
+   "nom": "Une cliente",
+   "source": "Avis publié sur le site de Marianne"
+  },
+  {
+   "texte": "C'est complètement fou le résultat. Ma peau est beaucoup plus lumineuse, moins bouffie. L'ovale de mon visage se redessine.",
+   "nom": "Une cliente",
+   "source": "Avis publié sur le site de Marianne"
+  },
+  {
+   "texte": "Je n'aurais jamais imaginé combien m'occuper de moi serait agréable et efficace.",
+   "nom": "Anna W.",
+   "source": "Avis publié sur le site de Marianne"
+  },
+  {
+   "texte": "Encore merci pour cette découverte du yoga du visage. Vous êtes très chaleureuse et très professionnelle.",
+   "nom": "Un client",
+   "source": "Avis publié sur le site de Marianne"
+  }
+ ],
+ "volets": [
+  {
+   "id": "visage",
+   "nom": "Visage",
+   "qui": "Avec Marianne",
+   "detail": "4 séances de 1 h 30 : 1 en cabine et 3 en ligne (ou les 4 en ligne), avec fiches d'exercices et lien vidéo privé.",
+   "calcul": "4 × 70 €",
+   "prix": 280,
+   "image": "cabine"
+  },
+  {
+   "id": "nutrition",
+   "nom": "Nutrition",
+   "qui": "Avec Maïté Noez, diététicienne",
+   "detail": "1 bilan nutritionnel et un programme adapté, au cabinet ou en ligne.",
+   "calcul": "60 €",
+   "prix": 60,
+   "image": "grok/protocole-nutrition"
+  },
+  {
+   "id": "naturo",
+   "nom": "Naturopathie",
+   "qui": "Avec Isabelle Vieira, naturopathe",
+   "detail": "1 consultation en ligne, avec un volet péri-ménopause et ménopause.",
+   "calcul": "75 €",
+   "prix": 75,
+   "image": "grok/protocole-naturo"
+  },
+  {
+   "id": "sophro",
+   "nom": "Sophrologie",
+   "qui": "Avec Marianne, sophrologue",
+   "detail": "1 séance au cabinet ou en ligne. Les séances suivantes au même tarif.",
+   "calcul": "40 €",
+   "prix": 40,
+   "image": "grok/carte-sophro"
+  }
+ ],
+ "precautions": [
+  {
+   "q": "Est-ce de la médecine esthétique ?",
+   "r": "Non. La méthode repose sur des gestes doux : pressions, massages, étirements. Marianne n'est pas médecin, et la méthode ne relève ni de la médecine générale ni de la médecine esthétique."
+  },
+  {
+   "q": "Faut-il un avis médical ?",
+   "r": "Oui, avant de commencer, en cas de maladie, d'allergie ou d'opération récente. En cas de rhume, de grippe ou de Covid, la séance est reportée jusqu'à complet rétablissement."
+  },
+  {
+   "q": "J'ai eu des injections ou un peeling",
+   "r": "Attendez 7 à 8 mois après du botox, 12 à 16 mois après un produit de comblement, et au moins 10 jours après un peeling léger à l'acide glycolique."
+  },
+  {
+   "q": "Le drainage lymphatique est-il pour tout le monde ?",
+   "r": "Non. Il est déconseillé en cas de fatigue, de cancer (ou de cancer stabilisé depuis moins de 5 ans) et de maladie auto-immune."
+  },
+  {
+   "q": "Les résultats sont-ils garantis ?",
+   "r": "Non. Ils dépendent de chacun et de la régularité de la pratique, surtout de l'auto-pratique quotidienne. Il faut au minimum 3 mois pour qu'ils durent."
+  }
+ ],
+ "conditions": [
+  {
+   "titre": "Payer pour valider",
+   "texte": "Les séances se paient à l'avance, en ligne et de façon sécurisée, en 3 ou 4 fois sans frais si vous le souhaitez. Une séance non payée la veille à 18 h est considérée comme annulée."
+  },
+  {
+   "titre": "Reporter ou annuler",
+   "texte": "Possible jusqu'à 24 h avant le rendez-vous. Une séance en cabine non décommandée à temps n'est pas remboursée, ni une séance commencée."
+  },
+  {
+   "titre": "Prix",
+   "texte": "En euros, TVA non applicable (article 293 B du CGI). Les réservations à date fixe n'ouvrent pas de droit de rétractation."
+  }
+ ]
+}

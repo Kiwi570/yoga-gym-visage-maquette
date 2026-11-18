@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "name": "Yoga Gym du Visage Toulouse",
+  "url": "https://yoga-gym-visage-maquette.vercel.app/",
+  "telephone": "+33766197464",
+  "email": "yoga.visage.toulouse@free.fr",
+  "description": "Yoga et gym du visage : séances en cabine à Plaisance-du-Touch ou en ligne, ateliers collectifs et Protocole 45+.",
+  "address": { "@type": "PostalAddress", "streetAddress": "3 ter rue du Docteur Charcot", "postalCode": "31830", "addressLocality": "Plaisance-du-Touch", "addressCountry": "FR" },
+  "sameAs": ["https://instagram.com/yoga.gymvisagetoulouse/", "https://facebook.com/profile.php?id=61575806460836"]
+}

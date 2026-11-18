@@ -1,0 +1,410 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/protocole-45",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div.conteneur.protocole-tete > div.protocole-tete-texte:nth-of-type(1) > div.tete-actions > p.tete-info « 455 € l'ensemble, en 3 ou 4 fois sans frais »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.protocole-tete-texte:nth-of-type(1) > h1 > span.ligne-masque.protocole-geant:nth-of-type(2) > span « 45+ »",
+      "etape": "mesures",
+      "page": "/protocole-45",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.protocole-tete-texte:nth-of-type(1) > h1 > span.ligne-masque:nth-of-type(1) > span « Le Protocole »",
+      "lieux": [
+        "768×1024 normal",
+        "844×390 normal"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.hero-visuel:nth-of-type(2) > figure.media.hero-arche > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.formules-liste.fx-fini > li.formule:nth-of-type(2) > figure.media.formule-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.formules-liste.fx-fini > li.formule:nth-of-type(3) > figure.media.formule-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.formules-liste.fx-fini > li.formule:nth-of-type(4) > figure.media.formule-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "figure.volets > svg > g.volet.volet--3:nth-of-type(3) > text",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#diagnostic-offert > figure.media.appel-fond > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "ul.formules-liste > li.formule:nth-of-type(2) > figure.media.formule-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "ul.formules-liste > li.formule:nth-of-type(3) > figure.media.formule-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "ul.formules-liste > li.formule:nth-of-type(4) > figure.media.formule-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/protocole-45",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "figure.volets.volets--clair > svg > g.volet.volet--3:nth-of-type(3) > text",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/protocole-45",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#pour-qui > figure.media.pourqui-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/protocole-45",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ol.volets-liste.fx-fini > li.volet-carte.volet-carte--2:nth-of-type(2) > figure.media.volet-carte-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/protocole-45",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ol.volets-liste.fx-fini > li.volet-carte.volet-carte--3:nth-of-type(3) > figure.media.volet-carte-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/protocole-45",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ol.volets-liste.fx-fini > li.volet-carte.volet-carte--4:nth-of-type(4) > figure.media.volet-carte-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/protocole-45",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#diagnostic-offert > figure.media.appel-fond > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/protocole-45",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "ol.volets-liste > li.volet-carte.volet-carte--2:nth-of-type(2) > figure.media.volet-carte-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/protocole-45",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "ol.volets-liste > li.volet-carte.volet-carte--3:nth-of-type(3) > figure.media.volet-carte-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/protocole-45",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "ol.volets-liste > li.volet-carte.volet-carte--4:nth-of-type(4) > figure.media.volet-carte-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/seances-tarifs",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#packs « Packs Le chemin vers la jeunesse naturelle Un parc »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/seances-tarifs",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.seances-images > div.seances-image.actif:nth-of-type(4) > figure.media.seances-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.9 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/seances-tarifs",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.ccq__carte > div.ccq__carte-haut:nth-of-type(1) > span.ccq__noms:nth-of-type(2) > span.ccq__type:nth-of-type(1) « SÉANCE EN LIGNE »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/seances-tarifs",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#diagnostic-offert > figure.media.appel-fond > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansWebgl",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/seances-tarifs",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "div.seances-images > div.seances-image.actif:nth-of-type(5) > figure.media.seances-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1920×1080 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.9 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/seances-tarifs",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "div.ccq__carte > div.ccq__carte-haut:nth-of-type(1) > span.ccq__noms:nth-of-type(2) > span.ccq__type:nth-of-type(1) « CARTE CADEAU »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    }
+  ],
+  "nonLances": [],
+  "oks": {
+    "mesures": 33,
+    "balayage": 3,
+    "intro accélérable et passable": 7,
+    "menu": 1,
+    "clavier": 3,
+    "liens et boutons": 3,
+    "liens profonds": 16,
+    "liens vers la page en cours": 3,
+    "changements de hauteur": 3
+  },
+  "infos": [
+    "Audit standard : étapes lourdes sur /, /protocole-45, /seances-tarifs.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Aucun parcours propre au projet (_audit/parcours.mjs) : filtres, calculateurs, panier, réservation, fenêtres testés seulement par les contrôles généraux."
+  ],
+  "grille": []
+}

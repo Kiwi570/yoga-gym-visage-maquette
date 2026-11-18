@@ -1,0 +1,388 @@
+{
+ "commun": {
+  "navigation": "Navigation principale",
+  "menu": "Menu",
+  "fermer": "Fermer",
+  "langueAutre": "Autre langue",
+  "actionEntete": "Diagnostic offert",
+  "appeler": "Appeler",
+  "whatsapp": "WhatsApp",
+  "sommaire": "Le site",
+  "contact": "Contact",
+  "retourHaut": "Retour en haut",
+  "maquette": "Maquette de présentation : les paiements, réservations et formulaires y sont simulés.",
+  "mentions": "Mentions légales",
+  "confidentialite": "Politique de confidentialité",
+  "aCompleter": "à compléter",
+  "evitement": "Aller au contenu",
+  "mentionIa": "Illustration générée",
+  "pause": "Pause",
+  "lecture": "Lecture",
+  "introLigne": "Rajeunir naturellement",
+  "nomLigne2": "Toulouse",
+  "lieux": "Plaisance-du-Touch (31830), sur rendez-vous",
+  "reseaux": "Instagram et Facebook",
+  "instagram": "Instagram",
+  "facebook": "Facebook",
+  "nouvelOnglet": "(nouvel onglet)",
+  "fermerImage": "Fermer l'image",
+  "agrandir": "Agrandir le certificat"
+ },
+ "pages": {
+  "accueil": {
+   "titre": "Yoga Gym du Visage Toulouse : rajeunir naturellement",
+   "description": "Yoga et gym du visage en cabine à Plaisance-du-Touch ou en ligne : des gestes doux, sans injection, appris avec Marianne. Diagnostic de 25 minutes offert.",
+   "nav": "Accueil",
+   "partageAlt": "Pierre de gua sha en quartz rose sur du lin, logo Yoga Gym du Visage",
+   "accroche": "Rajeunir naturellement"
+  },
+  "methode": {
+   "titre": "La méthode : yoga et gym du visage, en cabine ou en ligne",
+   "description": "Automassages, étirements et gua sha : la méthode Roxane Rajeunissement, en séance de 1 h 30 à Plaisance-du-Touch ou en visio, et en ateliers collectifs.",
+   "nav": "La méthode",
+   "partageAlt": "Plateau avec pierre de gua sha et rouleau de jade",
+   "accroche": "Des gestes doux, appris pour durer"
+  },
+  "protocole-45": {
+   "titre": "Protocole 45+ : visage, nutrition, naturopathie, sophrologie",
+   "description": "Après 45 ans, un accompagnement complet : 4 séances de yoga du visage, un bilan nutritionnel, une consultation de naturopathie et une séance de sophrologie, 455 €.",
+   "nav": "Protocole 45+",
+   "partageAlt": "Table du matin avec eau, fruits et plantes, Protocole 45+",
+   "accroche": "Le Protocole 45+"
+  },
+  "seances-tarifs": {
+   "titre": "Séances et tarifs : yoga du visage à Plaisance-du-Touch et en ligne",
+   "description": "Séance en cabine 90 €, en ligne 70 €, ateliers 45 €, packs et cartes cadeaux. Paiement en 3 ou 4 fois sans frais.",
+   "nav": "Séances & tarifs",
+   "partageAlt": "Espace d'attente au mur terracotta, séances et tarifs",
+   "accroche": "Séances & tarifs"
+  },
+  "contact": {
+   "titre": "Contact et diagnostic offert : Yoga Gym du Visage",
+   "description": "Réservez votre diagnostic offert de 25 minutes, en visio ou par téléphone. Séances au Wellbee Space et au cabinet de Plaisance-du-Touch.",
+   "nav": "Contact",
+   "partageAlt": "Salon d'accueil du Wellbee Space",
+   "accroche": "Prenons rendez-vous"
+  },
+  "404": {
+   "titre": "Page introuvable : Yoga Gym du Visage",
+   "description": "Cette page n'existe pas ou plus.",
+   "nav": "Page introuvable",
+   "partageAlt": "Miroir rond qui ne reflète que la lumière",
+   "accroche": "Page introuvable"
+  }
+ },
+ "appel": {
+  "surtitre": "Pour commencer",
+  "titre1": "Commençons par",
+  "titre2": "un diagnostic",
+  "texte": "25 minutes offertes, en visio ou par téléphone, pour parler de vos souhaits et choisir la formule qui vous va.",
+  "action": "Réserver mon diagnostic",
+  "ou": "ou appelez le"
+ },
+ "accueil": {
+  "hero": {
+   "surtitre": "Yoga & gym du visage · Plaisance-du-Touch et en ligne",
+   "titre1": "Rajeunir",
+   "titre2": "naturellement",
+   "texte": "Des gestes doux pour tonifier, détendre et lisser les traits, appris avec moi en cabine ou en visio, puis refaits chez vous chaque jour. Sans injection, sans chimie.",
+   "action": "Réserver mon diagnostic offert",
+   "info": "25 minutes offertes, en visio ou par téléphone",
+   "etiquette1": "Séance de 1 h 30",
+   "etiquette2": "Dès 30 ans",
+   "medaillon": "Yoga Gym du Visage"
+  },
+  "manifeste": {
+   "surtitre": "Une méthode pure, sans chimie",
+   "texte": "Le visage a ses muscles. Comme le reste du corps, on peut les tonifier, les détendre et les étirer.",
+   "suite": "La méthode associe automassages, étirements musculaires et pierre de gua sha. Vous apprenez les gestes en séance, puis vous les refaites chez vous : c'est la régularité qui fait la différence.",
+   "lien": "Découvrir la méthode"
+  },
+  "visage": {
+   "surtitre": "Zone par zone",
+   "titre": "Trois zones, des gestes précis",
+   "texte": "Chaque zone a ses exercices. On les apprend ensemble, puis vous les refaites chez vous.",
+   "age1": "Dès 30 ans, pour prévenir.",
+   "age2": "Dès 45 ans, pour corriger.",
+   "aria": "Dessin d'un visage au trait : les trois zones s'allument tour à tour"
+  },
+  "formules": {
+   "surtitre": "Trois façons de pratiquer",
+   "titre": "En cabine, en ligne ou en groupe",
+   "texte": "Chaque séance dure 1 h 30. La première commence par un bilan de vos objectifs.",
+   "voir": "Voir les tarifs et les packs"
+  },
+  "resultats": {
+   "surtitre": "Avant, après",
+   "titre": "Ce que montrent les photos",
+   "duo1": "À l'issue d'une seule séance en cabine",
+   "duo2": "Au fil de trois mois d'auto-pratique quotidienne",
+   "avant": "Avant",
+   "apres": "Après",
+   "pendant": "En cours",
+   "note": "Photos publiées sur le site de Marianne. Les résultats ne sont pas garantis : ils dépendent de chacun et de la régularité de la pratique, trois mois au minimum."
+  },
+  "protocole": {
+   "surtitre": "Après 45 ans",
+   "titre1": "Le Protocole 45+,",
+   "titre2": "quatre approches réunies",
+   "texte": "Pour les femmes et les hommes de 45 ans et plus : signes de l'âge, prise de poids, baisse d'énergie, sommeil, ménopause, émotions. Le visage, la nutrition, la naturopathie et la sophrologie avancent ensemble.",
+   "prix": "455 € l'ensemble, payable en 3 ou 4 fois sans frais",
+   "lien": "Découvrir le Protocole 45+"
+  },
+  "praticienne": {
+   "surtitre": "Qui vous reçoit",
+   "titre1": "Je m'appelle",
+   "titre2": "Marianne",
+   "texte": "Je suis praticienne certifiée de la méthode Roxane Rajeunissement, et sophrologue. Je vous reçois en cabine à Plaisance-du-Touch ou en ligne, et je vous apprends les exercices pour que vous puissiez les refaire seule ou seul, chez vous.",
+   "diplome": "Certificat professionnel de la méthode Roxane Rajeunissement",
+   "lien": "Comment se passe une séance"
+  },
+  "avis": {
+   "surtitre": "Elles et ils en parlent",
+   "titre": "Ce qu'en disent mes clients",
+   "texte": "Avis repris mot pour mot du site actuel. Faites glisser la fiche du dessus pour lire la suivante."
+  },
+  "lieux": {
+   "surtitre": "Où me trouver",
+   "titre": "À Plaisance‑du‑Touch, ou chez vous",
+   "mercredi": "Mercredi",
+   "mercrediLieu": "Wellbee Space, 3 ter rue du Docteur Charcot",
+   "samedi": "Samedi",
+   "samediLieu": "Wellbee Space, ou le cabinet du 41 rue de Gascogne",
+   "enLigne": "En ligne",
+   "enLigneLieu": "En visio, où que vous soyez",
+   "lien": "Plan et accès"
+  },
+  "cadeau": {
+   "surtitre": "Offrir",
+   "titre": "Une séance en cadeau",
+   "texte": "Offrir une séance : cartes cadeaux pour un massage liftant, une séance en ligne ou un soin en cabine, dès 50 €.",
+   "au_lieu": "au lieu de",
+   "lien": "Composer une carte cadeau"
+  }
+ },
+ "methode": {
+  "tete": {
+   "surtitre": "La méthode",
+   "titre1": "Des gestes doux,",
+   "titre2": "appris pour durer",
+   "texte": "Automassages, étirements musculaires et pierre de gua sha : la méthode Roxane Rajeunissement et le Fascialift s'apprennent en séance, puis se pratiquent chez soi, chaque jour.",
+   "action": "Réserver mon diagnostic offert",
+   "info": "Séance de 1 h 30 : 90 € en cabine, 70 € en ligne",
+   "badge": "1 h 30"
+  },
+  "cabine": {
+   "surtitre": "En cabine",
+   "titre": "À Plaisance‑du‑Touch",
+   "texte": "La première séance fait le bilan de vos objectifs, pose le diagnostic et trace votre feuille de route. Vous découvrez les bases de la méthode, puis les techniques propres à chaque zone du visage, à reproduire chez vous.",
+   "liste1": "1 h 30 par séance",
+   "liste2": "Mercredi au Wellbee Space, samedi au Wellbee Space ou au cabinet",
+   "liste3": "Les séances en cabine ne sont pas filmées",
+   "prix": "90 €"
+  },
+  "enLigne": {
+   "surtitre": "En ligne",
+   "titre": "Depuis chez vous",
+   "texte": "Pour celles et ceux qui habitent loin, ou préfèrent rester chez eux : la séance se fait en visio, avec la même attention et les mêmes gestes, guidés pas à pas.",
+   "liste1": "1 h 30 par séance, en visio",
+   "liste2": "Packs de 3 ou 4 séances à prix doux",
+   "prix": "70 €"
+  },
+  "ateliers": {
+   "surtitre": "Ateliers collectifs",
+   "titre": "En petit groupe, une zone à la fois",
+   "texte": "Des ateliers en visio pour apprendre les techniques du yoga du visage, du Fascialift et du gua sha, zone par zone, à votre rythme et en toute sécurité. Les ateliers ne sont pas mixtes.",
+   "prix": "45 € l'atelier de 1 h 30",
+   "dates": "Dates annoncées prochainement : demandez à être prévenue.",
+   "prevenir": "Être prévenue des dates"
+  },
+  "parcours": {
+   "surtitre": "Le chemin",
+   "titre": "Trois mois pour que ça dure",
+   "texte": "Les résultats viennent avec la régularité : il faut au minimum trois mois de pratique quotidienne pour qu'ils durent.",
+   "etape1": "Diagnostic offert",
+   "etape1t": "25 minutes en visio ou par téléphone pour parler de vos souhaits.",
+   "etape2": "Première séance",
+   "etape2t": "Bilan, diagnostic, feuille de route et premiers gestes.",
+   "etape3": "Chaque jour, chez vous",
+   "etape3t": "Votre auto-pratique quotidienne, avec vos fiches d'exercices.",
+   "etape4": "Au bout de trois mois",
+   "etape4t": "Le temps minimum pour des résultats qui durent. Ils ne sont pas garantis et varient d'une personne à l'autre.",
+   "semaines": "12 semaines",
+   "semaine": "Semaine"
+  },
+  "precautions": {
+   "surtitre": "Avant de commencer",
+   "titre": "Précautions",
+   "texte": "Une méthode douce, mais pas pour toutes les situations. En cas de doute, demandez l'avis de votre médecin."
+  }
+ },
+ "protocole": {
+  "tete": {
+   "surtitre": "Pour les femmes et les hommes de 45 ans et plus",
+   "titre1": "Le Protocole",
+   "titre2": "45+",
+   "texte": "Un accompagnement complet face au temps qui passe : quatre approches, trois intervenantes, un même cap.",
+   "action": "Réserver mon diagnostic offert",
+   "info": "455 € l'ensemble, en 3 ou 4 fois sans frais",
+   "disque": "Quatre volets réunis : visage, nutrition, naturopathie, sophrologie"
+  },
+  "pourqui": {
+   "surtitre": "Pour qui",
+   "titre": "Quand le temps se voit, et se sent",
+   "texte": "Le protocole répond à plusieurs besoins à la fois, en cabine et en ligne.",
+   "b1": "Signes de l'âge",
+   "b2": "Prise de poids",
+   "b3": "Baisse d'énergie",
+   "b4": "Troubles du sommeil",
+   "b5": "Symptômes de la ménopause",
+   "b6": "Gestion des émotions"
+  },
+  "volets": {
+   "surtitre": "Les quatre volets",
+   "titre": "Ce que comprend le protocole"
+  },
+  "addition": {
+   "surtitre": "Le tarif",
+   "titre": "L'addition, en clair",
+   "texte": "Le prix du protocole est la somme de ses séances. Vous pouvez le régler en 3 ou 4 fois sans frais, par paiement sécurisé.",
+   "total": "Total",
+   "action": "Choisir le Protocole 45+"
+  }
+ },
+ "tarifs": {
+  "tete": {
+   "surtitre": "Séances & tarifs",
+   "titre1": "Choisir",
+   "titre2": "sa séance",
+   "texte": "Prix en euros, TVA non applicable. Paiement sécurisé en ligne, en 3 ou 4 fois sans frais, au plus tard la veille du rendez-vous.",
+   "action": "Réserver mon diagnostic offert",
+   "info": "Séance individuelle dès 70 €, ateliers 45 €",
+   "medaillon": "dès 70 €"
+  },
+  "seances": {
+   "surtitre": "À l'unité",
+   "titre": "Les séances",
+   "reserver": "Réserver",
+   "reserverAria": "Réserver : {nom}"
+  },
+  "packs": {
+   "surtitre": "Packs",
+   "titre": "Le chemin vers la jeunesse naturelle",
+   "texte": "Un parcours suivi, à prix doux : chaque pack revient moins cher que les mêmes séances à l'unité.",
+   "economie": "{montant} € de moins qu'à l'unité ({detail})",
+   "choisir": "Choisir ce pack",
+   "protocole": "Voir le détail"
+  },
+  "cadeau": {
+   "surtitre": "Cartes cadeaux",
+   "titre": "Offrir une séance",
+   "texte": "Choisissez le soin, écrivez un mot : la carte se compose sous vos yeux, puis se glisse dans son enveloppe.",
+   "pour": "Pour",
+   "de": "De la part de",
+   "mot": "Un petit mot",
+   "facultatif": "facultatif",
+   "caracteres": "caractères au plus",
+   "nombre": "Nombre de cartes",
+   "total": "Total",
+   "offrir": "Offrir cette carte",
+   "autre": "Composer une autre carte",
+   "type": "Carte cadeau",
+   "note": "Valable un an. Démonstration : l'achat est simulé, rien n'est payé.",
+   "soin": "Le soin",
+   "moins": "Une carte de moins",
+   "plus": "Une carte de plus"
+  },
+  "conditions": {
+   "surtitre": "Bon à savoir",
+   "titre": "Conditions"
+  }
+ },
+ "contact": {
+  "tete": {
+   "surtitre": "Contact",
+   "titre1": "Prenons",
+   "titre2": "rendez-vous",
+   "texte": "Le plus simple pour commencer : le diagnostic offert. Vous pouvez aussi m'appeler, m'écrire sur WhatsApp ou envoyer une demande.",
+   "action": "Réserver mon diagnostic offert",
+   "info": "25 minutes offertes, en visio ou par téléphone"
+  },
+  "diagnostic": {
+   "surtitre": "Diagnostic offert",
+   "titre": "25 minutes pour faire connaissance",
+   "texte": "Choisissez un créneau dans mon agenda en ligne : on parle de vos souhaits, de votre visage et de la formule qui vous convient.",
+   "agenda": "Choisir un créneau de diagnostic",
+   "seance": "Réserver une séance dans l'agenda",
+   "appeler": "Appeler le",
+   "whatsapp": "WhatsApp au",
+   "ecrire": "Écrire à"
+  },
+  "formulaire": {
+   "surtitre": "Une demande",
+   "titre": "Écrivez-moi",
+   "texte": "Trois étapes, une minute. Je vous réponds pour fixer la date.",
+   "etape1": "Votre demande",
+   "q1": "Qu'est-ce qui vous amène ?",
+   "o1": "Le diagnostic offert",
+   "o1t": "25 min, visio ou téléphone",
+   "o2": "Une séance en cabine",
+   "o2t": "1 h 30 · 90 €",
+   "o3": "Une séance en ligne",
+   "o3t": "1 h 30 · 70 €",
+   "o4": "Le Protocole 45+",
+   "o4t": "455 €",
+   "o5": "Un atelier collectif",
+   "o5t": "45 € · dates à venir",
+   "o6": "Une autre question",
+   "o6t": "Massage, sophrologie, carte cadeau…",
+   "etape2": "Vos préférences",
+   "q2": "Quand et comment ?",
+   "jour": "Jour souhaité",
+   "jMercredi": "Mercredi",
+   "jSamedi": "Samedi",
+   "jIndifferent": "Peu importe",
+   "format": "Format",
+   "fCabine": "En cabine",
+   "fLigne": "En ligne",
+   "fIndifferent": "Je ne sais pas encore",
+   "message": "Votre message",
+   "facultatif": "facultatif",
+   "etape3": "Vos coordonnées",
+   "q3": "Comment vous répondre ?",
+   "nom": "Prénom et nom",
+   "email": "E-mail",
+   "tel": "Téléphone",
+   "accord": "J'accepte que mes coordonnées servent uniquement à répondre à ma demande.",
+   "etape4": "Récapitulatif",
+   "q4": "Tout est juste ?",
+   "retour": "Retour",
+   "continuer": "Continuer",
+   "envoyer": "Envoyer la demande",
+   "merci": "Merci, c'est noté",
+   "merciTexte": "Démonstration : rien n'a été envoyé. Sur le site final, Marianne vous répondra pour fixer la date.",
+   "nouvelle": "Nouvelle demande",
+   "donnees": "Vos coordonnées servent uniquement à vous répondre. Politique de confidentialité : à compléter."
+  },
+  "lieux": {
+   "surtitre": "Plan et accès",
+   "titre": "Deux adresses à Plaisance‑du‑Touch",
+   "wellbee": "Wellbee Space",
+   "wellbeeAdresse": "3 ter rue du Docteur Charcot, 31830 Plaisance-du-Touch",
+   "wellbeeJours": "Mercredi et samedi, sur rendez-vous",
+   "cabinet": "Le cabinet",
+   "cabinetAdresse": "41 rue de Gascogne, 31830 Plaisance-du-Touch",
+   "cabinetJours": "Samedi, sur rendez-vous",
+   "itineraire": "Itinéraire",
+   "plan": "Plan schématique, pas à l'échelle",
+   "toulouse": "vers Toulouse",
+   "aria": "Plan schématique de Plaisance-du-Touch avec les deux adresses"
+  }
+ },
+ "introuvable": {
+  "titre": "Ce reflet-là n'existe pas",
+  "texte": "La page que vous cherchez a changé d'adresse ou n'a jamais existé. Revenons à l'essentiel.",
+  "retour": "Revenir à l'accueil",
+  "diagnostic": "Réserver mon diagnostic offert"
+ }
+}

@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Séances et tarifs : yoga du visage à Plaisance-du-Touch et en ligne</title>
+<meta name="description" content="Séance en cabine 90 €, en ligne 70 €, ateliers 45 €, packs et cartes cadeaux. Paiement en 3 ou 4 fois sans frais.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://yoga-gym-visage-maquette.vercel.app/seances-tarifs">
+<style>:root{--fond:#F6F0EA;--texte:#2E1C26;--voile-fond:#2E1C26;--ouverture-fond:#2E1C26;--menu-fond:#2E1C26}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F6F0EA">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Yoga Gym du Visage">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Séances et tarifs : yoga du visage à Plaisance-du-Touch et en ligne">
+<meta property="og:description" content="Séance en cabine 90 €, en ligne 70 €, ateliers 45 €, packs et cartes cadeaux. Paiement en 3 ou 4 fois sans frais.">
+<meta property="og:url" content="https://yoga-gym-visage-maquette.vercel.app/seances-tarifs">
+<meta property="og:image" content="https://yoga-gym-visage-maquette.vercel.app/assets/partage/seances-tarifs-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Espace d&#39;attente au mur terracotta, séances et tarifs">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Yoga Gym du Visage Toulouse","url":"https://yoga-gym-visage-maquette.vercel.app/","telephone":"+33766197464","email":"yoga.visage.toulouse@free.fr","description":"Yoga et gym du visage : séances en cabine à Plaisance-du-Touch ou en ligne, ateliers collectifs et Protocole 45+.","address":{"@type":"PostalAddress","streetAddress":"3 ter rue du Docteur Charcot","postalCode":"31830","addressLocality":"Plaisance-du-Touch","addressCountry":"FR"},"sameAs":["https://instagram.com/yoga.gymvisagetoulouse/","https://facebook.com/profile.php?id=61575806460836"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-dore.webp" alt="" width="72" height="72"><span data-voile-libelle>Séances &amp; tarifs</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-objet" data-ouverture-objet>
+    <svg class="ouverture-cercle" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="94" pathLength="1"/></svg>
+    <img class="ouverture-logo" src="/assets/images/logo-dore.webp" alt="" width="160" height="160">
+  </div>
+  <p class="ouverture-nom">Yoga Gym du Visage Toulouse</p>
+  <p class="ouverture-ligne">Rajeunir naturellement</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-or.webp" alt="" width="46" height="46"><span class="entete-nom"><span>Yoga Gym du Visage</span><span class="entete-nom-2">Toulouse</span></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/methode" data-libelle="La méthode">La méthode</a></li><li><a href="/protocole-45" data-libelle="Protocole 45+">Protocole 45+</a></li><li><a href="/seances-tarifs" data-libelle="Séances &amp; tarifs" aria-current="page">Séances &amp; tarifs</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#diagnostic" data-libelle="Contact">Diagnostic offert</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/methode" class="menu-lien" data-libelle="La méthode">La méthode</a></li><li style="--i:2"><a href="/protocole-45" class="menu-lien" data-libelle="Protocole 45+">Protocole 45+</a></li><li style="--i:3"><a href="/seances-tarifs" class="menu-lien" data-libelle="Séances &amp; tarifs" aria-current="page">Séances &amp; tarifs</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33766197464">Appeler 07 66 19 74 64</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="page-tete page-tete--tarifs" id="debut">
+  <div class="conteneur tarifs-tete">
+    <div>
+      <p class="surtitre" data-anime="gsap">Séances &amp; tarifs</p>
+      <h1 data-anime="gsap"><span class="ligne-masque"><span>Choisir</span></span><span class="ligne-masque"><span><em>sa séance</em></span></span></h1>
+      <p class="masque-ecran-bas" data-anime="gsap">Prix en euros, TVA non applicable. Paiement sécurisé en ligne, en 3 ou 4 fois sans frais, au plus tard la veille du rendez-vous.</p>
+      <div class="tete-actions" data-anime="gsap">
+        <a href="/contact#diagnostic" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Réserver mon diagnostic offert</a>
+        <p class="tete-info" data-info-cle>Séance individuelle dès 70 €, ateliers 45 €</p>
+      </div>
+    </div>
+    <div class="tarifs-visuel">
+      <figure class="media tarifs-media" data-effet="arche-lift" style="--cadrage:47% 50%;aspect-ratio:4 / 3">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/wellbee-attente-mobile-640.webp 640w, /assets/images/wellbee-attente-mobile-1080.webp 1080w" sizes="(max-width: 760px) 90vw, 46vw">
+    <img src="/assets/images/wellbee-attente-1280.webp" srcset="/assets/images/wellbee-attente-640.webp 640w, /assets/images/wellbee-attente-1280.webp 1280w, /assets/images/wellbee-attente-1920.webp 1920w" sizes="(max-width: 760px) 90vw, 46vw" alt="Banquette devant le mur terracotta de l&#39;espace d&#39;attente du Wellbee Space" width="1280" height="960" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+      <p class="medaillon-prix" data-iris-centre="disque"><span>dès 70 €</span></p>
+    </div>
+  </div>
+</section>
+<section class="seances" id="seances">
+  <div class="conteneur seances-grille">
+    <div class="seances-cote">
+      <p class="surtitre" data-anime>À l&#39;unité</p>
+      <h2 data-anime="lignes">Les séances</h2>
+      <div class="seances-images" aria-hidden="true" data-visuel>
+        <div class="seances-image actif" data-image-de="cabine"><figure class="media seances-media" style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/cabine-784.webp" srcset="/assets/images/cabine-480.webp 480w, /assets/images/cabine-640.webp 640w, /assets/images/cabine-784.webp 784w" sizes="(max-width: 760px) 1px, 34vw" alt="" width="784" height="1177" loading="lazy" decoding="async">
+  </picture>
+</figure></div><div class="seances-image" data-image-de="grok/carte-en-ligne"><figure class="media seances-media" data-grok style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/carte-en-ligne-784.webp" srcset="/assets/images/grok/carte-en-ligne-480.webp 480w, /assets/images/grok/carte-en-ligne-640.webp 640w, /assets/images/grok/carte-en-ligne-784.webp 784w" sizes="(max-width: 760px) 1px, 34vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure></div><div class="seances-image" data-image-de="grok/carte-massage"><figure class="media seances-media" data-grok style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/carte-massage-784.webp" srcset="/assets/images/grok/carte-massage-480.webp 480w, /assets/images/grok/carte-massage-640.webp 640w, /assets/images/grok/carte-massage-784.webp 784w" sizes="(max-width: 760px) 1px, 34vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure></div><div class="seances-image" data-image-de="grok/carte-ateliers"><figure class="media seances-media" data-grok style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/carte-ateliers-784.webp" srcset="/assets/images/grok/carte-ateliers-480.webp 480w, /assets/images/grok/carte-ateliers-640.webp 640w, /assets/images/grok/carte-ateliers-784.webp 784w" sizes="(max-width: 760px) 1px, 34vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure></div><div class="seances-image" data-image-de="grok/carte-sophro"><figure class="media seances-media" data-grok style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/carte-sophro-784.webp" srcset="/assets/images/grok/carte-sophro-480.webp 480w, /assets/images/grok/carte-sophro-640.webp 640w, /assets/images/grok/carte-sophro-784.webp 784w" sizes="(max-width: 760px) 1px, 34vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure></div>
+      </div>
+    </div>
+    <ol class="tarifs-liste">
+      <li class="tarif" id="seance-cabine" data-image="cabine">
+        <div class="tarif-corps">
+          <h3>Séance en cabine</h3>
+          <p class="tarif-meta">1 h 30 · À Plaisance-du-Touch</p>
+          <p class="tarif-texte">Bilan, diagnostic et feuille de route à la première séance, puis les techniques zone par zone.</p>
+        </div>
+        <p class="tarif-prix" data-prix>90 €</p>
+        <a href="/contact?demande=cabine#demande" class="bouton bouton--petit" data-libelle="Contact" aria-label="Réserver : Séance en cabine">Réserver</a>
+      </li><li class="tarif" id="seance-en-ligne" data-image="grok/carte-en-ligne">
+        <div class="tarif-corps">
+          <h3>Séance individuelle en ligne</h3>
+          <p class="tarif-meta">1 h 30 · En visio</p>
+          <p class="tarif-texte">La même méthode, guidée pas à pas depuis chez vous.</p>
+        </div>
+        <p class="tarif-prix" data-prix>70 €</p>
+        <a href="/contact?demande=en-ligne#demande" class="bouton bouton--petit" data-libelle="Contact" aria-label="Réserver : Séance individuelle en ligne">Réserver</a>
+      </li><li class="tarif" id="seance-massage" data-image="grok/carte-massage">
+        <div class="tarif-corps">
+          <h3>Massage liftant oxygénant</h3>
+          <p class="tarif-meta">En cabine</p>
+          <p class="tarif-texte">Huile de massage, drainage lymphatique, soin lissant et modelant, puis deux sérums repulpants.</p>
+        </div>
+        <p class="tarif-prix" data-prix>55 €</p>
+        <a href="/contact?demande=autre#demande" class="bouton bouton--petit" data-libelle="Contact" aria-label="Réserver : Massage liftant oxygénant">Réserver</a>
+      </li><li class="tarif" id="seance-ateliers" data-image="grok/carte-ateliers">
+        <div class="tarif-corps">
+          <h3>Atelier collectif en ligne</h3>
+          <p class="tarif-meta">1 h 30 · En visio, en petit groupe</p>
+          <p class="tarif-texte">Une zone du visage par atelier. Dates annoncées prochainement.</p>
+        </div>
+        <p class="tarif-prix" data-prix>45 €</p>
+        <a href="/contact?demande=atelier#demande" class="bouton bouton--petit" data-libelle="Contact" aria-label="Réserver : Atelier collectif en ligne">Réserver</a>
+      </li><li class="tarif" id="seance-sophro-eclat" data-image="grok/carte-sophro">
+        <div class="tarif-corps">
+          <h3>Sophro Éclat &amp; Sérénité</h3>
+          <p class="tarif-meta">Au cabinet ou en ligne</p>
+          <p class="tarif-texte">Une séance de sophrologie avec Marianne, sophrologue.</p>
+        </div>
+        <p class="tarif-prix" data-prix>40 €</p>
+        <a href="/contact?demande=autre#demande" class="bouton bouton--petit" data-libelle="Contact" aria-label="Réserver : Sophro Éclat &amp; Sérénité">Réserver</a>
+      </li><li class="tarif" id="seance-sophrologie" data-image="grok/carte-sophro">
+        <div class="tarif-corps">
+          <h3>Sophrologie</h3>
+          <p class="tarif-meta">Au cabinet ou en ligne</p>
+          <p class="tarif-texte">Une séance individuelle, en face à face ou en visio.</p>
+        </div>
+        <p class="tarif-prix" data-prix>50 €</p>
+        <a href="/contact?demande=autre#demande" class="bouton bouton--petit" data-libelle="Contact" aria-label="Réserver : Sophrologie">Réserver</a>
+      </li>
+    </ol>
+  </div>
+</section>
+<section class="packs" id="packs">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Packs</p>
+      <h2 data-anime="lignes">Le chemin vers la jeunesse naturelle</h2>
+      <p data-anime>Un parcours suivi, à prix doux : chaque pack revient moins cher que les mêmes séances à l&#39;unité.</p>
+    </div>
+    <ul class="packs-liste" data-anime="cascade">
+      <li class="pack" data-survol="incline" data-survol-force="4">
+        <p class="pack-seances" aria-hidden="true" data-visuel><span></span><span></span><span></span></p>
+        <h3>3 séances en ligne</h3>
+        <p class="pack-prix" data-prix>189 €</p>
+        <p class="pack-detail">21 € de moins qu&#39;à l&#39;unité (3 × 70 €)</p>
+        <a href="/contact?demande=en-ligne#demande" class="lien-fleche" data-libelle="Contact" aria-label="Choisir ce pack : 3 séances en ligne">Choisir ce pack</a>
+      </li><li class="pack" data-survol="incline" data-survol-force="4">
+        <p class="pack-seances" aria-hidden="true" data-visuel><span></span><span></span><span></span><span></span></p>
+        <h3>4 séances en ligne</h3>
+        <p class="pack-prix" data-prix>238 €</p>
+        <p class="pack-detail">42 € de moins qu&#39;à l&#39;unité (4 × 70 €)</p>
+        <a href="/contact?demande=en-ligne#demande" class="lien-fleche" data-libelle="Contact" aria-label="Choisir ce pack : 4 séances en ligne">Choisir ce pack</a>
+      </li><li class="pack" data-survol="incline" data-survol-force="4">
+        <p class="pack-seances" aria-hidden="true" data-visuel><span class="cabine"></span><span></span><span></span><span></span></p>
+        <h3>1 séance en cabine et 3 en ligne</h3>
+        <p class="pack-prix" data-prix>268 €</p>
+        <p class="pack-detail">32 € de moins qu&#39;à l&#39;unité (90 € + 3 × 70 €)</p>
+        <a href="/contact?demande=cabine#demande" class="lien-fleche" data-libelle="Contact" aria-label="Choisir ce pack : 1 séance en cabine et 3 en ligne">Choisir ce pack</a>
+      </li><li class="pack pack--protocole" data-survol="incline" data-survol-force="4">
+        <p class="pack-seances" aria-hidden="true" data-visuel><svg viewBox="0 0 26 26"><path d="M13 13V1a12 12 0 0 1 12 12Z" fill="#DAAA47"/><path d="M13 13h12a12 12 0 0 1-12 12Z" fill="#EAD6CC"/><path d="M13 13v12A12 12 0 0 1 1 13Z" fill="#C9737F"/><path d="M13 13H1A12 12 0 0 1 13 1Z" fill="#A63A57"/></svg></p>
+        <h3>Protocole 45+</h3>
+        <p class="pack-prix" data-prix>455 €</p>
+        <p class="pack-detail">Visage, nutrition, naturopathie, sophrologie</p>
+        <a href="/protocole-45" class="lien-fleche" data-libelle="Protocole 45+">Voir le détail</a>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="ccq cadeaux" id="cartes-cadeaux" data-module="carte-cadeau-qui-se-compose" data-cachet="YG" aria-labelledby="ccq-titre">
+  <div class="ccq__grille conteneur">
+    <div class="ccq__tete">
+      <p class="surtitre" data-anime>Cartes cadeaux</p>
+      <h2 id="ccq-titre" data-anime="lignes">Offrir une séance</h2>
+      <p data-anime>Choisissez le soin, écrivez un mot : la carte se compose sous vos yeux, puis se glisse dans son enveloppe.</p>
+    </div>
+    <div class="ccq__scene" aria-hidden="true" data-visuel data-fx="vitesse" data-fx-force="2">
+      <div class="ccq__plateau"><div class="ccq__paquet"><div class="ccq__carte">
+        <svg class="ccq__cadre" viewBox="0 0 160 100" preserveAspectRatio="none"><rect x="3.2" y="3.2" width="153.6" height="93.6" rx="5" ry="5" pathLength="1"/></svg>
+        <div class="ccq__carte-haut">
+          <span class="ccq__logo"><img src="/assets/images/logo-dore.webp" alt="" width="64" height="64"></span>
+          <span class="ccq__noms"><span class="ccq__type">Carte cadeau</span><span class="ccq__maison">Yoga Gym du Visage</span></span>
+          <span class="ccq__quantite" data-ccq-quantite hidden>× 1</span>
+        </div>
+        <div class="ccq__carte-bas">
+          <p class="ccq__montant"><span data-ccq-montant>65</span><span class="ccq__devise">€</span></p>
+          <div class="ccq__dedicace"><p class="ccq__pour" data-ccq-pour></p><p class="ccq__mot" data-ccq-mot></p><p class="ccq__de" data-ccq-de></p></div>
+        </div>
+        <span class="ccq__reflet"></span>
+      </div></div></div>
+      <p class="ccq__ticket" data-ccq-ticket>Une carte de 65 €</p>
+    </div>
+    <form class="ccq__form" action="#cartes-cadeaux" method="get" novalidate>
+      <fieldset class="ccq__champ ccq__montants">
+        <legend class="ccq__libelle">Le soin</legend>
+        <div class="ccq__puces">
+          <label class="ccq__puce"><input type="radio" name="montant" value="50" data-soin="Massage liftant"><span>Massage liftant · 50 €</span></label><label class="ccq__puce"><input type="radio" name="montant" value="65" data-soin="Séance en ligne" checked><span>Séance en ligne · 65 €</span></label><label class="ccq__puce"><input type="radio" name="montant" value="85" data-soin="Soin en cabine"><span>Soin en cabine · 85 €</span></label>
+        </div>
+        <p class="ccq__erreur" id="ccq-erreur-montant" data-ccq-erreur="montant" aria-live="polite"></p>
+      </fieldset>
+      <div class="ccq__champ">
+        <label class="ccq__libelle" for="ccq-qte">Nombre de cartes</label>
+        <div class="ccq__qte">
+          <button type="button" data-ccq-moins aria-label="Une carte de moins" aria-controls="ccq-qte">−</button>
+          <input type="number" id="ccq-qte" name="quantite" value="1" min="1" max="10" step="1" inputmode="numeric">
+          <button type="button" data-ccq-plus aria-label="Une carte de plus" aria-controls="ccq-qte">+</button>
+        </div>
+      </div>
+      <div class="ccq__deux">
+        <div class="ccq__champ"><label class="ccq__libelle" for="ccq-pour">Pour</label><input type="text" id="ccq-pour" name="pour" maxlength="30" autocomplete="off" placeholder="Prénom"></div>
+        <div class="ccq__champ"><label class="ccq__libelle" for="ccq-de">De la part de</label><input type="text" id="ccq-de" name="de" maxlength="30" autocomplete="given-name" placeholder="Votre prénom"></div>
+      </div>
+      <div class="ccq__champ">
+        <label class="ccq__libelle" for="ccq-mot">Un petit mot <span class="ccq__facultatif">facultatif</span></label>
+        <textarea id="ccq-mot" name="mot" rows="2" maxlength="120" aria-describedby="ccq-reste"></textarea>
+        <p class="ccq__aide" id="ccq-reste"><span data-ccq-reste>120</span> caractères au plus</p>
+      </div>
+      <p class="ccq__total"><span>Total</span><output data-ccq-total for="ccq-qte">65 €</output></p>
+      <p class="socle-sr visuellement-cache" aria-live="polite" data-ccq-annonce></p>
+      <div class="ccq__actions">
+        <button type="submit" class="bouton ccq__offrir">Offrir cette carte</button>
+        <button type="button" class="bouton bouton--contour" data-ccq-reprendre hidden>Composer une autre carte</button>
+      </div>
+      <p class="ccq__statut" role="status" data-ccq-statut hidden></p>
+      <p class="ccq__note">Valable un an. Démonstration : l&#39;achat est simulé, rien n&#39;est payé.</p>
+    </form>
+  </div>
+</section>
+<section class="conditions" id="conditions">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Bon à savoir</p>
+      <h2 data-anime="lignes">Conditions</h2>
+    </div>
+    <ol class="conditions-liste" data-anime="cascade" data-visuel>
+      <li><span class="conditions-num" aria-hidden="true">1</span><h3>Payer pour valider</h3><p>Les séances se paient à l&#39;avance, en ligne et de façon sécurisée, en 3 ou 4 fois sans frais si vous le souhaitez. Une séance non payée la veille à 18 h est considérée comme annulée.</p></li><li><span class="conditions-num" aria-hidden="true">2</span><h3>Reporter ou annuler</h3><p>Possible jusqu&#39;à 24 h avant le rendez-vous. Une séance en cabine non décommandée à temps n&#39;est pas remboursée, ni une séance commencée.</p></li><li><span class="conditions-num" aria-hidden="true">3</span><h3>Prix</h3><p>En euros, TVA non applicable (article 293 B du CGI). Les réservations à date fixe n&#39;ouvrent pas de droit de rétractation.</p></li>
+    </ol>
+  </div>
+</section>
+<section class="appel" id="diagnostic-offert">
+  <figure class="media appel-fond" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:40% 50%">
+  <picture>
+    <img src="/assets/images/grok/appel-fond-1280.webp" srcset="/assets/images/grok/appel-fond-640.webp 640w, /assets/images/grok/appel-fond-1280.webp 1280w, /assets/images/grok/appel-fond-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="appel-carte conteneur-etroit">
+    <p class="surtitre" data-anime>Pour commencer</p>
+    <h2 class="appel-titre" data-anime="lignes">Commençons par <em>un diagnostic</em></h2>
+    <svg class="appel-traits" viewBox="0 0 240 40" aria-hidden="true" data-fx="trace"><path d="M6 34 C60 30 110 22 150 12 M160 30 C190 26 214 18 234 6"/></svg>
+    <p data-anime>25 minutes offertes, en visio ou par téléphone, pour parler de vos souhaits et choisir la formule qui vous va.</p>
+    <p class="appel-actions" data-anime>
+      <a href="/contact#diagnostic" class="bouton" data-libelle="Contact" data-survol="magnetique">Réserver mon diagnostic</a>
+      <span class="appel-tel">ou appelez le <a href="tel:+33766197464">07 66 19 74 64</a></span>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-dore.webp" alt="" width="88" height="88" loading="lazy">
+      <p><strong>Yoga Gym du Visage Toulouse</strong><br>Plaisance-du-Touch (31830), sur rendez-vous</p>
+    </div>
+    <div>
+      <p class="pied-titre">Contact</p>
+      <ul>
+        <li><a href="tel:+33766197464">07 66 19 74 64</a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=33643700110" target="_blank" rel="noopener">WhatsApp 06 43 70 01 10<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="mailto:yoga.visage.toulouse@free.fr">yoga.visage.toulouse@free.fr</a></li>
+        <li><a href="https://instagram.com/yoga.gymvisagetoulouse/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a> · <a href="https://facebook.com/profile.php?id=61575806460836" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+      </ul>
+    </div>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/methode" data-libelle="La méthode">La méthode</a></li><li><a href="/protocole-45" data-libelle="Protocole 45+">Protocole 45+</a></li><li><a href="/seances-tarifs" data-libelle="Séances &amp; tarifs" aria-current="page">Séances &amp; tarifs</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p>
+    <p>Maquette de présentation : les paiements, réservations et formulaires y sont simulés.</p>
+    <p>© Yoga Gym du Visage Toulouse</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33766197464">Appeler</a>
+  <a class="bouton" href="/contact#diagnostic" data-libelle="Contact">Diagnostic offert</a>
+</div>
+</body>
+</html>

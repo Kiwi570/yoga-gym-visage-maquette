@@ -1,0 +1,311 @@
+{
+  "date": "2026-11-18T10:37:04.165Z",
+  "plan": "/home/claude/yoga-gym-visage-maquette/plan-images.json",
+  "attendus": 13,
+  "recus": 13,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [
+    {
+      "fichier": "protocole-ouverture.png",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A wide calm morning still life on a long light oak table covered with a cream linen runner: a carafe and a glass of water, a ceramic bowl of fresh seasonal fruit and herbs, a small dish of dried plant leaves and flowers, a cup of herbal tea, a rose quartz gua sha stone, soft warm sunlight from a side window, the objects grouped on the right two thirds, large calm empty wall on the left, nobody in the image. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, soft, powdery and luminous mood, palette of warm cream, powdery clay pink, muted raspberry accents and deep plum shadows, soft warm morning light from a side window, gentle long shadows, tactile cream linen, pale lime plaster, rose quartz, light oak wood, white ceramic, set in a bright small treatment room in a quiet town in the south-west of France on a calm late-autumn morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "protocole-ouverture-mobile.png",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "A wide calm morning still life on a long light oak table covered with a cream linen runner: a carafe and a glass of water, a ceramic bowl of fresh seasonal fruit and herbs, a small dish of dried plant leaves and flowers, a cup of herbal tea, a rose quartz gua sha stone, soft warm sunlight from a side window, the objects grouped on the right two thirds, large calm empty wall on the left, nobody in the image. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, soft, powdery and luminous mood, palette of warm cream, powdery clay pink, muted raspberry accents and deep plum shadows, soft warm morning light from a side window, gentle long shadows, tactile cream linen, pale lime plaster, rose quartz, light oak wood, white ceramic, set in a bright small treatment room in a quiet town in the south-west of France on a calm late-autumn morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "methode-ouverture.png",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "Seen from above, a round light oak tray on cream linen with a pink rose quartz gua sha stone, a white jade facial roller, a neatly folded white towel and a small ceramic bowl of water with a few rose petals floating, soft raking morning light, generous empty linen around the tray, nobody in the image. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, soft, powdery and luminous mood, palette of warm cream, powdery clay pink, muted raspberry accents and deep plum shadows, soft warm morning light from a side window, gentle long shadows, tactile cream linen, pale lime plaster, rose quartz, light oak wood, white ceramic, set in a bright small treatment room in a quiet town in the south-west of France on a calm late-autumn morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "methode-ouverture-mobile.png",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "Seen from above, a round light oak tray on cream linen with a pink rose quartz gua sha stone, a white jade facial roller, a neatly folded white towel and a small ceramic bowl of water with a few rose petals floating, soft raking morning light, generous empty linen around the tray, nobody in the image. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, soft, powdery and luminous mood, palette of warm cream, powdery clay pink, muted raspberry accents and deep plum shadows, soft warm morning light from a side window, gentle long shadows, tactile cream linen, pale lime plaster, rose quartz, light oak wood, white ceramic, set in a bright small treatment room in a quiet town in the south-west of France on a calm late-autumn morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "appel-fond.png",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A pale lime-plaster wall lit by the first warm light of the morning, the soft shadow of a window frame and of a few olive leaves falling diagonally across it, gradient from warm apricot to powdery pink, almost empty, large calm area in the center, nobody in the image. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, soft, powdery and luminous mood, palette of warm cream, powdery clay pink, muted raspberry accents and deep plum shadows, soft warm morning light from a side window, gentle long shadows, tactile cream linen, pale lime plaster, rose quartz, light oak wood, white ceramic, set in a bright small treatment room in a quiet town in the south-west of France on a calm late-autumn morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "page-404.png",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A round mirror with a thin brass frame hanging on a pale plaster wall, reflecting only soft bright window light and nothing else, a small sprig of olive leaves in a ceramic vase below it on a shelf, warm morning light, nobody in the image. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, soft, powdery and luminous mood, palette of warm cream, powdery clay pink, muted raspberry accents and deep plum shadows, soft warm morning light from a side window, gentle long shadows, tactile cream linen, pale lime plaster, rose quartz, light oak wood, white ceramic, set in a bright small treatment room in a quiet town in the south-west of France on a calm late-autumn morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ],
+  "images": [
+    {
+      "nom": "grok/accueil-ouverture",
+      "attendu": "accueil-ouverture.png",
+      "fichier": "accueil-ouverture.png",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/carte-en-ligne",
+      "attendu": "carte-en-ligne.png",
+      "fichier": "carte-en-ligne.png",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/carte-ateliers",
+      "attendu": "carte-ateliers.png",
+      "fichier": "carte-ateliers.png",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/carte-massage",
+      "attendu": "carte-massage.png",
+      "fichier": "carte-massage.png",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/carte-sophro",
+      "attendu": "carte-sophro.png",
+      "fichier": "carte-sophro.png",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/protocole-ouverture",
+      "attendu": "protocole-ouverture.png",
+      "fichier": "protocole-ouverture.png",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A wide calm morning still life on a long light oak table covered with a cream linen runner: a carafe and a glass of water, a ceramic bowl of fresh seasonal fruit and herbs, a small dish of dried plant leaves and flowers, a cup of herbal tea, a rose quartz gua sha stone, soft warm sunlight from a side window, the objects grouped on the right two thirds, large calm empty wall on the left, nobody in the image. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, soft, powdery and luminous mood, palette of warm cream, powdery clay pink, muted raspberry accents and deep plum shadows, soft warm morning light from a side window, gentle long shadows, tactile cream linen, pale lime plaster, rose quartz, light oak wood, white ceramic, set in a bright small treatment room in a quiet town in the south-west of France on a calm late-autumn morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/protocole-ouverture",
+      "mobile": true,
+      "attendu": "protocole-ouverture-mobile.png",
+      "fichier": "protocole-ouverture-mobile.png",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A wide calm morning still life on a long light oak table covered with a cream linen runner: a carafe and a glass of water, a ceramic bowl of fresh seasonal fruit and herbs, a small dish of dried plant leaves and flowers, a cup of herbal tea, a rose quartz gua sha stone, soft warm sunlight from a side window, the objects grouped on the right two thirds, large calm empty wall on the left, nobody in the image. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, soft, powdery and luminous mood, palette of warm cream, powdery clay pink, muted raspberry accents and deep plum shadows, soft warm morning light from a side window, gentle long shadows, tactile cream linen, pale lime plaster, rose quartz, light oak wood, white ceramic, set in a bright small treatment room in a quiet town in the south-west of France on a calm late-autumn morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/methode-ouverture",
+      "attendu": "methode-ouverture.png",
+      "fichier": "methode-ouverture.png",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Seen from above, a round light oak tray on cream linen with a pink rose quartz gua sha stone, a white jade facial roller, a neatly folded white towel and a small ceramic bowl of water with a few rose petals floating, soft raking morning light, generous empty linen around the tray, nobody in the image. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, soft, powdery and luminous mood, palette of warm cream, powdery clay pink, muted raspberry accents and deep plum shadows, soft warm morning light from a side window, gentle long shadows, tactile cream linen, pale lime plaster, rose quartz, light oak wood, white ceramic, set in a bright small treatment room in a quiet town in the south-west of France on a calm late-autumn morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/methode-ouverture",
+      "mobile": true,
+      "attendu": "methode-ouverture-mobile.png",
+      "fichier": "methode-ouverture-mobile.png",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Seen from above, a round light oak tray on cream linen with a pink rose quartz gua sha stone, a white jade facial roller, a neatly folded white towel and a small ceramic bowl of water with a few rose petals floating, soft raking morning light, generous empty linen around the tray, nobody in the image. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, soft, powdery and luminous mood, palette of warm cream, powdery clay pink, muted raspberry accents and deep plum shadows, soft warm morning light from a side window, gentle long shadows, tactile cream linen, pale lime plaster, rose quartz, light oak wood, white ceramic, set in a bright small treatment room in a quiet town in the south-west of France on a calm late-autumn morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/protocole-nutrition",
+      "attendu": "protocole-nutrition.png",
+      "fichier": "protocole-nutrition.png",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/protocole-naturo",
+      "attendu": "protocole-naturo.png",
+      "fichier": "protocole-naturo.png",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/appel-fond",
+      "attendu": "appel-fond.png",
+      "fichier": "appel-fond.png",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A pale lime-plaster wall lit by the first warm light of the morning, the soft shadow of a window frame and of a few olive leaves falling diagonally across it, gradient from warm apricot to powdery pink, almost empty, large calm area in the center, nobody in the image. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, soft, powdery and luminous mood, palette of warm cream, powdery clay pink, muted raspberry accents and deep plum shadows, soft warm morning light from a side window, gentle long shadows, tactile cream linen, pale lime plaster, rose quartz, light oak wood, white ceramic, set in a bright small treatment room in a quiet town in the south-west of France on a calm late-autumn morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/page-404",
+      "attendu": "page-404.png",
+      "fichier": "page-404.png",
+      "priorite": "Conseillée",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A round mirror with a thin brass frame hanging on a pale plaster wall, reflecting only soft bright window light and nothing else, a small sprig of olive leaves in a ceramic vase below it on a shelf, warm morning light, nobody in the image. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, soft, powdery and luminous mood, palette of warm cream, powdery clay pink, muted raspberry accents and deep plum shadows, soft warm morning light from a side window, gentle long shadows, tactile cream linen, pale lime plaster, rose quartz, light oak wood, white ceramic, set in a bright small treatment room in a quiet town in the south-west of France on a calm late-autumn morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ]
+}

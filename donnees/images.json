@@ -1,0 +1,1756 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo-fond-blanc.webp",
+    "role": "logo",
+    "alt": "Yoga Gym du Visage Toulouse",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "2a1664686a9ed37b",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 3886,
+      "logo-480.webp": 8488
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Yoga Gym du Visage Toulouse\", sizes: '240px' })"
+  },
+  "grok/accueil-ouverture": {
+    "nom": "grok/accueil-ouverture",
+    "source": "recu/grok/accueil-ouverture.png",
+    "role": "ouverture",
+    "alt": "Pierre de gua sha en quartz rose posée sur du lin, dans la lumière du matin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "f00f808201015da9",
+    "ratio": "2:3",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "55% 64%"
+    },
+    "cadrage": "55% 70%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 95.5,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1950,
+      "source": [
+        1300,
+        1950
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,48 fois (source de 1300 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-ouverture-640.webp",
+      "grok/accueil-ouverture-1280.webp",
+      "grok/accueil-ouverture-1920.webp",
+      "grok/accueil-ouverture-mobile-640.webp",
+      "grok/accueil-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/accueil-ouverture-640.webp": 55392,
+      "grok/accueil-ouverture-1280.webp": 159904,
+      "grok/accueil-ouverture-1920.webp": 257394,
+      "grok/accueil-ouverture-mobile-640.webp": 52868,
+      "grok/accueil-ouverture-mobile-1080.webp": 121072
+    },
+    "media": "c.media({ nom: 'grok/accueil-ouverture', alt: \"Pierre de gua sha en quartz rose posée sur du lin, dans la lumière du matin\", cadrage: '55% 70%', cadrageMobile: '55% 64%', sizes: '100vw', priorite: true })"
+  },
+  "grok/carte-en-ligne": {
+    "nom": "grok/carte-en-ligne",
+    "source": "recu/grok/carte-en-ligne.png",
+    "role": "carte-service",
+    "alt": "Petit miroir, pierre de gua sha et tasse de tisane sur une table près d'une fenêtre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "95180560d94be630",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "53% 43%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1950,
+      "source": [
+        1300,
+        1950
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carte-en-ligne-480.webp",
+      "grok/carte-en-ligne-640.webp",
+      "grok/carte-en-ligne-784.webp"
+    ],
+    "poids": {
+      "grok/carte-en-ligne-480.webp": 42450,
+      "grok/carte-en-ligne-640.webp": 70152,
+      "grok/carte-en-ligne-784.webp": 98240
+    },
+    "media": "c.media({ nom: 'grok/carte-en-ligne', alt: \"Petit miroir, pierre de gua sha et tasse de tisane sur une table près d'une fenêtre\", cadrage: '53% 43%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/carte-ateliers": {
+    "nom": "grok/carte-ateliers",
+    "source": "recu/grok/carte-ateliers.png",
+    "role": "carte-service",
+    "alt": "Coussins disposés en demi-cercle, un petit miroir sur chacun",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "c6e501cc4d99ebf5",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "41% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1950,
+      "source": [
+        1300,
+        1950
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carte-ateliers-480.webp",
+      "grok/carte-ateliers-640.webp",
+      "grok/carte-ateliers-784.webp"
+    ],
+    "poids": {
+      "grok/carte-ateliers-480.webp": 37174,
+      "grok/carte-ateliers-640.webp": 59438,
+      "grok/carte-ateliers-784.webp": 82724
+    },
+    "media": "c.media({ nom: 'grok/carte-ateliers', alt: \"Coussins disposés en demi-cercle, un petit miroir sur chacun\", cadrage: '41% 40%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/carte-massage": {
+    "nom": "grok/carte-massage",
+    "source": "recu/grok/carte-massage.png",
+    "role": "carte-service",
+    "alt": "Serviettes roulées et coupelle d'huile de massage sur un plateau en bois",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "74e7b5a31f8a2560",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "48% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1950,
+      "source": [
+        1300,
+        1950
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carte-massage-480.webp",
+      "grok/carte-massage-640.webp",
+      "grok/carte-massage-784.webp"
+    ],
+    "poids": {
+      "grok/carte-massage-480.webp": 41892,
+      "grok/carte-massage-640.webp": 65834,
+      "grok/carte-massage-784.webp": 88882
+    },
+    "media": "c.media({ nom: 'grok/carte-massage', alt: \"Serviettes roulées et coupelle d'huile de massage sur un plateau en bois\", cadrage: '48% 45%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/carte-sophro": {
+    "nom": "grok/carte-sophro",
+    "source": "recu/grok/carte-sophro.png",
+    "role": "carte-service",
+    "alt": "Fauteuil et plaid près d'une fenêtre, lumière douce de fin d'après-midi",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "ec0001f8aa7c8c8a",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "53% 42%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1950,
+      "source": [
+        1300,
+        1950
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carte-sophro-480.webp",
+      "grok/carte-sophro-640.webp",
+      "grok/carte-sophro-784.webp"
+    ],
+    "poids": {
+      "grok/carte-sophro-480.webp": 62966,
+      "grok/carte-sophro-640.webp": 108350,
+      "grok/carte-sophro-784.webp": 154060
+    },
+    "media": "c.media({ nom: 'grok/carte-sophro', alt: \"Fauteuil et plaid près d'une fenêtre, lumière douce de fin d'après-midi\", cadrage: '53% 42%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/protocole-ouverture": {
+    "nom": "grok/protocole-ouverture",
+    "source": "recu/grok/protocole-ouverture.png",
+    "role": "ouverture",
+    "alt": "Table du matin : eau, fruits, plantes séchées, tisane et pierre de gua sha",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "e44dae33d6af4eff",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "31% 71%"
+    },
+    "cadrage": "63% 53%",
+    "sujet": {
+      "x": 40.6,
+      "y": 5.6,
+      "l": 56.3,
+      "h": 77.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.79,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/protocole-ouverture-640.webp",
+      "grok/protocole-ouverture-1280.webp",
+      "grok/protocole-ouverture-1920.webp",
+      "grok/protocole-ouverture-mobile-640.webp",
+      "grok/protocole-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/protocole-ouverture-640.webp": 23340,
+      "grok/protocole-ouverture-1280.webp": 69086,
+      "grok/protocole-ouverture-1920.webp": 113032,
+      "grok/protocole-ouverture-mobile-640.webp": 47336,
+      "grok/protocole-ouverture-mobile-1080.webp": 91906
+    },
+    "media": "c.media({ nom: 'grok/protocole-ouverture', alt: \"Table du matin : eau, fruits, plantes séchées, tisane et pierre de gua sha\", cadrage: '63% 53%', cadrageMobile: '31% 71%', sizes: '100vw', priorite: true })"
+  },
+  "grok/methode-ouverture": {
+    "nom": "grok/methode-ouverture",
+    "source": "recu/grok/methode-ouverture.png",
+    "role": "ouverture",
+    "alt": "Pierre de gua sha, rouleau de quartz rose et serviette roulée dans la lumière du matin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "70ab1615fdf2d66b",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "29% 65%"
+    },
+    "cadrage": "58% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/methode-ouverture-640.webp",
+      "grok/methode-ouverture-1280.webp",
+      "grok/methode-ouverture-1920.webp",
+      "grok/methode-ouverture-mobile-640.webp",
+      "grok/methode-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/methode-ouverture-640.webp": 19854,
+      "grok/methode-ouverture-1280.webp": 44132,
+      "grok/methode-ouverture-1920.webp": 71810,
+      "grok/methode-ouverture-mobile-640.webp": 43220,
+      "grok/methode-ouverture-mobile-1080.webp": 93946
+    },
+    "media": "c.media({ nom: 'grok/methode-ouverture', alt: \"Pierre de gua sha, rouleau de quartz rose et serviette roulée dans la lumière du matin\", cadrage: '58% 60%', cadrageMobile: '29% 65%', sizes: '100vw', priorite: true })"
+  },
+  "grok/protocole-nutrition": {
+    "nom": "grok/protocole-nutrition",
+    "source": "recu/grok/protocole-nutrition.png",
+    "role": "carte-service",
+    "alt": "Bol de céréales, légumes de saison et herbes fraîches",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a4d8f937e1cc99aa",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "52% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 95.5,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.49,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1950,
+      "source": [
+        1300,
+        1950
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/protocole-nutrition-480.webp",
+      "grok/protocole-nutrition-640.webp",
+      "grok/protocole-nutrition-784.webp"
+    ],
+    "poids": {
+      "grok/protocole-nutrition-480.webp": 23978,
+      "grok/protocole-nutrition-640.webp": 33820,
+      "grok/protocole-nutrition-784.webp": 43006
+    },
+    "media": "c.media({ nom: 'grok/protocole-nutrition', alt: \"Bol de céréales, légumes de saison et herbes fraîches\", cadrage: '52% 52%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/protocole-naturo": {
+    "nom": "grok/protocole-naturo",
+    "source": "recu/grok/protocole-naturo.png",
+    "role": "carte-service",
+    "alt": "Plantes séchées et infusion dorée sur du lin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "4a632ccddd4bf259",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 34.4,
+      "l": 95.5,
+      "h": 56.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.9,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.38,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1950,
+      "source": [
+        1300,
+        1950
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/protocole-naturo-480.webp",
+      "grok/protocole-naturo-640.webp",
+      "grok/protocole-naturo-784.webp"
+    ],
+    "poids": {
+      "grok/protocole-naturo-480.webp": 22136,
+      "grok/protocole-naturo-640.webp": 30646,
+      "grok/protocole-naturo-784.webp": 38966
+    },
+    "media": "c.media({ nom: 'grok/protocole-naturo', alt: \"Plantes séchées et infusion dorée sur du lin\", cadrage: '50% 60%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/appel-fond": {
+    "nom": "grok/appel-fond",
+    "source": "recu/grok/appel-fond.png",
+    "role": "section-fond",
+    "alt": "Mur à la chaux dans la lumière du matin, ombre de feuillage",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "47a5ab8de780fcd9",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "15% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 31.3,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.93,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.74,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.67,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.44,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/appel-fond-640.webp",
+      "grok/appel-fond-1280.webp",
+      "grok/appel-fond-1920.webp"
+    ],
+    "poids": {
+      "grok/appel-fond-640.webp": 6054,
+      "grok/appel-fond-1280.webp": 51150,
+      "grok/appel-fond-1920.webp": 154928
+    },
+    "media": "c.media({ nom: 'grok/appel-fond', alt: \"Mur à la chaux dans la lumière du matin, ombre de feuillage\", cadrage: '15% 52%', sizes: '100vw' })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.png",
+    "role": "404",
+    "alt": "Miroir rond qui ne reflète que la lumière",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "da36d4f5e155437b",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "47% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/page-404-800.webp",
+      "grok/page-404-1600.webp"
+    ],
+    "poids": {
+      "grok/page-404-800.webp": 27354,
+      "grok/page-404-1600.webp": 63642
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Miroir rond qui ne reflète que la lumière\", cadrage: '47% 52%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "cabine": {
+    "nom": "cabine",
+    "source": "recu/design-sans-titre-3.webp",
+    "role": "carte-service",
+    "alt": "La cabine de soin : table de massage, paravent en bambou, lumière du jour",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "95aa0e662c60124d",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 64%",
+    "sujet": {
+      "x": 0,
+      "y": 54.2,
+      "l": 100,
+      "h": 40.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 613,
+      "top": 0,
+      "width": 769,
+      "height": 1154,
+      "source": [
+        1919,
+        1154
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "recadrage fort : 40 % de l'image gardée"
+    ],
+    "fichiers": [
+      "cabine-480.webp",
+      "cabine-640.webp",
+      "cabine-784.webp"
+    ],
+    "poids": {
+      "cabine-480.webp": 24478,
+      "cabine-640.webp": 34394,
+      "cabine-784.webp": 43152
+    },
+    "media": "c.media({ nom: 'cabine', alt: \"La cabine de soin : table de massage, paravent en bambou, lumière du jour\", cadrage: '50% 64%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "wellbee-salle": {
+    "nom": "wellbee-salle",
+    "source": "recu/wellbee-rdc-standard.webp",
+    "role": "section-fond",
+    "alt": "Salle de soin du Wellbee Space à Plaisance-du-Touch",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "934bbc3657852201",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 48%"
+    },
+    "cadrage": "53% 50%",
+    "sujet": {
+      "x": 29.4,
+      "y": 34.2,
+      "l": 47.1,
+      "h": 31
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.45,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.34,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 36,
+      "width": 1919,
+      "height": 1079,
+      "source": [
+        1919,
+        1199
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "wellbee-salle-640.webp",
+      "wellbee-salle-1280.webp",
+      "wellbee-salle-1920.webp",
+      "wellbee-salle-mobile-640.webp",
+      "wellbee-salle-mobile-1080.webp"
+    ],
+    "poids": {
+      "wellbee-salle-640.webp": 26940,
+      "wellbee-salle-1280.webp": 84054,
+      "wellbee-salle-1920.webp": 162152,
+      "wellbee-salle-mobile-640.webp": 50792,
+      "wellbee-salle-mobile-1080.webp": 107604
+    },
+    "media": "c.media({ nom: 'wellbee-salle', alt: \"Salle de soin du Wellbee Space à Plaisance-du-Touch\", cadrage: '53% 50%', cadrageMobile: '50% 48%', sizes: '100vw' })"
+  },
+  "wellbee-salon": {
+    "nom": "wellbee-salon",
+    "source": "recu/salon-wellbee-1-standard.webp",
+    "role": "ouverture",
+    "alt": "Salon d'accueil du Wellbee Space",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2f1a1b9f6a78ad1f",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 49%"
+    },
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 25.1,
+      "y": 32.4,
+      "l": 45.7,
+      "h": 30.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.56,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.37,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 144,
+      "top": 0,
+      "width": 1330,
+      "height": 1663,
+      "source": [
+        1474,
+        1663
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,44 fois (source de 1330 px après recadrage)"
+    ],
+    "fichiers": [
+      "wellbee-salon-640.webp",
+      "wellbee-salon-1280.webp",
+      "wellbee-salon-1920.webp",
+      "wellbee-salon-mobile-640.webp",
+      "wellbee-salon-mobile-1080.webp"
+    ],
+    "poids": {
+      "wellbee-salon-640.webp": 69882,
+      "wellbee-salon-1280.webp": 228806,
+      "wellbee-salon-1920.webp": 284748,
+      "wellbee-salon-mobile-640.webp": 69882,
+      "wellbee-salon-mobile-1080.webp": 179042
+    },
+    "media": "c.media({ nom: 'wellbee-salon', alt: \"Salon d'accueil du Wellbee Space\", cadrage: '50% 49%', cadrageMobile: '50% 49%', sizes: '100vw', priorite: true })"
+  },
+  "wellbee-attente": {
+    "nom": "wellbee-attente",
+    "source": "recu/seances-forfaits.webp",
+    "role": "ouverture",
+    "alt": "Banquette devant le mur terracotta de l'espace d'attente",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "419af386ba406efb",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 47%"
+    },
+    "cadrage": "47% 47%",
+    "sujet": {
+      "x": 16.6,
+      "y": 32.7,
+      "l": 57.7,
+      "h": 46.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.51,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1919,
+      "height": 1439,
+      "source": [
+        1919,
+        1445
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "wellbee-attente-640.webp",
+      "wellbee-attente-1280.webp",
+      "wellbee-attente-1920.webp",
+      "wellbee-attente-mobile-640.webp",
+      "wellbee-attente-mobile-1080.webp"
+    ],
+    "poids": {
+      "wellbee-attente-640.webp": 25898,
+      "wellbee-attente-1280.webp": 80816,
+      "wellbee-attente-1920.webp": 139810,
+      "wellbee-attente-mobile-640.webp": 41320,
+      "wellbee-attente-mobile-1080.webp": 91478
+    },
+    "media": "c.media({ nom: 'wellbee-attente', alt: \"Banquette devant le mur terracotta de l'espace d'attente\", cadrage: '47% 47%', cadrageMobile: '50% 47%', sizes: '100vw', priorite: true })"
+  },
+  "praticienne-seance": {
+    "nom": "praticienne-seance",
+    "source": "recu/wellbee-space-2-high.webp",
+    "role": "portrait",
+    "alt": "La praticienne pendant une séance de massage du visage en cabine",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "9d2a865d6afcf40f",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "52% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 10.5,
+      "l": 67.5,
+      "h": 86.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 236,
+      "top": 0,
+      "width": 575,
+      "height": 719,
+      "source": [
+        1133,
+        719
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1133 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,36 fois (source de 575 px après recadrage)"
+    ],
+    "fichiers": [
+      "praticienne-seance-480.webp",
+      "praticienne-seance-640.webp",
+      "praticienne-seance-784.webp"
+    ],
+    "poids": {
+      "praticienne-seance-480.webp": 30368,
+      "praticienne-seance-640.webp": 43040,
+      "praticienne-seance-784.webp": 54670
+    },
+    "media": "c.media({ nom: 'praticienne-seance', alt: \"La praticienne pendant une séance de massage du visage en cabine\", cadrage: '52% 50%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "praticienne-portrait": {
+    "nom": "praticienne-portrait",
+    "source": "recu/portrait-utiliser-high.webp",
+    "role": "vignette",
+    "alt": "Portrait de la praticienne",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "52a00e73f6000596",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.41,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 137,
+      "width": 708,
+      "height": 708,
+      "source": [
+        708,
+        847
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "708 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,13 fois (source de 708 px après recadrage)"
+    ],
+    "fichiers": [
+      "praticienne-portrait-480.webp",
+      "praticienne-portrait-640.webp",
+      "praticienne-portrait-800.webp"
+    ],
+    "poids": {
+      "praticienne-portrait-480.webp": 10770,
+      "praticienne-portrait-640.webp": 15212,
+      "praticienne-portrait-800.webp": 19518
+    },
+    "media": "c.media({ nom: 'praticienne-portrait', alt: \"Portrait de la praticienne\", cadrage: '48% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "diplome": {
+    "nom": "diplome",
+    "source": "recu/diplome-roxane-high.webp",
+    "role": "vignette",
+    "alt": "Certificat professionnel de la méthode Roxane Rajeunissement",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c97e06bbdd2ef06f",
+    "ratio": "940:788",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "52% 37%",
+    "sujet": {
+      "x": 28,
+      "y": 5.5,
+      "l": 62.8,
+      "h": 66.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.63,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.56,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 940,
+      "height": 788,
+      "source": [
+        940,
+        788
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "940 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "diplome-480.webp",
+      "diplome-640.webp",
+      "diplome-800.webp"
+    ],
+    "poids": {
+      "diplome-480.webp": 16870,
+      "diplome-640.webp": 24736,
+      "diplome-800.webp": 31748
+    },
+    "media": "c.media({ nom: 'diplome', alt: \"Certificat professionnel de la méthode Roxane Rajeunissement\", cadrage: '52% 37%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '940 / 788' })"
+  },
+  "front-avant": {
+    "nom": "front-avant",
+    "source": "recu/routine-soin-resultats-visibles-5.webp",
+    "role": "vignette",
+    "alt": "Front avant la séance en cabine, rides marquées",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "962671c994c41003",
+    "ratio": "16:9",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "54% 39%",
+    "sujet": {
+      "x": 44.1,
+      "y": 21.3,
+      "l": 20.6,
+      "h": 36.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.6,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.56,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.55,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.54,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 444,
+      "height": 250,
+      "source": [
+        444,
+        258
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 800",
+      "444 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,44 fois (source de 444 px après recadrage)"
+    ],
+    "fichiers": [
+      "front-avant-480.webp",
+      "front-avant-640.webp"
+    ],
+    "poids": {
+      "front-avant-480.webp": 10230,
+      "front-avant-640.webp": 15298
+    },
+    "media": "c.media({ nom: 'front-avant', alt: \"Front avant la séance en cabine, rides marquées\", cadrage: '54% 39%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  },
+  "front-apres": {
+    "nom": "front-apres",
+    "source": "recu/routine-soin-resultats-visibles.webp",
+    "role": "vignette",
+    "alt": "Le même front à l'issue d'une séance en cabine",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "9f9f2b7fbc3121e0",
+    "ratio": "16:9",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 65%",
+    "sujet": {
+      "x": 13.9,
+      "y": 0.4,
+      "l": 86.1,
+      "h": 99.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.44,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 24,
+      "top": 0,
+      "width": 1646,
+      "height": 926,
+      "source": [
+        1920,
+        926
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "front-apres-480.webp",
+      "front-apres-640.webp",
+      "front-apres-800.webp"
+    ],
+    "poids": {
+      "front-apres-480.webp": 9874,
+      "front-apres-640.webp": 16254,
+      "front-apres-800.webp": 23514
+    },
+    "media": "c.media({ nom: 'front-apres', alt: \"Le même front à l'issue d'une séance en cabine\", cadrage: '50% 65%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  },
+  "ovale-avant": {
+    "nom": "ovale-avant",
+    "source": "recu/routine-soin-resultats-visibles-3.webp",
+    "role": "vignette",
+    "alt": "Bas du visage d'une cliente au début de la pratique",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "6a04cb8bbf466d56",
+    "ratio": "4:3",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 33%",
+    "sujet": {
+      "x": 38,
+      "y": 8.8,
+      "l": 23.5,
+      "h": 48.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.59,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.56,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.54,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.5,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 5,
+      "top": 0,
+      "width": 417,
+      "height": 313,
+      "source": [
+        444,
+        313
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 640, 800",
+      "444 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,15 fois (source de 417 px après recadrage)"
+    ],
+    "fichiers": [
+      "ovale-avant-480.webp"
+    ],
+    "poids": {
+      "ovale-avant-480.webp": 8260
+    },
+    "media": "c.media({ nom: 'ovale-avant', alt: \"Bas du visage d'une cliente au début de la pratique\", cadrage: '50% 33%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "ovale-pendant": {
+    "nom": "ovale-pendant",
+    "source": "recu/routine-soin-resultats-visibles-2.webp",
+    "role": "vignette",
+    "alt": "Bas du visage de la même cliente en cours de pratique",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "1ac7ae7c362a0bf5",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 42%",
+    "sujet": {
+      "x": 38.2,
+      "y": 13,
+      "l": 23.5,
+      "h": 55.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.57,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.54,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.5,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 519,
+      "height": 389,
+      "source": [
+        519,
+        429
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 800",
+      "519 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,23 fois (source de 519 px après recadrage)"
+    ],
+    "fichiers": [
+      "ovale-pendant-480.webp",
+      "ovale-pendant-640.webp"
+    ],
+    "poids": {
+      "ovale-pendant-480.webp": 9682,
+      "ovale-pendant-640.webp": 13314
+    },
+    "media": "c.media({ nom: 'ovale-pendant', alt: \"Bas du visage de la même cliente en cours de pratique\", cadrage: '50% 42%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "ovale-apres": {
+    "nom": "ovale-apres",
+    "source": "recu/routine-soin-resultats-visibles-4.webp",
+    "role": "vignette",
+    "alt": "Bas du visage de la même cliente après trois mois de pratique quotidienne",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "dbd824a1130318a9",
+    "ratio": "4:3",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "48% 39%",
+    "sujet": {
+      "x": 37.6,
+      "y": 19.1,
+      "l": 21,
+      "h": 38.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.66,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.59,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.56,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.55,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 423,
+      "height": 317,
+      "source": [
+        432,
+        317
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 640, 800",
+      "432 px de large",
+      "floue"
+    ],
+    "avertissements": [
+      "agrandie 1,13 fois (source de 423 px après recadrage)"
+    ],
+    "fichiers": [
+      "ovale-apres-480.webp"
+    ],
+    "poids": {
+      "ovale-apres-480.webp": 7390
+    },
+    "media": "c.media({ nom: 'ovale-apres', alt: \"Bas du visage de la même cliente après trois mois de pratique quotidienne\", cadrage: '48% 39%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  }
+}

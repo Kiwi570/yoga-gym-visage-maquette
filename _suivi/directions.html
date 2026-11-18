@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yoga du visage : directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,100;1,9..144,300..600,100&family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Jost:wght@400;500&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* VOICE  planche de travail pour choisir une direction : calme, nette, comparée côte à côte
+   IDEA   trois premiers écrans en miniature, chacun avec sa palette et ses polices
+   PICTURE la miniature d'ouverture de chaque direction
+   COLOUR celles de chaque direction ; la planche reste neutre (gris chaud)
+   TYPE   les polices de chaque direction, la planche en Inter */
+:root{color-scheme:light;--bg:#ecebe8;--ink:#1d1c1b;--muted:#5d5a56}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 Inter,system-ui,sans-serif}
+header{padding:28px max(4vw,16px) 8px}
+header h1{font:500 26px/1.15 Inter,sans-serif;margin:0 0 6px}
+header p{margin:0;color:var(--muted);max-width:70ch}
+.grille{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;padding:22px max(4vw,16px) 40px}
+@media(max-width:1100px){.grille{grid-template-columns:minmax(0,1fr)}}
+.carte{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,.06),0 8px 28px rgba(0,0,0,.06);display:flex;flex-direction:column}
+.etiquette{font:600 12px/1 Inter;letter-spacing:.02em;color:var(--muted);padding:16px 18px 0}
+.carte h2{margin:6px 18px 4px;font:600 20px/1.2 Inter}
+.carte .resume{margin:0 18px 14px;color:var(--muted)}
+.ecran{position:relative;aspect-ratio:16/10;overflow:hidden}
+.nuancier{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;padding:14px 18px 6px}
+.nuancier div{border-radius:8px;height:54px;display:flex;align-items:flex-end;padding:6px;font:500 11px/1.2 Inter}
+.typos{padding:8px 18px 4px}
+.typos .t{font-size:30px;line-height:1.05;margin:4px 0}
+.typos .c{font-size:15px;margin:2px 0 8px}
+ul{margin:4px 18px 18px;padding-left:18px}
+li{margin:3px 0}
+.fav{margin:auto 18px 18px;padding:10px 12px;border-radius:10px;background:#f4f2ef;font-size:13px;color:var(--muted)}
+.reco{display:inline-block;background:#1d1c1b;color:#fff;border-radius:99px;padding:3px 10px;font:600 11px/1.4 Inter;margin-left:6px;vertical-align:2px}
+
+/* A — le geste qui remonte */
+.a .ecran{background:#F6F0EA}
+.a .ecran .titre{position:absolute;left:7%;top:24%;font:400 clamp(30px,3.6vw,46px)/1.0 Fraunces,serif;font-variation-settings:"SOFT" 100;color:#2E1C26;letter-spacing:-.01em}
+.a .ecran .titre em{color:#A63A57;font-style:italic}
+.a .ecran .sous{position:absolute;left:7%;top:62%;width:44%;font:400 12px/1.45 "DM Sans";color:#4a3540}
+.a .ecran .btn{position:absolute;left:7%;bottom:9%;background:#A63A57;color:#fff;font:500 12px/1 "DM Sans";padding:10px 14px;border-radius:99px}
+.a .ecran .photo{position:absolute;right:6%;top:12%;width:36%;height:76%;border-radius:200px 200px 18px 18px;background:linear-gradient(160deg,#e9cfc4,#cf9e90 60%,#b47c6e)}
+.a .ecran svg{position:absolute;right:6%;top:12%;width:36%;height:76%}
+.a .ecran .medaillon{position:absolute;right:33%;bottom:12%;width:62px;height:62px;border-radius:50%;background:#2E1C26;color:#F6F0EA;font:500 10px/1.15 "DM Sans";display:grid;place-items:center;text-align:center}
+
+/* B — la pierre de jade */
+.b .ecran{background:#17302A}
+.b .ecran .titre{position:absolute;left:7%;top:20%;font:400 clamp(34px,4.2vw,54px)/.98 "Instrument Serif",serif;color:#F2F1EC}
+.b .ecran .titre em{color:#E8A9A0}
+.b .ecran .sous{position:absolute;left:7%;top:63%;width:44%;font:400 12px/1.45 Jost;color:#c9d6cf}
+.b .ecran .btn{position:absolute;left:7%;bottom:9%;background:#E8A9A0;color:#17302A;font:500 12px/1 Jost;padding:10px 14px;border-radius:99px}
+.b .ecran .pierre{position:absolute;right:9%;top:16%;width:30%;height:68%;border-radius:48% 52% 46% 54%/60% 60% 40% 40%;background:radial-gradient(60% 50% at 35% 28%,rgba(255,255,255,.55),transparent 60%),linear-gradient(150deg,#9cc3b0,#4f8a74 55%,#2c5a4a);box-shadow:0 30px 60px rgba(0,0,0,.35),inset 0 -12px 30px rgba(0,0,0,.25);transform:rotate(-14deg)}
+.b .ecran .creux{position:absolute;right:22%;top:30%;width:9%;height:28%;border-radius:50%;background:rgba(23,48,42,.35);transform:rotate(-14deg)}
+
+/* C — le miroir du matin */
+.c .ecran{background:#FBF8F4}
+.c .ecran .miroir{position:absolute;left:50%;top:9%;width:34%;height:82%;transform:translateX(-50%);border-radius:50%;background:linear-gradient(170deg,#efe2d6,#d8bfae 55%,#bf9f8c);box-shadow:0 0 0 6px #fff,0 0 0 7px #d9cfc6}
+.c .ecran .titre{position:absolute;left:0;right:0;top:34%;text-align:center;font:500 clamp(34px,4.4vw,58px)/.95 "Bodoni Moda",serif;color:#1C1A1A;mix-blend-mode:multiply}
+.c .ecran .titre em{color:#B0302A}
+.c .ecran .sous{position:absolute;left:6%;bottom:9%;width:28%;font:400 11px/1.45 Inter;color:#3d3936}
+.c .ecran .btn{position:absolute;right:6%;bottom:9%;background:#1C1A1A;color:#fff;font:500 12px/1 Inter;padding:10px 14px;border-radius:2px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Yoga Gym du Visage · trois directions</h1>
+  <p>Premier écran en miniature, palette (fond dominant, second fond, fond profond, accent) et polices de chaque direction. Les photos seront celles du site et les images Grok ; ici, des aplats les remplacent.</p>
+</header>
+<main class="grille">
+
+<section class="carte a">
+  <div class="etiquette">Direction A <span class="reco">Recommandé</span></div>
+  <h2>Le geste qui remonte</h2>
+  <p class="resume">Clair et poudré. Chaque geste du yoga du visage va vers le haut : les titres montent, des traits fins se tracent comme un passage de pierre, une carte du visage dessinée au trait s'allume zone par zone.</p>
+  <div class="ecran" aria-hidden="true">
+    <div class="titre">Rajeunir<br><em>naturellement</em></div>
+    <div class="sous">Yoga et gym du visage, en cabine à Plaisance-du-Touch ou en ligne. Une méthode douce, sans injection.</div>
+    <div class="btn">Diagnostic offert · 25 min</div>
+    <div class="photo"></div>
+    <svg viewBox="0 0 100 200" preserveAspectRatio="none" fill="none" stroke="#F6F0EA" stroke-width="1.2" stroke-linecap="round"><path d="M30 170 C 40 130, 38 90, 50 60 M50 170 C 54 130, 56 95, 62 55 M70 170 C 72 135, 74 100, 76 70"/></svg>
+    <div class="medaillon">3 mois<br>de pratique</div>
+  </div>
+  <div class="nuancier">
+    <div style="background:#F6F0EA;color:#2E1C26">#F6F0EA<br>crème</div>
+    <div style="background:#EAD6CC;color:#2E1C26">#EAD6CC<br>argile rosée</div>
+    <div style="background:#2E1C26;color:#F6F0EA">#2E1C26<br>prune</div>
+    <div style="background:#A63A57;color:#fff">#A63A57<br>framboise</div>
+  </div>
+  <div class="typos">
+    <p class="t" style="font-family:Fraunces,serif;font-variation-settings:'SOFT' 100">Le visage a <em style="color:#A63A57">ses muscles</em></p>
+    <p class="c" style="font-family:'DM Sans',sans-serif">Titres : Fraunces (douce, à l'italique expressive) · texte : DM Sans</p>
+  </div>
+  <ul>
+    <li>Intro : un trait dessine un profil en une ligne, le titre monte, l'intro finit sur le médaillon « Diagnostic offert ».</li>
+    <li>Voile en iris (un disque, comme une pierre ronde).</li>
+    <li>Carte du visage épinglée (regard et front, bas du visage, cou et décolleté), avant / après réel au curseur, cartes de séances qui s'empilent.</li>
+  </ul>
+  <p class="fav">Plus proche de : Château Haut-Piquat (clair, chic, grandes photos), avec la franchise des titres de Cool Canyoning.</p>
+</section>
+
+<section class="carte b">
+  <div class="etiquette">Direction B</div>
+  <h2>La pierre de jade</h2>
+  <p class="resume">Minéral et frais, un spa lumineux. Une pierre de gua sha en WebGL, translucide, glisse vers le haut sur le grand titre et le lisse ; elle revient dans l'appel final. Le reste est clair et net.</p>
+  <div class="ecran" aria-hidden="true">
+    <div class="titre">Lisser<br>le temps, <em>sans<br>aiguille</em></div>
+    <div class="sous">Yoga et gym du visage, en cabine ou en ligne. Une méthode pure, sans chimie.</div>
+    <div class="btn">Diagnostic offert · 25 min</div>
+    <div class="pierre"></div><div class="creux"></div>
+  </div>
+  <div class="nuancier">
+    <div style="background:#F2F1EC;color:#17302A">#F2F1EC<br>lait</div>
+    <div style="background:#DCE6E0;color:#17302A">#DCE6E0<br>jade pâle</div>
+    <div style="background:#17302A;color:#F2F1EC">#17302A<br>jade nuit</div>
+    <div style="background:#B44E58;color:#fff">#B44E58<br>quartz rose</div>
+  </div>
+  <div class="typos">
+    <p class="t" style="font-family:'Instrument Serif',serif">Le visage a <em style="color:#B44E58">ses muscles</em></p>
+    <p class="c" style="font-family:Jost,sans-serif">Titres : Instrument Serif (très grande, fine) · texte : Jost</p>
+  </div>
+  <ul>
+    <li>Intro : la pierre entre par le bas, passe sur le titre qui se lisse, puis se pose à côté du bouton.</li>
+    <li>Voile en vague, vert jade.</li>
+    <li>Images révélées comme une eau qui s'étale, zones du visage en onglets, avant / après réel.</li>
+  </ul>
+  <p class="fav">Plus proche de : Les Plus Hautes Eaux (élégance et WebGL), en clair.</p>
+</section>
+
+<section class="carte c">
+  <div class="etiquette">Direction C</div>
+  <h2>Le miroir du matin</h2>
+  <p class="resume">Sobre et éditorial, un magazine beauté. Un miroir ovale porte les images ; au défilement il s'ouvre jusqu'au plein écran. Typographie très grande, beaucoup d'air.</p>
+  <div class="ecran" aria-hidden="true">
+    <div class="miroir"></div>
+    <div class="titre">Se <em>reconnaître</em><br>dans le miroir</div>
+    <div class="sous">Yoga et gym du visage à Plaisance-du-Touch et en ligne.</div>
+    <div class="btn">Diagnostic offert</div>
+  </div>
+  <div class="nuancier">
+    <div style="background:#FBF8F4;color:#1C1A1A">#FBF8F4<br>blanc chaud</div>
+    <div style="background:#EADFD5;color:#1C1A1A">#EADFD5<br>nude</div>
+    <div style="background:#1C1A1A;color:#FBF8F4">#1C1A1A<br>encre</div>
+    <div style="background:#B0302A;color:#fff">#B0302A<br>rouge</div>
+  </div>
+  <div class="typos">
+    <p class="t" style="font-family:'Bodoni Moda',serif">Le visage a <em style="color:#B0302A">ses muscles</em></p>
+    <p class="c" style="font-family:Inter,sans-serif">Titres : Bodoni Moda (mode, contrastée) · texte : Inter</p>
+  </div>
+  <ul>
+    <li>Intro : le miroir s'ouvre en ovale, le titre s'y reflète puis prend sa place.</li>
+    <li>Voile en iris ovale.</li>
+    <li>Rubriques par zone comme un sommaire, routine en grandes pages, avant / après réel.</li>
+  </ul>
+  <p class="fav">Plus proche de : Lemoy Premium (vitrine sobre, typographie tenue).</p>
+</section>
+
+</main>
+</body>
+</html>

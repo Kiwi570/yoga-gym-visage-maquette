@@ -1,0 +1,5015 @@
+{
+  "dossier": "/Users/paul/Downloads/yoga-gym-visage-recu",
+  "date": "2026-11-18T10:11:48.140Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg",
+    "planche-3.jpg",
+    "planche-4.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "logo-sombre.webp",
+      "nom": "logo-sombre",
+      "drapeau": "logo",
+      "largeur": 385,
+      "hauteur": 305,
+      "ratio": "5:4",
+      "ratio_valeur": 1.262,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 17544,
+      "transparence": false,
+      "sujet": {
+        "x": 13.8,
+        "y": 6.7,
+        "l": 69.5,
+        "h": 86.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        44
+      ],
+      "cadrage_css": "47% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.37,
+          "ton": "sombre",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.56
+        }
+      ],
+      "qualite": {
+        "nettete": 56.5,
+        "bruit": 1.23,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f0e0d0ccc8c8e1f3",
+      "drapeaux": [
+        "logo"
+      ]
+    },
+    {
+      "fichier": "logo-fond-blanc.webp",
+      "nom": "logo-fond-blanc",
+      "drapeau": "logo",
+      "largeur": 940,
+      "hauteur": 788,
+      "ratio": "1.19",
+      "ratio_valeur": 1.193,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 57454,
+      "transparence": false,
+      "sujet": {
+        "x": 13.5,
+        "y": 16.6,
+        "l": 67.5,
+        "h": 73.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        47
+      ],
+      "cadrage_css": "47% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.68,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "droite",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "gauche",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "bas",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        }
+      ],
+      "qualite": {
+        "nettete": 9.8,
+        "bruit": 0.1,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "0006374b4b4b260c",
+      "drapeaux": [
+        "logo",
+        "calme haut/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "bonne-couleur-standard.webp",
+      "nom": "bonne-couleur-standard",
+      "drapeau": "autre",
+      "largeur": 1414,
+      "hauteur": 2000,
+      "ratio": "0.71",
+      "ratio_valeur": 0.707,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 188,
+      "transparence": false,
+      "sujet": {
+        "x": 38.2,
+        "y": 25,
+        "l": 23.5,
+        "h": 32.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        41
+      ],
+      "cadrage_css": "50% 41%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "bas",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "haut",
+          "score": 0.98,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        }
+      ],
+      "qualite": {
+        "nettete": 0,
+        "bruit": 0,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0000000000000000",
+      "drapeaux": [
+        "autre",
+        "floue",
+        "calme droite/bas/gauche/haut"
+      ]
+    },
+    {
+      "fichier": "seances-forfaits.webp",
+      "nom": "seances-forfaits",
+      "drapeau": "autre",
+      "largeur": 1919,
+      "hauteur": 1445,
+      "ratio": "4:3",
+      "ratio_valeur": 1.328,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 221336,
+      "transparence": false,
+      "sujet": {
+        "x": 16.6,
+        "y": 32.6,
+        "l": 57.7,
+        "h": 46.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        47
+      ],
+      "cadrage_css": "47% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "bas",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.27
+        }
+      ],
+      "qualite": {
+        "nettete": 25.8,
+        "bruit": 0.72,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "UUU:N · dUe",
+        "blocs": 2,
+        "surface": 1.5,
+        "details": [
+          {
+            "texte": "UUU:N",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "dUe",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "000014d1c98d8da0",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "design-sans-titre-3.webp",
+      "nom": "design-sans-titre-3",
+      "drapeau": "autre",
+      "largeur": 1919,
+      "hauteur": 1154,
+      "ratio": "1.66",
+      "ratio_valeur": 1.663,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 1507642,
+      "transparence": false,
+      "sujet": {
+        "x": 19.7,
+        "y": 54.2,
+        "l": 62.8,
+        "h": 40.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        64
+      ],
+      "cadrage_css": "52% 64%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "sombre",
+          "recouvre_sujet": 0.53
+        }
+      ],
+      "qualite": {
+        "nettete": 14.7,
+        "bruit": 0.33,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "89c9c9496858cc9e",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "inserer-high.webp",
+      "nom": "inserer-high",
+      "drapeau": "autre",
+      "largeur": 1080,
+      "hauteur": 1350,
+      "ratio": "4:5",
+      "ratio_valeur": 0.8,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 947400,
+      "transparence": false,
+      "sujet": {
+        "x": 24.8,
+        "y": 9.4,
+        "l": 61,
+        "h": 78,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        41
+      ],
+      "cadrage_css": "50% 41%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        }
+      ],
+      "qualite": {
+        "nettete": 35.7,
+        "bruit": 0.44,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "vis Clients · \"Je recommande vivement les séances de · yoga visage de Marianne, qui sont pour moi · une véritable cure de rajeunissement.\" · \"C'est complètement",
+        "blocs": 10,
+        "surface": 17,
+        "details": [
+          {
+            "texte": "vis Clients",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "\"Je recommande vivement les séances de",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "yoga visage de Marianne, qui sont pour moi",
+            "niveau": "marque"
+          },
+          {
+            "texte": "une véritable cure de rajeunissement.\"",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "\"C'est complètement fou le résultat. Ma peau",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "est beaucoup plus lumineuse, moins bouffie.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "L'ovale de mon visage se redessine.\"",
+            "niveau": "marque"
+          },
+          {
+            "texte": "\"Encore merci pour cette découverte du yoga du",
+            "niveau": "marque"
+          },
+          {
+            "texte": "visage. Vous êtes très chaleureuse et très",
+            "niveau": "marque"
+          },
+          {
+            "texte": "professionnelle.\"",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "1e9eadcce6f67420",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "wellbee-space-2-high.webp",
+      "nom": "wellbee-space-2-high",
+      "drapeau": "autre",
+      "largeur": 1133,
+      "hauteur": 719,
+      "ratio": "16:10",
+      "ratio_valeur": 1.576,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 711066,
+      "transparence": false,
+      "sujet": {
+        "x": 20.8,
+        "y": 10.5,
+        "l": 34.3,
+        "h": 86.7,
+        "source": "corps"
+      },
+      "visages": 2,
+      "cadrage": [
+        44,
+        49
+      ],
+      "cadrage_css": "44% 49%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        }
+      ],
+      "qualite": {
+        "nettete": 25.9,
+        "bruit": 0.98,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1133 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "1848485860509846",
+      "drapeaux": [
+        "autre",
+        "2 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "diplome-roxane-high.webp",
+      "nom": "diplome-roxane-high",
+      "drapeau": "autre",
+      "largeur": 940,
+      "hauteur": 788,
+      "ratio": "1.19",
+      "ratio_valeur": 1.193,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 48174,
+      "transparence": false,
+      "sujet": {
+        "x": 28,
+        "y": 5.5,
+        "l": 62.8,
+        "h": 66.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        37
+      ],
+      "cadrage_css": "52% 37%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "gauche",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        }
+      ],
+      "qualite": {
+        "nettete": 75.1,
+        "bruit": 0.3,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "940 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "CERTIFICAT · PROFESSIONNEL · Ce certificat est octroyé à · Marianne Meyzen Récalde · Ce Certificat autorise la lauréate à dispenser la méthode Raxane Rajeunisse",
+        "blocs": 13,
+        "surface": 16.5,
+        "details": [
+          {
+            "texte": "CERTIFICAT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PROFESSIONNEL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Ce certificat est octroyé à",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Marianne Meyzen Récalde",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Ce Certificat autorise la lauréate à dispenser la méthode Raxane Rajeunissement et à",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "mettre en avant ladite Certification dans son exercice en présentiel comme en ligne",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "pour le Rajeunissement Naturel - Yoga du Visage",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Roxane",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Fondatrice",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Rexane",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "RAJEUNISSEMENT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "A. Barat",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "cc8e0e96173b8ac4",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "actifs-cibles-distingues-2026par.webp",
+      "nom": "actifs-cibles-distingues-2026par",
+      "drapeau": "autre",
+      "largeur": 1131,
+      "hauteur": 592,
+      "ratio": "1.91",
+      "ratio_valeur": 1.91,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 391278,
+      "transparence": false,
+      "sujet": {
+        "x": 0.3,
+        "y": 9.7,
+        "l": 93.8,
+        "h": 83,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        55
+      ],
+      "cadrage_css": "47% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        }
+      ],
+      "qualite": {
+        "nettete": 33.6,
+        "bruit": 0.44,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1131 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "TER PRIX · 2026 · PSYCHOLOGIES · CATÉGORIE · COUP DE CHIH DƯ SUNG · Biologic · Sérum éclat · Eclaircissant - Anti-tches brues · Peu torne, fatiguée et/ou typerp",
+        "blocs": 12,
+        "surface": 31,
+        "details": [
+          {
+            "texte": "TER PRIX",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "2026",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PSYCHOLOGIES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CATÉGORIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "COUP DE CHIH DƯ SUNG",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Biologic",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sérum éclat",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Eclaircissant - Anti-tches brues",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Peu torne, fatiguée et/ou typerpignenta",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Erightening radiance serum",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Anti-brown spots",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "aud, tired and/or hyperpigmanted tin",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "dea4b1b119b3a537",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "portrait-utiliser-high.webp",
+      "nom": "portrait-utiliser-high",
+      "drapeau": "portrait",
+      "largeur": 708,
+      "hauteur": 847,
+      "ratio": "0.84",
+      "ratio_valeur": 0.836,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 25484,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        48,
+        58
+      ],
+      "cadrage_css": "48% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 7.4,
+        "bruit": 0.31,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "708 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8d16636378683323",
+      "drapeaux": [
+        "portrait",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "spa-background-blur-4.webp",
+      "nom": "spa-background-blur-4",
+      "drapeau": "autre",
+      "largeur": 898,
+      "hauteur": 653,
+      "ratio": "1.38",
+      "ratio_valeur": 1.375,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 467794,
+      "transparence": false,
+      "sujet": {
+        "x": 20.8,
+        "y": 6.1,
+        "l": 40.6,
+        "h": 90.3,
+        "source": "corps"
+      },
+      "visages": 2,
+      "cadrage": [
+        49,
+        46
+      ],
+      "cadrage_css": "49% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 24.7,
+        "bruit": 1.05,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "898 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8c8c8c64646cd543",
+      "drapeaux": [
+        "autre",
+        "2 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "yoga-gym-visage-toulouse.webp",
+      "nom": "yoga-gym-visage-toulouse",
+      "drapeau": "autre",
+      "largeur": 654,
+      "hauteur": 869,
+      "ratio": "3:4",
+      "ratio_valeur": 0.753,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 55246,
+      "transparence": false,
+      "sujet": {
+        "x": 4.4,
+        "y": 14.7,
+        "l": 67.6,
+        "h": 47.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        36,
+        41
+      ],
+      "cadrage_css": "36% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.73,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "moyen",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "gauche",
+          "score": 0.52,
+          "ton": "moyen",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "droite",
+          "score": 0.51,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 51.8,
+        "bruit": 0.81,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "654 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ESPACE, · DE SOINS · 1 à 6 · ROOFTOP)",
+        "blocs": 4,
+        "surface": 2,
+        "details": [
+          {
+            "texte": "ESPACE,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DE SOINS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "1 à 6",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ROOFTOP)",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "2f6f5b52d4981800",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "objectif-beaux-cheveux-ongles.webp",
+      "nom": "objectif-beaux-cheveux-ongles",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1920,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 166344,
+      "transparence": false,
+      "sujet": {
+        "x": 0.1,
+        "y": 12.3,
+        "l": 99.9,
+        "h": 80.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        55
+      ],
+      "cadrage_css": "47% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "gauche",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 30.5,
+        "bruit": 0.64,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "younique · daily•you · HAIR, SKIN, AND NAILS GUMMIES · dietary supplement · 60 gummies",
+        "blocs": 5,
+        "surface": 1.3,
+        "details": [
+          {
+            "texte": "younique",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "daily•you",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "HAIR, SKIN, AND NAILS GUMMIES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "dietary supplement",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "60 gummies",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "8692d249e1f0f0f0",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "wellbee-rdc-standard.webp",
+      "nom": "wellbee-rdc-standard",
+      "drapeau": "autre",
+      "largeur": 1919,
+      "hauteur": 1199,
+      "ratio": "16:10",
+      "ratio_valeur": 1.601,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 264354,
+      "transparence": false,
+      "sujet": {
+        "x": 29.4,
+        "y": 33.8,
+        "l": 47.1,
+        "h": 27.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        48
+      ],
+      "cadrage_css": "53% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.45,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        }
+      ],
+      "qualite": {
+        "nettete": 28.5,
+        "bruit": 1.03,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c070683c3cd89c9e",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "compo-global-sym-biologic.webp",
+      "nom": "compo-global-sym-biologic",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 248746,
+      "transparence": false,
+      "sujet": {
+        "x": 24.4,
+        "y": 19.8,
+        "l": 53.6,
+        "h": 73.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        61
+      ],
+      "cadrage_css": "53% 61%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        }
+      ],
+      "qualite": {
+        "nettete": 30.5,
+        "bruit": 0.74,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Sym · Biologic · system · Gommage exfoliation régénérante · Visage - Cou - Décolleté · Regenerating exfoliating scrub · Face - Neck - Décolleté · Certified Orga",
+        "blocs": 25,
+        "surface": 3.1,
+        "details": [
+          {
+            "texte": "Sym",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Biologic",
+            "niveau": "marque"
+          },
+          {
+            "texte": "system",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Gommage exfoliation régénérante",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Visage - Cou - Décolleté",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Regenerating exfoliating scrub",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Face - Neck - Décolleté",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Certified Organic Skincare",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Sym",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Biologic",
+            "niveau": "marque"
+          },
+          {
+            "texte": "system",
+            "niveau": "marque"
+          },
+          {
+            "texte": "DERMOGATE Acide hyaluronique",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "b6f46beecf53f69a",
+      "drapeaux": [
+        "autre",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "global-sym-biologic-system.webp",
+      "nom": "global-sym-biologic-system",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 198410,
+      "transparence": false,
+      "sujet": {
+        "x": 43.2,
+        "y": 27.4,
+        "l": 13.3,
+        "h": 66.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        66
+      ],
+      "cadrage_css": "49% 66%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 24.3,
+        "bruit": 0.54,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Sym · Biologic · system · Sérum Global Recharget · Serum SOS - Night and day",
+        "blocs": 5,
+        "surface": 0.9,
+        "details": [
+          {
+            "texte": "Sym",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Biologic",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "system",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sérum Global Recharget",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Serum SOS - Night and day",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "c6cc4a8a8ad6cecc",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "eclat-sym-biologic-system.webp",
+      "nom": "eclat-sym-biologic-system",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 111008,
+      "transparence": false,
+      "sujet": {
+        "x": 32.5,
+        "y": 22.6,
+        "l": 31.6,
+        "h": 56.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        53
+      ],
+      "cadrage_css": "47% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "gauche",
+          "score": 0.43,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        }
+      ],
+      "qualite": {
+        "nettete": 18.8,
+        "bruit": 0.41,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Biologic · system · Sérum éclat · Eclaircissant - Anti-tâches brunes · Pesu terne, fatiguée et/ou hyperpigmente · Brightening radiance serum · Anti-brown spots ",
+        "blocs": 8,
+        "surface": 6.2,
+        "details": [
+          {
+            "texte": "Biologic",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "system",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sérum éclat",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Eclaircissant - Anti-tâches brunes",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Pesu terne, fatiguée et/ou hyperpigmente",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Brightening radiance serum",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Anti-brown spots",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Dul, tired and/or hyperpigmented sin",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "f8f8a46cec7d5f2e",
+      "drapeaux": [
+        "autre",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "formez-vous-plus-belle.gif",
+      "nom": "formez-vous-plus-belle",
+      "drapeau": "autre",
+      "largeur": 1080,
+      "hauteur": 1350,
+      "ratio": "4:5",
+      "ratio_valeur": 0.8,
+      "orientation": "portrait",
+      "format": "gif",
+      "poids": 412871,
+      "transparence": true,
+      "sujet": {
+        "x": 31.7,
+        "y": 48.8,
+        "l": 56.5,
+        "h": 38.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        58
+      ],
+      "cadrage_css": "52% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        }
+      ],
+      "qualite": {
+        "nettete": 51.7,
+        "bruit": 4.05,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "AVANT VOTRE CREME DE SOIN · PREPARER: · SERUM · DERMOGATE · Multiplier par 5 la pénétration · des principes actifs. · Réduire la perte d'eau · cutanée. · TRAITE",
+        "blocs": 30,
+        "surface": 12,
+        "details": [
+          {
+            "texte": "AVANT VOTRE CREME DE SOIN",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PREPARER:",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SERUM",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DERMOGATE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Multiplier par 5 la pénétration",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "des principes actifs.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Réduire la perte d'eau",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "cutanée.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "TRAITER:",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SERUM LIFT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ANTI-AGE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LISSANT",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "45333911d9920603",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "design-sans-titre-13.webp",
+      "nom": "design-sans-titre-13",
+      "drapeau": "autre",
+      "largeur": 1100,
+      "hauteur": 1100,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 411942,
+      "transparence": false,
+      "sujet": {
+        "x": 10.3,
+        "y": 19.1,
+        "l": 67.6,
+        "h": 52.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        49
+      ],
+      "cadrage_css": "46% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        }
+      ],
+      "qualite": {
+        "nettete": 57.5,
+        "bruit": 0.46,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Décolleté / Face - Nock - Décolleté · Sym · Biologic · system · Huile démaquillante nettoyante · Sans parfum · Tout type de peau · Cleansing oil · Fragrance fre",
+        "blocs": 45,
+        "surface": 11.9,
+        "details": [
+          {
+            "texte": "Décolleté / Face - Nock - Décolleté",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sym",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Biologic",
+            "niveau": "marque"
+          },
+          {
+            "texte": "system",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Huile démaquillante nettoyante",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sans parfum",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Tout type de peau",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Cleansing oil",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Fragrance free",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "All skin types",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Visage",
+            "niveau": "marque"
+          },
+          {
+            "texte": "50ml - 1,7 fl oz",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "637263e3cded2b01",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "design-sans-titre-14.webp",
+      "nom": "design-sans-titre-14",
+      "drapeau": "autre",
+      "largeur": 1100,
+      "hauteur": 1100,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 281724,
+      "transparence": false,
+      "sujet": {
+        "x": 18.4,
+        "y": 0,
+        "l": 61.6,
+        "h": 99.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        56
+      ],
+      "cadrage_css": "54% 56%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "haut",
+          "score": 0.35,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        }
+      ],
+      "qualite": {
+        "nettete": 33.2,
+        "bruit": 0.25,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Sym · Biologic · system · Gommage exfoliant triple actions · Enzymatique - Grains - Stimulant · Exfoliating scrub triple actions · Enzymatic - Grains - Stimulat",
+        "blocs": 22,
+        "surface": 9.2,
+        "details": [
+          {
+            "texte": "Sym",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Biologic",
+            "niveau": "marque"
+          },
+          {
+            "texte": "system",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Gommage exfoliant triple actions",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Enzymatique - Grains - Stimulant",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Exfoliating scrub triple actions",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Enzymatic - Grains - Stimulating",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sym",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Biologic",
+            "niveau": "marque"
+          },
+          {
+            "texte": "system",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Corps / Body",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Certified Organic Skincare",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "3c3e36363e3c3c17",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "design-sans-titre-15.webp",
+      "nom": "design-sans-titre-15",
+      "drapeau": "autre",
+      "largeur": 1100,
+      "hauteur": 1100,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 345024,
+      "transparence": false,
+      "sujet": {
+        "x": 13.2,
+        "y": 16.2,
+        "l": 57.4,
+        "h": 58.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        49
+      ],
+      "cadrage_css": "48% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 58.6,
+        "bruit": 0.41,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Sym · Biologic · syster · Albe vera crème nettoyante · Visage - Cou - Décolleté · Ade vera cleansing cream · Face - Neck - Décolleté · Certified Organic Skincar",
+        "blocs": 39,
+        "surface": 11.5,
+        "details": [
+          {
+            "texte": "Sym",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Biologic",
+            "niveau": "marque"
+          },
+          {
+            "texte": "syster",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Albe vera crème nettoyante",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Visage - Cou - Décolleté",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Ade vera cleansing cream",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Face - Neck - Décolleté",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Certified Organic Skincare",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Sym",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Biologic",
+            "niveau": "marque"
+          },
+          {
+            "texte": "system",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Gommage exfoliation régénéra",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "c2d6d7c5cdad6f43",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "joue-high-la9lrg.webp",
+      "nom": "joue-high-la9lrg",
+      "drapeau": "autre",
+      "largeur": 800,
+      "hauteur": 533,
+      "ratio": "3:2",
+      "ratio_valeur": 1.501,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 38928,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        48,
+        49
+      ],
+      "cadrage_css": "48% 49%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 33,
+        "bruit": 0.82,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "800 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "3323333b3b3b3a18",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "istockphoto-1450954054-612x612-standard.webp",
+      "nom": "istockphoto-1450954054-612x612-standard",
+      "drapeau": "autre",
+      "largeur": 612,
+      "hauteur": 358,
+      "ratio": "1.71",
+      "ratio_valeur": 1.709,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 14824,
+      "transparence": false,
+      "sujet": {
+        "x": 65.6,
+        "y": 20.1,
+        "l": 27.1,
+        "h": 33.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        74,
+        37
+      ],
+      "cadrage_css": "74% 37%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "bas",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 50.1,
+        "bruit": 0.47,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "612 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "d094d449692907cc",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/haut"
+      ]
+    },
+    {
+      "fichier": "embellir-age-younique.webp",
+      "nom": "embellir-age-younique",
+      "drapeau": "autre",
+      "largeur": 440,
+      "hauteur": 376,
+      "ratio": "1.17",
+      "ratio_valeur": 1.17,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 23718,
+      "transparence": false,
+      "sujet": {
+        "x": 7.4,
+        "y": 11.8,
+        "l": 39.7,
+        "h": 41.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        27,
+        29
+      ],
+      "cadrage_css": "27% 29%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 90.7,
+        "bruit": 0.43,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "440 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Livraison gratuite · Achetez-en 3, obtenez-en 1 gratuit · Achetez-en 4, économisez plus !",
+        "blocs": 3,
+        "surface": 10.9,
+        "details": [
+          {
+            "texte": "Livraison gratuite",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Achetez-en 3, obtenez-en 1 gratuit",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Achetez-en 4, économisez plus !",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "404c405771403340",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "embellir-age-younique-2.webp",
+      "nom": "embellir-age-younique-2",
+      "drapeau": "autre",
+      "largeur": 433,
+      "hauteur": 240,
+      "ratio": "16:9",
+      "ratio_valeur": 1.804,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 9534,
+      "transparence": false,
+      "sujet": {
+        "x": 10.3,
+        "y": 0,
+        "l": 89.7,
+        "h": 100,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        63,
+        41
+      ],
+      "cadrage_css": "63% 41%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.54,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 20.5,
+        "bruit": 0.74,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "433 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c8c890c0c1c1c585",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "c-est-bient-t.webp",
+      "nom": "c-est-bient-t",
+      "drapeau": "autre",
+      "largeur": 940,
+      "hauteur": 788,
+      "ratio": "1.19",
+      "ratio_valeur": 1.193,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 23974,
+      "transparence": true,
+      "sujet": {
+        "x": 23.5,
+        "y": 36.8,
+        "l": 36.8,
+        "h": 26.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        51
+      ],
+      "cadrage_css": "43% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.91,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 18.3,
+        "bruit": 0.03,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "940 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "L N 31",
+        "blocs": 1,
+        "surface": 0.4,
+        "details": [
+          {
+            "texte": "L N 31",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0000001e0f270000",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/bas/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "logo-finitif-high-o8jea2.webp",
+      "nom": "logo-finitif-high-o8jea2",
+      "drapeau": "autre",
+      "largeur": 1050,
+      "hauteur": 600,
+      "ratio": "16:9",
+      "ratio_valeur": 1.75,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 31946,
+      "transparence": false,
+      "sujet": {
+        "x": 25.8,
+        "y": 10.1,
+        "l": 47.8,
+        "h": 79.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        44
+      ],
+      "cadrage_css": "49% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "bas",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "haut",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 18.2,
+        "bruit": 0.11,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1050 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "080d960e0e8e1608",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/droite/bas/haut"
+      ]
+    },
+    {
+      "fichier": "istockphoto-1325095289-612x612-high.webp",
+      "nom": "istockphoto-1325095289-612x612-high",
+      "drapeau": "autre",
+      "largeur": 612,
+      "hauteur": 408,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 16546,
+      "transparence": false,
+      "sujet": {
+        "x": 27.4,
+        "y": 61.1,
+        "l": 50.1,
+        "h": 34.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        72
+      ],
+      "cadrage_css": "53% 72%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.59,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "moyen",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "gauche",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.43
+        }
+      ],
+      "qualite": {
+        "nettete": 20.4,
+        "bruit": 0.44,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "612 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8b8b92949494a480",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "bas-visage.webp",
+      "nom": "bas-visage",
+      "drapeau": "produit",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 145976,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        49,
+        54
+      ],
+      "cadrage_css": "49% 54%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 8.5,
+        "bruit": 0.5,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "8e3331313916b8b8",
+      "drapeaux": [
+        "produit",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "formations-completes-chaque-zone.webp",
+      "nom": "formations-completes-chaque-zone",
+      "drapeau": "produit",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 261636,
+      "transparence": false,
+      "sujet": {
+        "x": 0.2,
+        "y": 0.3,
+        "l": 99.8,
+        "h": 98.9,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        30
+      ],
+      "cadrage_css": "50% 30%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0.99
+        },
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.98
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.99
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "sombre",
+          "recouvre_sujet": 0.98
+        }
+      ],
+      "qualite": {
+        "nettete": 12.4,
+        "bruit": 0.77,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "d7d3dbefecbf92ca",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "ateliers-collectifs-seances-reservation.webp",
+      "nom": "ateliers-collectifs-seances-reservation",
+      "drapeau": "lieu",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 382304,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        45,
+        53
+      ],
+      "cadrage_css": "45% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 23.8,
+        "bruit": 0.8,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "092a664ae8e1614f",
+      "drapeaux": [
+        "lieu",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "ateliers-collectifs-seances-reservation-2.webp",
+      "nom": "ateliers-collectifs-seances-reservation-2",
+      "drapeau": "lieu",
+      "largeur": 1335,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.668,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 351814,
+      "transparence": false,
+      "sujet": {
+        "x": 23.8,
+        "y": 28.6,
+        "l": 52.6,
+        "h": 46.4,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        50,
+        49
+      ],
+      "cadrage_css": "50% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.47,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "droite",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.15
+        }
+      ],
+      "qualite": {
+        "nettete": 28.9,
+        "bruit": 0.69,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f17c533363b1b8c8",
+      "drapeaux": [
+        "lieu",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "peut-beneficier-cours.webp",
+      "nom": "peut-beneficier-cours",
+      "drapeau": "lieu",
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 213300,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0.7,
+        "l": 100,
+        "h": 95.6,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        52,
+        52
+      ],
+      "cadrage_css": "52% 52%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.98
+        },
+        {
+          "cote": "gauche",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.89
+        }
+      ],
+      "qualite": {
+        "nettete": 14.1,
+        "bruit": 0.52,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "0e113020222224a0",
+      "drapeaux": [
+        "lieu",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "wellbee-62-standard.webp",
+      "nom": "wellbee-62-standard",
+      "drapeau": "lieu",
+      "largeur": 1334,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 270358,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 23.1,
+        "l": 79.7,
+        "h": 71.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        55
+      ],
+      "cadrage_css": "43% 55%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "haut",
+          "score": 0.38,
+          "ton": "moyen",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.72
+        }
+      ],
+      "qualite": {
+        "nettete": 22.6,
+        "bruit": 0.5,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "wellbe",
+        "blocs": 1,
+        "surface": 0.8,
+        "details": [
+          {
+            "texte": "wellbe",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "fcfefd99f9f9fbf1",
+      "drapeaux": [
+        "lieu",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "istockphoto-1310461014-612x612-1.webp",
+      "nom": "istockphoto-1310461014-612x612-1",
+      "drapeau": "lieu",
+      "largeur": 612,
+      "hauteur": 408,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 20572,
+      "transparence": false,
+      "sujet": {
+        "x": 16.1,
+        "y": 0,
+        "l": 73.4,
+        "h": 99.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        45
+      ],
+      "cadrage_css": "58% 45%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.53,
+          "ton": "sombre",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        }
+      ],
+      "qualite": {
+        "nettete": 22.8,
+        "bruit": 0.7,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "612 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "7f73676767f7f1f9",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "istockphoto-1927011599-612x612-standard.webp",
+      "nom": "istockphoto-1927011599-612x612-standard",
+      "drapeau": "lieu",
+      "largeur": 612,
+      "hauteur": 408,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 12844,
+      "transparence": false,
+      "sujet": {
+        "x": 41.2,
+        "y": 10.3,
+        "l": 51.5,
+        "h": 44.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        68,
+        32
+      ],
+      "cadrage_css": "68% 32%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.68,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.6,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.53,
+          "ton": "moyen",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "moyen",
+          "recouvre_sujet": 0.36
+        }
+      ],
+      "qualite": {
+        "nettete": 5.7,
+        "bruit": 0.3,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "612 px de large",
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "7e7641248ca70706",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "floue",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "13-480x480-high-o7zbw3.webp",
+      "nom": "13-480x480-high-o7zbw3",
+      "drapeau": "produit",
+      "largeur": 480,
+      "hauteur": 315,
+      "ratio": "3:2",
+      "ratio_valeur": 1.524,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 12108,
+      "transparence": false,
+      "sujet": {
+        "x": 20.2,
+        "y": 0,
+        "l": 70.4,
+        "h": 100,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        55,
+        32
+      ],
+      "cadrage_css": "55% 32%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "haut",
+          "score": 0.38,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "bas",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.5
+        }
+      ],
+      "qualite": {
+        "nettete": 29.6,
+        "bruit": 0.72,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "480 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "1a3670927a6d584c",
+      "drapeaux": [
+        "produit",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "carte-cadeau-seance-ligne.webp",
+      "nom": "carte-cadeau-seance-ligne",
+      "drapeau": "produit",
+      "largeur": 463,
+      "hauteur": 308,
+      "ratio": "3:2",
+      "ratio_valeur": 1.503,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 14142,
+      "transparence": false,
+      "sujet": {
+        "x": 19.2,
+        "y": 8.4,
+        "l": 58.3,
+        "h": 85.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        44
+      ],
+      "cadrage_css": "48% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "sombre",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "sombre",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "bas",
+          "score": 0.38,
+          "ton": "sombre",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.44
+        }
+      ],
+      "qualite": {
+        "nettete": 27.4,
+        "bruit": 0.88,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "463 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "7371f1e9e9e961f2",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "seances-forfaits-2.webp",
+      "nom": "seances-forfaits-2",
+      "drapeau": "autre",
+      "largeur": 1506,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.753,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 257446,
+      "transparence": false,
+      "sujet": {
+        "x": 10.3,
+        "y": 26.5,
+        "l": 45.6,
+        "h": 22.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        38
+      ],
+      "cadrage_css": "37% 38%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.71,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.71,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "gauche",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 16.1,
+        "bruit": 0.56,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ESPACEL · DESONS",
+        "blocs": 2,
+        "surface": 0.4,
+        "details": [
+          {
+            "texte": "ESPACEL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DESONS",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "c0630b18e1030001",
+      "drapeaux": [
+        "autre",
+        "texte décoratif",
+        "calme droite/bas"
+      ]
+    },
+    {
+      "fichier": "carte-cadeau-soin-cabine.webp",
+      "nom": "carte-cadeau-soin-cabine",
+      "drapeau": "produit",
+      "largeur": 1748,
+      "hauteur": 1240,
+      "ratio": "1.41",
+      "ratio_valeur": 1.41,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 381734,
+      "transparence": false,
+      "sujet": {
+        "x": 59.2,
+        "y": 4,
+        "l": 40.8,
+        "h": 69.1,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        82,
+        41
+      ],
+      "cadrage_css": "82% 41%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "haut",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        }
+      ],
+      "qualite": {
+        "nettete": 36.8,
+        "bruit": 0.18,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "YOGA GYM VISAGE TOULOUSE · CARTE · CADEAU · Praticienne certifiée · Repare · RAJEUNISSEMENT · Maman, Papa, je t'offre · Une séance personnalisée comprenant : · ",
+        "blocs": 15,
+        "surface": 18.1,
+        "details": [
+          {
+            "texte": "YOGA GYM VISAGE TOULOUSE",
+            "niveau": "marque"
+          },
+          {
+            "texte": "CARTE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CADEAU",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Praticienne certifiée",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Repare",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "RAJEUNISSEMENT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Maman, Papa, je t'offre",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Une séance personnalisée comprenant :",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "un diagnostic et un soin rajeunissant",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "grâce à une méthode naturelle!",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Valable 1 an",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Réservation au 07 66 19 74 64.",
+            "niveau": "document"
+          }
+        ]
+      },
+      "empreinte": "1b6323331311015c",
+      "drapeaux": [
+        "produit",
+        "visage",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "massage-liftant-oxygenant.webp",
+      "nom": "massage-liftant-oxygenant",
+      "drapeau": "produit",
+      "largeur": 848,
+      "hauteur": 1280,
+      "ratio": "2:3",
+      "ratio_valeur": 0.663,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 90106,
+      "transparence": false,
+      "sujet": {
+        "x": 0.2,
+        "y": 35.4,
+        "l": 96.1,
+        "h": 57.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        67
+      ],
+      "cadrage_css": "54% 67%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.74,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 23.1,
+        "bruit": 0.7,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "848 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "781c4cee78f0e1d4",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "carte-cadeau-massage-liftant.webp",
+      "nom": "carte-cadeau-massage-liftant",
+      "drapeau": "produit",
+      "largeur": 940,
+      "hauteur": 788,
+      "ratio": "1.19",
+      "ratio_valeur": 1.193,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 114302,
+      "transparence": false,
+      "sujet": {
+        "x": 8.7,
+        "y": 16.4,
+        "l": 91.3,
+        "h": 44.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        37
+      ],
+      "cadrage_css": "45% 37%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "sombre",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 68.8,
+        "bruit": 1.35,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "940 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Carte cadean · Massage liftant oxygénant · • Huile de massage Sym Biologic System · • Drainage lymphatique · • Soin lissant & modelant · • Application de deux s",
+        "blocs": 7,
+        "surface": 36,
+        "details": [
+          {
+            "texte": "Carte cadean",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Massage liftant oxygénant",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "• Huile de massage Sym Biologic System",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "• Drainage lymphatique",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "• Soin lissant & modelant",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "• Application de deux sérums repulpants",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "NOEL 2026",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "98d039fd98d080c1",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "sophro-eclat-serenite.webp",
+      "nom": "sophro-eclat-serenite",
+      "drapeau": "produit",
+      "largeur": 960,
+      "hauteur": 640,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 100172,
+      "transparence": false,
+      "sujet": {
+        "x": 32.8,
+        "y": 14.1,
+        "l": 67.2,
+        "h": 68.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        42
+      ],
+      "cadrage_css": "58% 42%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.4
+        },
+        {
+          "cote": "gauche",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        }
+      ],
+      "qualite": {
+        "nettete": 71,
+        "bruit": 1.1,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "960 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "060c0d2c6f45032b",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "seance-cabine.webp",
+      "nom": "seance-cabine",
+      "drapeau": "produit",
+      "largeur": 600,
+      "hauteur": 600,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 31590,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        46,
+        41
+      ],
+      "cadrage_css": "46% 41%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 17.1,
+        "bruit": 0.75,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "600 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "6ce6e3d9d5e7f7fb",
+      "drapeaux": [
+        "produit",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "protocole-45.webp",
+      "nom": "protocole-45",
+      "drapeau": "produit",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 35590,
+      "transparence": false,
+      "sujet": {
+        "x": 14.4,
+        "y": 0,
+        "l": 70.8,
+        "h": 75.7,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        50,
+        39
+      ],
+      "cadrage_css": "50% 39%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "sombre",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "droite",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 47,
+        "bruit": 1.04,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "b2baf8bc9496deda",
+      "drapeaux": [
+        "produit",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "seance-individuelle-ligne.webp",
+      "nom": "seance-individuelle-ligne",
+      "drapeau": "produit",
+      "largeur": 408,
+      "hauteur": 612,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 18794,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        54,
+        57
+      ],
+      "cadrage_css": "54% 57%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 12,
+        "bruit": 0.48,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "408 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "183670d06c693927",
+      "drapeaux": [
+        "produit",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "ateliers-collectifs-ligne.webp",
+      "nom": "ateliers-collectifs-ligne",
+      "drapeau": "produit",
+      "largeur": 408,
+      "hauteur": 612,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 27840,
+      "transparence": false,
+      "sujet": {
+        "x": 2.9,
+        "y": 14,
+        "l": 97.1,
+        "h": 42.1,
+        "source": "visage"
+      },
+      "visages": 2,
+      "cadrage": [
+        53,
+        32
+      ],
+      "cadrage_css": "53% 32%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "haut",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.39
+        }
+      ],
+      "qualite": {
+        "nettete": 15.1,
+        "bruit": 0.71,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "408 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "fc5c5c7e4f1d109c",
+      "drapeaux": [
+        "produit",
+        "2 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "1-seance-cabine-3.webp",
+      "nom": "1-seance-cabine-3",
+      "drapeau": "produit",
+      "largeur": 612,
+      "hauteur": 408,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 16626,
+      "transparence": false,
+      "sujet": {
+        "x": 36.9,
+        "y": 0,
+        "l": 59.6,
+        "h": 95.4,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        67,
+        39
+      ],
+      "cadrage_css": "67% 39%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 16.7,
+        "bruit": 0.46,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "612 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c3c1e5e7e2e3a2a6",
+      "drapeaux": [
+        "produit",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "3-seances-ligne.webp",
+      "nom": "3-seances-ligne",
+      "drapeau": "produit",
+      "largeur": 612,
+      "hauteur": 408,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 17602,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0.2,
+        "l": 84.8,
+        "h": 99.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        39,
+        42
+      ],
+      "cadrage_css": "39% 42%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.85
+        }
+      ],
+      "qualite": {
+        "nettete": 12.6,
+        "bruit": 0.46,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "612 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "83313121286c64c4",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "4-seances-ligne.webp",
+      "nom": "4-seances-ligne",
+      "drapeau": "produit",
+      "largeur": 612,
+      "hauteur": 408,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 15558,
+      "transparence": false,
+      "sujet": {
+        "x": 4.8,
+        "y": 0,
+        "l": 95.2,
+        "h": 100,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        78,
+        64
+      ],
+      "cadrage_css": "78% 64%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.51,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0.49,
+          "ton": "moyen",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "moyen",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "droite",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 11.8,
+        "bruit": 0.52,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "612 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "9894969614141838",
+      "drapeaux": [
+        "produit",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "istockphoto-1279067014-612x612-standard.webp",
+      "nom": "istockphoto-1279067014-612x612-standard",
+      "drapeau": "autre",
+      "largeur": 612,
+      "hauteur": 408,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 8522,
+      "transparence": false,
+      "sujet": {
+        "x": 56.4,
+        "y": 21.5,
+        "l": 33.1,
+        "h": 60.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        70,
+        50
+      ],
+      "cadrage_css": "70% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "bas",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        }
+      ],
+      "qualite": {
+        "nettete": 7.7,
+        "bruit": 0.24,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "612 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "023a131353139219",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/haut/bas"
+      ]
+    },
+    {
+      "fichier": "istockphoto-1652842388-612x612-high.webp",
+      "nom": "istockphoto-1652842388-612x612-high",
+      "drapeau": "autre",
+      "largeur": 612,
+      "hauteur": 374,
+      "ratio": "16:10",
+      "ratio_valeur": 1.636,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 13042,
+      "transparence": false,
+      "sujet": {
+        "x": 57.4,
+        "y": 2.9,
+        "l": 20.6,
+        "h": 29.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        68,
+        17
+      ],
+      "cadrage_css": "68% 17%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "droite",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        }
+      ],
+      "qualite": {
+        "nettete": 9.7,
+        "bruit": 0.37,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "612 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "131913db4f0d9d87",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "istockphoto-869757808-612x612-standard.webp",
+      "nom": "istockphoto-869757808-612x612-standard",
+      "drapeau": "autre",
+      "largeur": 612,
+      "hauteur": 281,
+      "ratio": "2.18",
+      "ratio_valeur": 2.178,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 8878,
+      "transparence": false,
+      "sujet": {
+        "x": 4.1,
+        "y": 0,
+        "l": 93.3,
+        "h": 100,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        51,
+        55
+      ],
+      "cadrage_css": "51% 55%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.93
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.93
+        },
+        {
+          "cote": "haut",
+          "score": 0.11,
+          "ton": "sombre",
+          "recouvre_sujet": 0.93
+        }
+      ],
+      "qualite": {
+        "nettete": 24.1,
+        "bruit": 0.29,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "612 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "b1f1d1d1f0b4b4b3",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "design-sans-titre-2.webp",
+      "nom": "design-sans-titre-2",
+      "drapeau": "autre",
+      "largeur": 1505,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.753,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 181016,
+      "transparence": false,
+      "sujet": {
+        "x": 7.4,
+        "y": 33.8,
+        "l": 75,
+        "h": 29.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        49
+      ],
+      "cadrage_css": "51% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.24
+        }
+      ],
+      "qualite": {
+        "nettete": 18.9,
+        "bruit": 0.35,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "615d5737f3f0bcfe",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "design-sans-titre-6.webp",
+      "nom": "design-sans-titre-6",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1279,
+      "ratio": "3:2",
+      "ratio_valeur": 1.501,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 1463558,
+      "transparence": false,
+      "sujet": {
+        "x": 25.3,
+        "y": 48.1,
+        "l": 22.9,
+        "h": 32.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        56
+      ],
+      "cadrage_css": "42% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.35,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        }
+      ],
+      "qualite": {
+        "nettete": 14.2,
+        "bruit": 0.27,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f87358586cb93938",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "salon-wellbee-1-standard.webp",
+      "nom": "salon-wellbee-1-standard",
+      "drapeau": "lieu",
+      "largeur": 1474,
+      "hauteur": 1663,
+      "ratio": "0.89",
+      "ratio_valeur": 0.886,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 363870,
+      "transparence": false,
+      "sujet": {
+        "x": 32.4,
+        "y": 32.4,
+        "l": 41.2,
+        "h": 30.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        49
+      ],
+      "cadrage_css": "55% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 38.5,
+        "bruit": 1.25,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "504387c7e7b171cc",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "routine-soin-resultats-visibles.webp",
+      "nom": "routine-soin-resultats-visibles",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 926,
+      "ratio": "2.07",
+      "ratio_valeur": 2.073,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 121288,
+      "transparence": false,
+      "sujet": {
+        "x": 13.2,
+        "y": 0.4,
+        "l": 73.8,
+        "h": 99.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        65
+      ],
+      "cadrage_css": "44% 65%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.44,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "gauche",
+          "score": 0.35,
+          "ton": "moyen",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        }
+      ],
+      "qualite": {
+        "nettete": 11,
+        "bruit": 0.86,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "b27170f0f0f0b0d2",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "elle-lui-yoga-visage.webp",
+      "nom": "elle-lui-yoga-visage",
+      "drapeau": "autre",
+      "largeur": 960,
+      "hauteur": 560,
+      "ratio": "1.71",
+      "ratio_valeur": 1.714,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 24306,
+      "transparence": false,
+      "sujet": {
+        "x": 24.8,
+        "y": 0,
+        "l": 50.4,
+        "h": 92.1,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        50,
+        44
+      ],
+      "cadrage_css": "50% 44%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "gauche",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "bas",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "haut",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        }
+      ],
+      "qualite": {
+        "nettete": 19.2,
+        "bruit": 0.39,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "960 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Adobe Stock · Adobe Stock · Adobe Stock · Adobe Stock · Adobe Stock · Adobe · Adobe · Adobe Stock · Adobe Stock · Adobe Stock · obe Stock · Adobe Stock · Sobe S",
+        "blocs": 13,
+        "surface": 41.6,
+        "details": [
+          {
+            "texte": "Adobe Stock",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Adobe Stock",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Adobe Stock",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Adobe Stock",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Adobe Stock",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Adobe",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Adobe",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Adobe Stock",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Adobe Stock",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Adobe Stock",
+            "niveau": "marque"
+          },
+          {
+            "texte": "obe Stock",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Adobe Stock",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "cacddad8cacadc4c",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite",
+        "filigrane ou marque",
+        "calme droite/gauche"
+      ]
+    },
+    {
+      "fichier": "gettyimages-76120181-612x612-standard.webp",
+      "nom": "gettyimages-76120181-612x612-standard",
+      "drapeau": "autre",
+      "largeur": 612,
+      "hauteur": 408,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 16052,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        67,
+        49
+      ],
+      "cadrage_css": "67% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 10.6,
+        "bruit": 0.35,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "612 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "18293a3232129218",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "routine-soin-resultats-visibles-2.webp",
+      "nom": "routine-soin-resultats-visibles-2",
+      "drapeau": "autre",
+      "largeur": 519,
+      "hauteur": 429,
+      "ratio": "1.21",
+      "ratio_valeur": 1.21,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 159136,
+      "transparence": false,
+      "sujet": {
+        "x": 38.2,
+        "y": 11.8,
+        "l": 23.5,
+        "h": 50,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        38
+      ],
+      "cadrage_css": "50% 38%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.57,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "droite",
+          "score": 0.54,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.5,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 9.1,
+        "bruit": 0.44,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "519 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "d8dcdedadcfcbcbc",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "routine-soin-resultats-visibles-3.webp",
+      "nom": "routine-soin-resultats-visibles-3",
+      "drapeau": "autre",
+      "largeur": 444,
+      "hauteur": 313,
+      "ratio": "1.42",
+      "ratio_valeur": 1.419,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 92948,
+      "transparence": false,
+      "sujet": {
+        "x": 36.8,
+        "y": 8.8,
+        "l": 22.1,
+        "h": 48.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        33
+      ],
+      "cadrage_css": "48% 33%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.59,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.56,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.54,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 8.6,
+        "bruit": 0.54,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "444 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "764e4e0e0e260e9c",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "routine-soin-resultats-visibles-4.webp",
+      "nom": "routine-soin-resultats-visibles-4",
+      "drapeau": "autre",
+      "largeur": 432,
+      "hauteur": 317,
+      "ratio": "4:3",
+      "ratio_valeur": 1.363,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 89042,
+      "transparence": false,
+      "sujet": {
+        "x": 36.8,
+        "y": 19.1,
+        "l": 20.6,
+        "h": 38.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        39
+      ],
+      "cadrage_css": "47% 39%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.66,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "gauche",
+          "score": 0.59,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.55,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 5.4,
+        "bruit": 0.33,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "432 px de large",
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "dcdcdcdcdd5971f9",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "routine-soin-resultats-visibles-5.webp",
+      "nom": "routine-soin-resultats-visibles-5",
+      "drapeau": "autre",
+      "largeur": 444,
+      "hauteur": 258,
+      "ratio": "1.72",
+      "ratio_valeur": 1.721,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 112230,
+      "transparence": false,
+      "sujet": {
+        "x": 44.1,
+        "y": 20.6,
+        "l": 20.6,
+        "h": 35.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        38
+      ],
+      "cadrage_css": "54% 38%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.6,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.56,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "droite",
+          "score": 0.55,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "bas",
+          "score": 0.54,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 24.3,
+        "bruit": 1.9,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "444 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "7878f8f8f8f87858",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    }
+  ]
+}
